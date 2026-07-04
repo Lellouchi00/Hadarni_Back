@@ -1,0 +1,1667 @@
+{
+  "grammar_rule": {
+    "metadata": {
+      "id": "verb_to_be_a1",
+      "title": "Verb To Be",
+      "level": "A1",
+      "topic": "Greetings & Personal Information",
+      "topic_arabic": "التحيات والمعلومات الشخصية",
+      "category": "grammar",
+      "subcategory": "verbs",
+      "estimated_minutes": 45,
+      "difficulty": 1,
+      "tags": [
+        "verb to be",
+        "am",
+        "is",
+        "are",
+        "greetings",
+        "personal info",
+        "present simple"
+      ]
+    },
+    "explanation": {
+      "short": "The verb \"to be\" is the most fundamental verb in English. It describes states, identities, and characteristics.",
+      "short_arabic": "فعل \"يكون\" هو أهم فعل في اللغة الإنجليزية. يصف الحالات والهويات والصفات.",
+      "detailed": "The verb \"to be\" (am/is/are) is used to talk about names, ages, nationalities, occupations, feelings, and locations. It connects the subject to a complement (noun, adjective, or prepositional phrase).",
+      "detailed_arabic": "يستخدم فعل \"يكون\" (am/is/are) للحديث عن الأسماء والأعمار والجنسيات والمهن والمشاعر والأماكن. يربط الفاعل بالمتمم (اسم أو صفة أو شبه جملة).",
+      "key_points": [
+        {
+          "point": "The verb \"to be\" changes form depending on the subject",
+          "arabic": "يتغير شكل فعل \"يكون\" حسب الفاعل"
+        },
+        {
+          "point": "I always uses \"am\"",
+          "arabic": "I تأتي دائماً مع am"
+        },
+        {
+          "point": "He/She/It always use \"is\"",
+          "arabic": "He/She/It تأتي مع is"
+        },
+        {
+          "point": "You/We/They always use \"are\"",
+          "arabic": "You/We/They تأتي مع are"
+        },
+        {
+          "point": "Contractions (short forms) are very common in spoken English",
+          "arabic": "الاختصارات شائعة جداً في الإنجليزية المحكية"
+        }
+      ],
+      "usage_context": {
+        "formal": "Full forms are preferred in academic writing and formal documents: \"I am a student.\"",
+        "informal": "Contracted forms are used in everyday conversation: \"I'm a student.\"",
+        "written": "Both forms are acceptable in writing; contractions are less common in very formal texts."
+      }
+    },
+    "forms": {
+      "affirmative": {
+        "full": {
+          "I": "am",
+          "He": "is",
+          "She": "is",
+          "It": "is",
+          "You": "are",
+          "We": "are",
+          "They": "are"
+        },
+        "contracted": {
+          "I": "'m",
+          "He": "'s",
+          "She": "'s",
+          "It": "'s",
+          "You": "'re",
+          "We": "'re",
+          "They": "'re"
+        }
+      },
+      "negative": {
+        "full": {
+          "I": "am not",
+          "He": "is not",
+          "She": "is not",
+          "It": "is not",
+          "You": "are not",
+          "We": "are not",
+          "They": "are not"
+        },
+        "contracted": {
+          "I": "'m not",
+          "He": "'s not / isn't",
+          "She": "'s not / isn't",
+          "It": "'s not / isn't",
+          "You": "'re not / aren't",
+          "We": "'re not / aren't",
+          "They": "'re not / aren't"
+        }
+      },
+      "interrogative": {
+        "structure": "Verb + Subject + Complement?",
+        "examples": {
+          "Am I": "right?",
+          "Is he": "a teacher?",
+          "Is she": "happy?",
+          "Is it": "cold?",
+          "Are you": "ready?",
+          "Are we": "late?",
+          "Are they": "here?"
+        }
+      }
+    },
+    "tables": {
+      "conjugation": [
+        {
+          "pronoun": "I",
+          "affirmative_full": "I am",
+          "affirmative_short": "I'm",
+          "negative_full": "I am not",
+          "negative_short": "I'm not",
+          "question": "Am I?"
+        },
+        {
+          "pronoun": "You",
+          "affirmative_full": "You are",
+          "affirmative_short": "You're",
+          "negative_full": "You are not",
+          "negative_short": "You aren't / You're not",
+          "question": "Are you?"
+        },
+        {
+          "pronoun": "He",
+          "affirmative_full": "He is",
+          "affirmative_short": "He's",
+          "negative_full": "He is not",
+          "negative_short": "He isn't / He's not",
+          "question": "Is he?"
+        },
+        {
+          "pronoun": "She",
+          "affirmative_full": "She is",
+          "affirmative_short": "She's",
+          "negative_full": "She is not",
+          "negative_short": "She isn't / She's not",
+          "question": "Is she?"
+        },
+        {
+          "pronoun": "It",
+          "affirmative_full": "It is",
+          "affirmative_short": "It's",
+          "negative_full": "It is not",
+          "negative_short": "It isn't / It's not",
+          "question": "Is it?"
+        },
+        {
+          "pronoun": "We",
+          "affirmative_full": "We are",
+          "affirmative_short": "We're",
+          "negative_full": "We are not",
+          "negative_short": "We aren't / We're not",
+          "question": "Are we?"
+        },
+        {
+          "pronoun": "They",
+          "affirmative_full": "They are",
+          "affirmative_short": "They're",
+          "negative_full": "They are not",
+          "negative_short": "They aren't / They're not",
+          "question": "Are they?"
+        }
+      ]
+    },
+    "examples": {
+      "affirmative": [
+        {
+          "en": "I am Ahmed.",
+          "ar": "أنا أحمد."
+        },
+        {
+          "en": "I am a student.",
+          "ar": "أنا طالب."
+        },
+        {
+          "en": "I am from Egypt.",
+          "ar": "أنا من مصر."
+        },
+        {
+          "en": "I am 25 years old.",
+          "ar": "عمري 25 سنة."
+        },
+        {
+          "en": "He is my friend.",
+          "ar": "هو صديقي."
+        },
+        {
+          "en": "She is a doctor.",
+          "ar": "هي طبيبة."
+        },
+        {
+          "en": "It is a book.",
+          "ar": "هذا كتاب."
+        },
+        {
+          "en": "You are kind.",
+          "ar": "أنت لطيف."
+        },
+        {
+          "en": "We are happy.",
+          "ar": "نحن سعداء."
+        },
+        {
+          "en": "They are teachers.",
+          "ar": "هم معلمون."
+        },
+        {
+          "en": "I am hungry.",
+          "ar": "أنا جائع."
+        },
+        {
+          "en": "He is tall.",
+          "ar": "هو طويل."
+        },
+        {
+          "en": "She is beautiful.",
+          "ar": "هي جميلة."
+        },
+        {
+          "en": "It is hot today.",
+          "ar": "الجو حار اليوم."
+        },
+        {
+          "en": "You are a good student.",
+          "ar": "أنت طالب مجتهد."
+        },
+        {
+          "en": "We are from China.",
+          "ar": "نحن من الصين."
+        },
+        {
+          "en": "They are in the classroom.",
+          "ar": "هم في الفصل."
+        },
+        {
+          "en": "He is a good person.",
+          "ar": "هو شخص جيد."
+        },
+        {
+          "en": "I am tired.",
+          "ar": "أنا متعب."
+        },
+        {
+          "en": "She is my sister.",
+          "ar": "هي أختي."
+        }
+      ],
+      "negative": [
+        {
+          "en": "I am not tired.",
+          "ar": "أنا لست متعباً."
+        },
+        {
+          "en": "He is not a teacher.",
+          "ar": "هو ليس معلماً."
+        },
+        {
+          "en": "She is not from Japan.",
+          "ar": "هي ليست من اليابان."
+        },
+        {
+          "en": "It is not cold.",
+          "ar": "الجو ليس بارداً."
+        },
+        {
+          "en": "You are not late.",
+          "ar": "أنت لست متأخراً."
+        },
+        {
+          "en": "We are not ready.",
+          "ar": "نحن لسنا مستعدين."
+        },
+        {
+          "en": "They are not here.",
+          "ar": "هم ليسوا هنا."
+        },
+        {
+          "en": "I am not a doctor.",
+          "ar": "أنا لست طبيباً."
+        },
+        {
+          "en": "He is not angry.",
+          "ar": "هو ليس غاضباً."
+        },
+        {
+          "en": "She is not a student.",
+          "ar": "هي ليست طالبة."
+        },
+        {
+          "en": "It is not expensive.",
+          "ar": "ليس غالياً."
+        },
+        {
+          "en": "You are not wrong.",
+          "ar": "أنت لست مخطئاً."
+        },
+        {
+          "en": "We are not afraid.",
+          "ar": "نحن لسنا خائفين."
+        },
+        {
+          "en": "They are not at home.",
+          "ar": "هم ليسوا في المنزل."
+        },
+        {
+          "en": "I am not hungry.",
+          "ar": "أنا لست جائعاً."
+        },
+        {
+          "en": "He is not short.",
+          "ar": "هو ليس قصيراً."
+        },
+        {
+          "en": "She is not tired.",
+          "ar": "هي ليست متعبة."
+        },
+        {
+          "en": "It is not my book.",
+          "ar": "هذا ليس كتابي."
+        },
+        {
+          "en": "You are not a child.",
+          "ar": "أنت لست طفلاً."
+        },
+        {
+          "en": "We are not late.",
+          "ar": "نحن لسنا متأخرين."
+        }
+      ],
+      "interrogative": [
+        {
+          "en": "Am I late?",
+          "ar": "هل أنا متأخر?"
+        },
+        {
+          "en": "Are you a student?",
+          "ar": "هل أنت طالب?"
+        },
+        {
+          "en": "Is he a doctor?",
+          "ar": "هل هو طبيب?"
+        },
+        {
+          "en": "Is she from France?",
+          "ar": "هل هي من فرنسا?"
+        },
+        {
+          "en": "Is it cold outside?",
+          "ar": "هل الجو بارد خارجاً?"
+        },
+        {
+          "en": "Are they at home?",
+          "ar": "هل هم في المنزل?"
+        },
+        {
+          "en": "Are we ready?",
+          "ar": "هل نحن مستعدون?"
+        },
+        {
+          "en": "Am I correct?",
+          "ar": "هل أنا محق?"
+        },
+        {
+          "en": "Are you happy?",
+          "ar": "هل أنت سعيد?"
+        },
+        {
+          "en": "Is he your brother?",
+          "ar": "هل هو أخوك?"
+        },
+        {
+          "en": "Is she a teacher?",
+          "ar": "هل هي معلمة?"
+        },
+        {
+          "en": "Is it available?",
+          "ar": "هل هو متاح?"
+        },
+        {
+          "en": "Are you from here?",
+          "ar": "هل أنت من هنا?"
+        },
+        {
+          "en": "Are we on time?",
+          "ar": "هل نحن في الموعد?"
+        },
+        {
+          "en": "Are they new students?",
+          "ar": "هل هم طلاب جدد?"
+        },
+        {
+          "en": "Is he at work?",
+          "ar": "هل هو في العمل?"
+        },
+        {
+          "en": "Is she okay?",
+          "ar": "هل هي بخير?"
+        },
+        {
+          "en": "Are you sure?",
+          "ar": "هل أنت متأكد?"
+        },
+        {
+          "en": "Is it free?",
+          "ar": "هل هو مجاني?"
+        },
+        {
+          "en": "Are they open?",
+          "ar": "هل هم مفتوحون?"
+        }
+      ]
+    },
+    "common_mistakes": [
+      {
+        "mistake": "He go to school.",
+        "correction": "He is at school.",
+        "explanation": "Use 'is' not the base verb for location/state.",
+        "rule": "Use verb to be for states, not action verbs."
+      },
+      {
+        "mistake": "I is a student.",
+        "correction": "I am a student.",
+        "explanation": "I always takes 'am', not 'is'.",
+        "rule": "I → am"
+      },
+      {
+        "mistake": "She are happy.",
+        "correction": "She is happy.",
+        "explanation": "She is third person singular, so use 'is'.",
+        "rule": "He/She/It → is"
+      },
+      {
+        "mistake": "They is teachers.",
+        "correction": "They are teachers.",
+        "explanation": "They is plural, so use 'are'.",
+        "rule": "You/We/They → are"
+      },
+      {
+        "mistake": "You is late.",
+        "correction": "You are late.",
+        "explanation": "You always takes 'are'.",
+        "rule": "You → are"
+      },
+      {
+        "mistake": "We is from Cairo.",
+        "correction": "We are from Cairo.",
+        "explanation": "We is plural, so use 'are'.",
+        "rule": "We → are"
+      },
+      {
+        "mistake": "He no is tall.",
+        "correction": "He is not tall.",
+        "explanation": "Put 'not' after 'is', not before it.",
+        "rule": "Subject + is/are/am + not"
+      },
+      {
+        "mistake": "I not a student.",
+        "correction": "I am not a student.",
+        "explanation": "Don't omit the verb 'to be'.",
+        "rule": "Never drop am/is/are in negative sentences."
+      },
+      {
+        "mistake": "You not from Egypt?",
+        "correction": "Are you not from Egypt?",
+        "explanation": "Invert the subject and verb for questions.",
+        "rule": "Is/Are/Am + subject + complement?"
+      },
+      {
+        "mistake": "He is doctor.",
+        "correction": "He is a doctor.",
+        "explanation": "Use 'a/an' before singular countable nouns.",
+        "rule": "Subject + is/are + a/an + noun"
+      },
+      {
+        "mistake": "They are student.",
+        "correction": "They are students.",
+        "explanation": "Use plural noun after 'are' with plural subjects.",
+        "rule": "Plural subject → plural noun"
+      },
+      {
+        "mistake": "She no is my friend.",
+        "correction": "She is not my friend.",
+        "explanation": "Negation goes after the verb, not before.",
+        "rule": "Negative: is/are/am + not"
+      },
+      {
+        "mistake": "Is go he to school?",
+        "correction": "Is he at school?",
+        "explanation": "Don't add extra verbs after verb to be in questions.",
+        "rule": "Question: Is/Are/Am + subject + complement?"
+      },
+      {
+        "mistake": "He tired very.",
+        "correction": "He is very tired.",
+        "explanation": "Place 'very' before the adjective.",
+        "rule": "Subject + is/are + very + adjective"
+      },
+      {
+        "mistake": "It's a book. It's my.",
+        "correction": "It's a book. It's mine.",
+        "explanation": "Use possessive pronouns, not possessive adjectives, alone.",
+        "rule": "Use possessive pronouns without nouns."
+      },
+      {
+        "mistake": "I'm student.",
+        "correction": "I'm a student.",
+        "explanation": "Always use 'a/an' before singular countable nouns.",
+        "rule": "Article needed before countable singular nouns."
+      },
+      {
+        "mistake": "Where you are?",
+        "correction": "Where are you?",
+        "explanation": "Invert subject and verb after question words.",
+        "rule": "Wh-word + is/are/am + subject?"
+      }
+    ],
+    "mini_rules": [
+      {
+        "title": "I am",
+        "rule": "I → am",
+        "example": "I am happy."
+      },
+      {
+        "title": "He/She/It is",
+        "rule": "He/She/It → is",
+        "example": "She is a doctor."
+      },
+      {
+        "title": "You/We/They are",
+        "rule": "You/We/They → are",
+        "example": "They are students."
+      },
+      {
+        "title": "Negative",
+        "rule": "Add 'not' after am/is/are",
+        "example": "I am not tired."
+      },
+      {
+        "title": "Question",
+        "rule": "Put am/is/are before the subject",
+        "example": "Are you ready?"
+      },
+      {
+        "title": "Contractions",
+        "rule": "Join subject + verb with apostrophe",
+        "example": "I'm, he's, she's, it's, you're, we're, they're"
+      }
+    ],
+    "exercises": {
+      "fill_blank": [
+        {
+          "id": "fb1",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "I ___ a student.",
+          "answer": "am",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb2",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "She ___ my friend.",
+          "answer": "is",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb3",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "They ___ from Japan.",
+          "answer": "are",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb4",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "He ___ a teacher.",
+          "answer": "is",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb5",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "We ___ happy.",
+          "answer": "are",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb6",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "You ___ very kind.",
+          "answer": "are",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb7",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "It ___ cold today.",
+          "answer": "is",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb8",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "I ___ from Egypt.",
+          "answer": "am",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb9",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "She ___ a doctor.",
+          "answer": "is",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb10",
+          "instruction": "Fill in the blank with am/is/are",
+          "sentence": "They ___ at home.",
+          "answer": "are",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ]
+        },
+        {
+          "id": "fb11",
+          "instruction": "Fill in the blank with the negative form",
+          "sentence": "I ___ (not) tired.",
+          "answer": "am not",
+          "options": [
+            "am not",
+            "is not",
+            "are not"
+          ]
+        },
+        {
+          "id": "fb12",
+          "instruction": "Fill in the blank with the negative form",
+          "sentence": "She ___ (not) a student.",
+          "answer": "is not",
+          "options": [
+            "am not",
+            "is not",
+            "are not"
+          ]
+        },
+        {
+          "id": "fb13",
+          "instruction": "Fill in the blank with the negative form",
+          "sentence": "They ___ (not) from here.",
+          "answer": "are not",
+          "options": [
+            "am not",
+            "is not",
+            "are not"
+          ]
+        },
+        {
+          "id": "fb14",
+          "instruction": "Fill in the blank with the negative form",
+          "sentence": "He ___ (not) angry.",
+          "answer": "is not",
+          "options": [
+            "am not",
+            "is not",
+            "are not"
+          ]
+        },
+        {
+          "id": "fb15",
+          "instruction": "Fill in the blank with the negative form",
+          "sentence": "We ___ (not) late.",
+          "answer": "are not",
+          "options": [
+            "am not",
+            "is not",
+            "are not"
+          ]
+        },
+        {
+          "id": "fb16",
+          "instruction": "Fill in the blank with the contracted form",
+          "sentence": "I ___ (am) a teacher.",
+          "answer": "I'm",
+          "options": [
+            "I'm",
+            "Im",
+            "I am"
+          ]
+        },
+        {
+          "id": "fb17",
+          "instruction": "Fill in the blank with the contracted form",
+          "sentence": "She ___ (is) from Spain.",
+          "answer": "She's",
+          "options": [
+            "She's",
+            "Shes",
+            "She is"
+          ]
+        },
+        {
+          "id": "fb18",
+          "instruction": "Fill in the blank with the contracted form",
+          "sentence": "They ___ (are) here.",
+          "answer": "They're",
+          "options": [
+            "They're",
+            "Their",
+            "There"
+          ]
+        },
+        {
+          "id": "fb19",
+          "instruction": "Fill in the blank with the contracted form",
+          "sentence": "You ___ (are) right.",
+          "answer": "You're",
+          "options": [
+            "You're",
+            "Your",
+            "You are"
+          ]
+        },
+        {
+          "id": "fb20",
+          "instruction": "Fill in the blank with the contracted form",
+          "sentence": "We ___ (are) ready.",
+          "answer": "We're",
+          "options": [
+            "We're",
+            "Were",
+            "We are"
+          ]
+        }
+      ],
+      "rewrite": [
+        {
+          "id": "rw1",
+          "instruction": "Rewrite using the contracted form",
+          "sentence": "I am Ahmed.",
+          "expected": "I'm Ahmed."
+        },
+        {
+          "id": "rw2",
+          "instruction": "Rewrite using the contracted form",
+          "sentence": "He is a doctor.",
+          "expected": "He's a doctor."
+        },
+        {
+          "id": "rw3",
+          "instruction": "Rewrite using the contracted form",
+          "sentence": "She is from France.",
+          "expected": "She's from France."
+        },
+        {
+          "id": "rw4",
+          "instruction": "Rewrite using the contracted form",
+          "sentence": "It is cold.",
+          "expected": "It's cold."
+        },
+        {
+          "id": "rw5",
+          "instruction": "Rewrite using the contracted form",
+          "sentence": "You are kind.",
+          "expected": "You're kind."
+        },
+        {
+          "id": "rw6",
+          "instruction": "Rewrite using the contracted form",
+          "sentence": "We are students.",
+          "expected": "We're students."
+        },
+        {
+          "id": "rw7",
+          "instruction": "Rewrite using the contracted form",
+          "sentence": "They are happy.",
+          "expected": "They're happy."
+        },
+        {
+          "id": "rw8",
+          "instruction": "Rewrite as a question",
+          "sentence": "You are a student.",
+          "expected": "Are you a student?"
+        },
+        {
+          "id": "rw9",
+          "instruction": "Rewrite as a question",
+          "sentence": "He is a teacher.",
+          "expected": "Is he a teacher?"
+        },
+        {
+          "id": "rw10",
+          "instruction": "Rewrite as a question",
+          "sentence": "They are from China.",
+          "expected": "Are they from China?"
+        },
+        {
+          "id": "rw11",
+          "instruction": "Rewrite as a question",
+          "sentence": "She is happy.",
+          "expected": "Is she happy?"
+        },
+        {
+          "id": "rw12",
+          "instruction": "Rewrite as a question",
+          "sentence": "It is hot.",
+          "expected": "Is it hot?"
+        },
+        {
+          "id": "rw13",
+          "instruction": "Rewrite as negative",
+          "sentence": "I am tired.",
+          "expected": "I am not tired."
+        },
+        {
+          "id": "rw14",
+          "instruction": "Rewrite as negative",
+          "sentence": "She is a student.",
+          "expected": "She is not a student."
+        },
+        {
+          "id": "rw15",
+          "instruction": "Rewrite as negative",
+          "sentence": "They are here.",
+          "expected": "They are not here."
+        },
+        {
+          "id": "rw16",
+          "instruction": "Rewrite as negative",
+          "sentence": "He is a doctor.",
+          "expected": "He is not a doctor."
+        },
+        {
+          "id": "rw17",
+          "instruction": "Rewrite as negative",
+          "sentence": "We are late.",
+          "expected": "We are not late."
+        },
+        {
+          "id": "rw18",
+          "instruction": "Rewrite using the full form",
+          "sentence": "I'm happy.",
+          "expected": "I am happy."
+        },
+        {
+          "id": "rw19",
+          "instruction": "Rewrite using the full form",
+          "sentence": "She's a teacher.",
+          "expected": "She is a teacher."
+        },
+        {
+          "id": "rw20",
+          "instruction": "Rewrite using the full form",
+          "sentence": "They're from Spain.",
+          "expected": "They are from Spain."
+        }
+      ],
+      "reorder": [
+        {
+          "id": "ro1",
+          "instruction": "Reorder the words",
+          "words": [
+            "I",
+            "a",
+            "student",
+            "am"
+          ],
+          "correct": "I am a student."
+        },
+        {
+          "id": "ro2",
+          "instruction": "Reorder the words",
+          "words": [
+            "a",
+            "She",
+            "doctor",
+            "is"
+          ],
+          "correct": "She is a doctor."
+        },
+        {
+          "id": "ro3",
+          "instruction": "Reorder the words",
+          "words": [
+            "from",
+            "They",
+            "Egypt",
+            "are"
+          ],
+          "correct": "They are from Egypt."
+        },
+        {
+          "id": "ro4",
+          "instruction": "Reorder the words",
+          "words": [
+            "happy",
+            "We",
+            "are"
+          ],
+          "correct": "We are happy."
+        },
+        {
+          "id": "ro5",
+          "instruction": "Reorder the words",
+          "words": [
+            "He",
+            "not",
+            "is",
+            "tired"
+          ],
+          "correct": "He is not tired."
+        },
+        {
+          "id": "ro6",
+          "instruction": "Reorder the words",
+          "words": [
+            "you",
+            "Are",
+            "a",
+            "student",
+            "?"
+          ],
+          "correct": "Are you a student?"
+        },
+        {
+          "id": "ro7",
+          "instruction": "Reorder the words",
+          "words": [
+            "Is",
+            "she",
+            "?",
+            "from",
+            "France"
+          ],
+          "correct": "Is she from France?"
+        },
+        {
+          "id": "ro8",
+          "instruction": "Reorder the words",
+          "words": [
+            "not",
+            "are",
+            "They",
+            "here"
+          ],
+          "correct": "They are not here."
+        },
+        {
+          "id": "ro9",
+          "instruction": "Reorder the words",
+          "words": [
+            "I",
+            "not",
+            "am",
+            "hungry"
+          ],
+          "correct": "I am not hungry."
+        },
+        {
+          "id": "ro10",
+          "instruction": "Reorder the words",
+          "words": [
+            "?",
+            "Are",
+            "ready",
+            "you"
+          ],
+          "correct": "Are you ready?"
+        },
+        {
+          "id": "ro11",
+          "instruction": "Reorder the words",
+          "words": [
+            "He",
+            "is",
+            "kind",
+            "very"
+          ],
+          "correct": "He is very kind."
+        },
+        {
+          "id": "ro12",
+          "instruction": "Reorder the words",
+          "words": [
+            "my",
+            "She",
+            "sister",
+            "is"
+          ],
+          "correct": "She is my sister."
+        },
+        {
+          "id": "ro13",
+          "instruction": "Reorder the words",
+          "words": [
+            "?",
+            "Is",
+            "right",
+            "he"
+          ],
+          "correct": "Is he right?"
+        },
+        {
+          "id": "ro14",
+          "instruction": "Reorder the words",
+          "words": [
+            "late",
+            "not",
+            "We",
+            "are"
+          ],
+          "correct": "We are not late."
+        },
+        {
+          "id": "ro15",
+          "instruction": "Reorder the words",
+          "words": [
+            "home",
+            "at",
+            "they",
+            "Are",
+            "?",
+            "not"
+          ],
+          "correct": "Are they not at home?"
+        },
+        {
+          "id": "ro16",
+          "instruction": "Reorder the words",
+          "words": [
+            "here",
+            "from",
+            "am",
+            "I"
+          ],
+          "correct": "I am from here."
+        },
+        {
+          "id": "ro17",
+          "instruction": "Reorder the words",
+          "words": [
+            "?",
+            "Am",
+            "late",
+            "I"
+          ],
+          "correct": "Am I late?"
+        },
+        {
+          "id": "ro18",
+          "instruction": "Reorder the words",
+          "words": [
+            "a",
+            "teacher",
+            "good",
+            "is",
+            "He"
+          ],
+          "correct": "He is a good teacher."
+        },
+        {
+          "id": "ro19",
+          "instruction": "Reorder the words",
+          "words": [
+            "?",
+            "Are",
+            "today",
+            "open",
+            "they"
+          ],
+          "correct": "Are they open today?"
+        },
+        {
+          "id": "ro20",
+          "instruction": "Reorder the words",
+          "words": [
+            "!",
+            "so",
+            "beautiful",
+            "is",
+            "She"
+          ],
+          "correct": "She is so beautiful!"
+        }
+      ],
+      "error_correction": [
+        {
+          "id": "ec1",
+          "instruction": "Find and correct the error",
+          "incorrect": "I is a student.",
+          "correct": "I am a student.",
+          "explanation": "Use 'am' with 'I'."
+        },
+        {
+          "id": "ec2",
+          "instruction": "Find and correct the error",
+          "incorrect": "She are happy.",
+          "correct": "She is happy.",
+          "explanation": "Use 'is' with 'She'."
+        },
+        {
+          "id": "ec3",
+          "instruction": "Find and correct the error",
+          "incorrect": "They is teachers.",
+          "correct": "They are teachers.",
+          "explanation": "Use 'are' with 'They'."
+        },
+        {
+          "id": "ec4",
+          "instruction": "Find and correct the error",
+          "incorrect": "You is late.",
+          "correct": "You are late.",
+          "explanation": "Use 'are' with 'You'."
+        },
+        {
+          "id": "ec5",
+          "instruction": "Find and correct the error",
+          "incorrect": "He no is tall.",
+          "correct": "He is not tall.",
+          "explanation": "Put 'not' after 'is'."
+        },
+        {
+          "id": "ec6",
+          "instruction": "Find and correct the error",
+          "incorrect": "I not a student.",
+          "correct": "I am not a student.",
+          "explanation": "Don't omit 'am'."
+        },
+        {
+          "id": "ec7",
+          "instruction": "Find and correct the error",
+          "incorrect": "He is doctor.",
+          "correct": "He is a doctor.",
+          "explanation": "Use 'a' before 'doctor'."
+        },
+        {
+          "id": "ec8",
+          "instruction": "Find and correct the error",
+          "incorrect": "They are student.",
+          "correct": "They are students.",
+          "explanation": "Use plural 'students'."
+        },
+        {
+          "id": "ec9",
+          "instruction": "Find and correct the error",
+          "incorrect": "Where you are?",
+          "correct": "Where are you?",
+          "explanation": "Invert verb and subject after 'where'."
+        },
+        {
+          "id": "ec10",
+          "instruction": "Find and correct the error",
+          "incorrect": "What is your name? My name is Ali.",
+          "correct": "Correct!",
+          "explanation": "This sentence is correct."
+        },
+        {
+          "id": "ec11",
+          "instruction": "Find and correct the error",
+          "incorrect": "She no is my friend.",
+          "correct": "She is not my friend.",
+          "explanation": "Put 'not' after 'is'."
+        },
+        {
+          "id": "ec12",
+          "instruction": "Find and correct the error",
+          "incorrect": "You are from where?",
+          "correct": "Where are you from?",
+          "explanation": "Question word comes first."
+        },
+        {
+          "id": "ec13",
+          "instruction": "Find and correct the error",
+          "incorrect": "He is very tired man.",
+          "correct": "He is a very tired man.",
+          "explanation": "Use 'a' before 'very tired man'."
+        },
+        {
+          "id": "ec14",
+          "instruction": "Find and correct the error",
+          "incorrect": "They are from China? Yes, they are from China.",
+          "correct": "Correct!",
+          "explanation": "This sentence is correct."
+        },
+        {
+          "id": "ec15",
+          "instruction": "Find and correct the error",
+          "incorrect": "I am hungry very.",
+          "correct": "I am very hungry.",
+          "explanation": "Put 'very' before the adjective."
+        },
+        {
+          "id": "ec16",
+          "instruction": "Find and correct the error",
+          "incorrect": "Am I correct? Yes, I am.",
+          "correct": "Correct!",
+          "explanation": "This is correct."
+        },
+        {
+          "id": "ec17",
+          "instruction": "Find and correct the error",
+          "incorrect": "He no is at home today.",
+          "correct": "He is not at home today.",
+          "explanation": "Put 'not' after 'is'."
+        },
+        {
+          "id": "ec18",
+          "instruction": "Find and correct the error",
+          "incorrect": "We are ready? Yes, we are ready.",
+          "correct": "Are we ready? Yes, we are ready.",
+          "explanation": "Invert for questions."
+        },
+        {
+          "id": "ec19",
+          "instruction": "Find and correct the error",
+          "incorrect": "She s a teacher.",
+          "correct": "She is a teacher. / She's a teacher.",
+          "explanation": "Don't forget the apostrophe."
+        },
+        {
+          "id": "ec20",
+          "instruction": "Find and correct the error",
+          "incorrect": "I'm from Egypt and you?",
+          "correct": "I'm from Egypt. And you? / I'm from Egypt. Are you?",
+          "explanation": "Use a complete question after 'And you?'"
+        }
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question": "I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct": "am",
+          "explanation": "I takes 'am'."
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question": "She ___ from France.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct": "is",
+          "explanation": "She is third person singular, use 'is'."
+        },
+        {
+          "id": "q3",
+          "type": "multiple_choice",
+          "question": "They ___ happy.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct": "are",
+          "explanation": "They is plural, use 'are'."
+        },
+        {
+          "id": "q4",
+          "type": "multiple_choice",
+          "question": "He ___ a doctor.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct": "is",
+          "explanation": "He takes 'is'."
+        },
+        {
+          "id": "q5",
+          "type": "multiple_choice",
+          "question": "We ___ from China.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct": "are",
+          "explanation": "We takes 'are'."
+        },
+        {
+          "id": "q6",
+          "type": "multiple_choice",
+          "question": "You ___ very kind.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct": "are",
+          "explanation": "You takes 'are'."
+        },
+        {
+          "id": "q7",
+          "type": "multiple_choice",
+          "question": "___ you a student?",
+          "options": [
+            "Am",
+            "Is",
+            "Are"
+          ],
+          "correct": "Are",
+          "explanation": "Question form with 'you' uses 'Are'."
+        },
+        {
+          "id": "q8",
+          "type": "multiple_choice",
+          "question": "___ he from Egypt?",
+          "options": [
+            "Am",
+            "Is",
+            "Are"
+          ],
+          "correct": "Is",
+          "explanation": "Question form with 'he' uses 'Is'."
+        },
+        {
+          "id": "q9",
+          "type": "multiple_choice",
+          "question": "I am not tired. The contracted form is:",
+          "options": [
+            "I'm not tired",
+            "I amn't tired",
+            "I not tired"
+          ],
+          "correct": "I'm not tired",
+          "explanation": "'I am not' contracts to 'I'm not'."
+        },
+        {
+          "id": "q10",
+          "type": "multiple_choice",
+          "question": "Choose the correct negative: She ___ a teacher.",
+          "options": [
+            "She is not a teacher",
+            "She not is a teacher",
+            "She no is a teacher"
+          ],
+          "correct": "She is not a teacher",
+          "explanation": "Negative: subject + is + not."
+        },
+        {
+          "id": "q11",
+          "type": "true_false",
+          "question": "'They is students' is correct.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct": "False",
+          "explanation": "Use 'are' with 'They'."
+        },
+        {
+          "id": "q12",
+          "type": "true_false",
+          "question": "'I am from Egypt' is correct.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct": "True",
+          "explanation": "This sentence is grammatically correct."
+        },
+        {
+          "id": "q13",
+          "type": "multiple_choice",
+          "question": "What is the contracted form of 'They are'?",
+          "options": [
+            "They're",
+            "Their",
+            "There"
+          ],
+          "correct": "They're",
+          "explanation": "'They are' contracts to 'They're'."
+        },
+        {
+          "id": "q14",
+          "type": "multiple_choice",
+          "question": "___ they at home?",
+          "options": [
+            "Am",
+            "Is",
+            "Are"
+          ],
+          "correct": "Are",
+          "explanation": "Question with 'they' uses 'Are'."
+        },
+        {
+          "id": "q15",
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence:",
+          "options": [
+            "He is a very good teacher",
+            "He a very good teacher",
+            "He is very good teacher"
+          ],
+          "correct": "He is a very good teacher",
+          "explanation": "Use 'is' and 'a' correctly."
+        }
+      ]
+    },
+    "review": {
+      "summary": "The verb 'to be' (am/is/are) is used to describe identity, state, or condition. It changes form based on the subject: I am, he/she/it is, you/we/they are. Negatives add 'not' after the verb. Questions invert the verb and subject. Contractions are common in spoken English.",
+      "summary_arabic": "يستخدم فعل 'يكون' (am/is/are) لوصف الهوية أو الحالة أو الشرط. يتغير شكله حسب الفاعل: I am، he/she/it is، you/we/they are. تضيف النفي 'not' بعد الفعل. تقلب الأسئلة الفعل والفاعل. الاختصارات شائعة في الإنجليزية المحكية.",
+      "key_formulas": [
+        {
+          "formula": "Subject + am/is/are + complement",
+          "example": "I am a student."
+        },
+        {
+          "formula": "Subject + am/is/are + not + complement",
+          "example": "She is not tired."
+        },
+        {
+          "formula": "Am/Is/Are + subject + complement?",
+          "example": "Are you ready?"
+        },
+        {
+          "formula": "Question word + am/is/are + subject?",
+          "example": "Where are you from?"
+        }
+      ],
+      "quick_tips": [
+        "I -> am always",
+        "He/She/It -> is always",
+        "You/We/They -> are always",
+        "Not goes AFTER am/is/are",
+        "In questions, am/is/are comes FIRST",
+        "Use a/an before singular countable nouns"
+      ]
+    },
+    "progress_tracking": {
+      "mastery_levels": [
+        {
+          "level": "beginner",
+          "description": "Knows the basic forms but makes frequent mistakes with subject-verb agreement",
+          "score_range": "0-40"
+        },
+        {
+          "level": "developing",
+          "description": "Uses the correct form most of the time but struggles with questions and contractions",
+          "score_range": "41-60"
+        },
+        {
+          "level": "competent",
+          "description": "Uses all forms correctly in simple sentences; occasional errors in complex contexts",
+          "score_range": "61-80"
+        },
+        {
+          "level": "mastered",
+          "description": "Uses all forms, contractions, questions, and negatives accurately and naturally",
+          "score_range": "81-100"
+        }
+      ],
+      "skill_breakdown": {
+        "affirmative": {
+          "weight": 25,
+          "description": "Using am/is/are correctly with different subjects"
+        },
+        "negative": {
+          "weight": 20,
+          "description": "Forming negative sentences with not"
+        },
+        "interrogative": {
+          "weight": 20,
+          "description": "Forming questions by inverting subject and verb"
+        },
+        "contractions": {
+          "weight": 15,
+          "description": "Using contracted forms naturally"
+        },
+        "vocabulary": {
+          "weight": 10,
+          "description": "Using appropriate adjectives and nouns with verb to be"
+        },
+        "word_order": {
+          "weight": 10,
+          "description": "Correct word order in statements and questions"
+        }
+      },
+      "recommended_review": {
+        "affirmative": "Practice each pronoun with different complements",
+        "negative": "Focus on 'not' placement after the verb",
+        "questions": "Practice inversion: Is he? Are they?",
+        "contractions": "Practice converting full forms to contracted forms"
+      }
+    },
+    "mastery_criteria": {
+      "can_do_statements": [
+        "I can introduce myself using 'I am'",
+        "I can ask someone's name using 'Are you...?' or 'Is he/she...?'",
+        "I can describe people using 'He/She is + adjective'",
+        "I can talk about nationalities using 'I am from...'",
+        "I can ask and answer yes/no questions with verb to be",
+        "I can use contractions naturally in conversation",
+        "I can form negative sentences correctly"
+      ],
+      "assessment_criteria": [
+        {
+          "skill": "Affirmative sentences",
+          "pass": "8/10 correct",
+          "mastery": "10/10 correct"
+        },
+        {
+          "skill": "Negative sentences",
+          "pass": "7/10 correct",
+          "mastery": "9/10 correct"
+        },
+        {
+          "skill": "Questions",
+          "pass": "7/10 correct",
+          "mastery": "9/10 correct"
+        },
+        {
+          "skill": "Contractions",
+          "pass": "6/10 correct",
+          "mastery": "8/10 correct"
+        }
+      ]
+    },
+    "related_grammar": [
+      {
+        "id": "subject_pronouns_a1",
+        "title": "Subject Pronouns",
+        "relation": "prerequisite",
+        "description": "Understanding subject pronouns (I, you, he, she, it, we, they) is essential before learning verb to be."
+      },
+      {
+        "id": "articles_a1",
+        "title": "Articles a/an",
+        "relation": "recommended",
+        "description": "Articles are frequently used with verb to be (e.g., 'I am a student')."
+      },
+      {
+        "id": "adjectives_a1",
+        "title": "Basic Adjectives",
+        "relation": "recommended",
+        "description": "Adjectives are commonly used as complements with verb to be (e.g., 'She is happy')."
+      },
+      {
+        "id": "present_simple_a1",
+        "title": "Present Simple (other verbs)",
+        "relation": "next",
+        "description": "After mastering verb to be, learn the present simple for other verbs."
+      },
+      {
+        "id": "questions_a1",
+        "title": "Yes/No Questions",
+        "relation": "related",
+        "description": "Question formation with verb to be is the foundation for all English questions."
+      }
+    ],
+    "ai_metadata": {
+      "version": "1.0.0",
+      "generated": "2026-07-04",
+      "generator": "exam_bank_content_generator",
+      "total_examples": 60,
+      "total_exercises": 80,
+      "total_quiz_questions": 15,
+      "total_common_mistakes": 17,
+      "chunking_strategy": {
+        "max_tokens_per_chunk": 4000,
+        "recommended_chunks": [
+          {
+            "name": "introduction",
+            "sections": [
+              "metadata",
+              "explanation",
+              "forms",
+              "tables"
+            ]
+          },
+          {
+            "name": "examples",
+            "sections": [
+              "examples"
+            ]
+          },
+          {
+            "name": "practice",
+            "sections": [
+              "exercises",
+              "common_mistakes"
+            ]
+          },
+          {
+            "name": "assessment",
+            "sections": [
+              "quiz",
+              "progress_tracking",
+              "mastery_criteria"
+            ]
+          },
+          {
+            "name": "reference",
+            "sections": [
+              "review",
+              "related_grammar",
+              "mini_rules",
+              "ai_metadata"
+            ]
+          }
+        ]
+      },
+      "teaching_order": [
+        "subject_pronouns",
+        "affirmative_forms",
+        "contractions",
+        "negative_forms",
+        "questions",
+        "short_answers",
+        "common_mistakes",
+        "vocabulary_expansion"
+      ]
+    }
+  }
+}

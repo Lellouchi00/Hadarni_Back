@@ -1,0 +1,13 @@
+{
+  "examId": "exam_001",
+  "section": "speaking",
+  "level": "A1",
+  "title": "Introduce Yourself",
+  "instruction": "Record yourself introducing your name, age, nationality, and hobbies. Speak for at least 30 seconds.",
+  "prompts": [
+    "What is your name?",
+    "How old are you?",
+    "Where are you from?",
+    "What are your hobbies?"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "examId": "exam_001",
+  "section": "listening",
+  "level": "A1",
+  "title": "Introducing Yourself",
+  "audioUrl": "/audio/placement/A1/listening/introducing_yourself.mp3",
+  "transcript": "Hello, my name is Mark. I am 25 years old. I am from Canada. I work as a software engineer. I like playing football and reading books.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "How old is Mark?",
+      "options": ["22", "25", "28", "30"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "Where is Mark from?",
+      "options": ["USA", "UK", "Canada", "Australia"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "What does Mark like?",
+      "options": ["Swimming and cooking", "Football and reading", "Dancing and singing", "Drawing and running"],
+      "correctAnswer": 1
+    }
+  ]
+}

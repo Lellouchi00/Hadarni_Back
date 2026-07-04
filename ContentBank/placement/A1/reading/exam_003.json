@@ -1,0 +1,30 @@
+{
+  "examId": "exam_003",
+  "section": "reading",
+  "level": "A1",
+  "title": "At the Restaurant",
+  "passage": "Yesterday, I went to a restaurant with my friends. The waiter gave us menus. I ordered a pizza and a glass of orange juice. My friend Sarah ordered pasta. The food was delicious. After dinner, we paid and left. We had a great time.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "question": "Who did the person go to the restaurant with?",
+      "options": ["Family", "Friends", "Coworkers", "Alone"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "question": "What did the person order?",
+      "options": ["Pasta and water", "Pizza and orange juice", "Salad and tea", "Burger and cola"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "question": "How was the food?",
+      "options": ["Terrible", "Okay", "Delicious", "Cold"],
+      "correctAnswer": 2
+    }
+  ]
+}

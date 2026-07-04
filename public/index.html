@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placement Test</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Placement Test</h1>
+      <p id="header-sub">Determine your English level</p>
+    </header>
+
+    <!-- Step 1: Level Selection -->
+    <section id="level-screen">
+      <h2>Select your estimated level</h2>
+      <div class="level-grid">
+        <button class="level-btn" data-level="A1">Beginner</button>
+        <button class="level-btn" data-level="A2">Elementary</button>
+        <button class="level-btn" data-level="B1">Intermediate</button>
+        <button class="level-btn" data-level="B2">Upper Intermediate</button>
+        <button class="level-btn" data-level="C1">Advanced</button>
+        <button class="level-btn" data-level="C2">Proficient</button>
+      </div>
+    </section>
+
+    <!-- Step 2: Section Dashboard -->
+    <section id="dashboard" class="hidden">
+      <div id="session-info">
+        <span>Level: <strong id="current-level"></strong></span>
+        <span id="progress-badge">0 / 4 completed</span>
+      </div>
+      <div class="dashboard-header">
+        <h2>Complete all sections</h2>
+      </div>
+      <div class="section-dashboard" id="section-dashboard"></div>
+    </section>
+
+    <!-- Step 3: Exam -->
+    <section id="exam-section" class="hidden">
+      <div id="exam-header">
+        <span id="exam-section-badge" class="badge"></span>
+        <h2 id="exam-title"></h2>
+        <span id="exam-id" class="badge"></span>
+      </div>
+      <div id="exam-content"></div>
+      <div id="exam-actions">
+        <button id="submit-btn" class="btn btn-primary">Submit</button>
+        <button id="back-btn" class="btn btn-secondary">Back to sections</button>
+      </div>
+      <div id="loading" class="hidden">Loading...</div>
+    </section>
+
+    <!-- Step 4: Section Result -->
+    <section id="section-result" class="hidden">
+      <h2 id="section-result-title">Section Result</h2>
+      <div id="section-result-content"></div>
+      <button id="section-result-btn" class="btn btn-primary">Continue</button>
+    </section>
+
+    <!-- Step 5: Progression Result -->
+    <section id="progression-result" class="hidden">
+      <h2>Placement Result</h2>
+      <div id="progression-content"></div>
+      <button id="progression-btn" class="btn btn-primary"></button>
+    </section>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

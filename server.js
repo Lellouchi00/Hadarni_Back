@@ -18,10 +18,27 @@ app.use(express.json());
 
 // -------- Routes --------
 const userRouter = require('./api/User');
+const placementRouter = require('./routes/placementRoutes');
+const progressionRouter = require('./routes/progressionRoutes');
 
 app.use('/user', userRouter);
+app.use('/api/placement', placementRouter);
+app.use('/api/placement/progression', progressionRouter);
 
 app.use(express.static("public"));
+
+// -------- Error Handler --------
+app.use((err, req, res, next) => {
+  const statusCode = err.statusCode || 500;
+  const message = err.message || "Internal server error";
+
+  console.error(`[Error] ${statusCode} - ${message}`);
+  if (statusCode === 500) {
+    console.error(err.stack);
+  }
+
+  res.status(statusCode).json({ error: message });
+});
 
 // -------- Start Server --------
 async function startServer() {

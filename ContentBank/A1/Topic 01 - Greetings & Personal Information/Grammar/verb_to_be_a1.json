@@ -1,0 +1,2316 @@
+{
+  "grammar_rule": {
+    "metadata": {
+      "id": "a1_verb_to_be_001",
+      "title": "Verb To Be",
+      "cefr_level": "A1",
+      "topic": "Greetings & Personal Information",
+      "estimated_learning_time_minutes": 120,
+      "difficulty": 1,
+      "prerequisites": ["a1_basic_nouns_001"],
+      "next_grammar": "a1_articles_001",
+      "learning_objectives": [
+        "Use am, is, are correctly with subject pronouns",
+        "Form affirmative sentences with verb to be",
+        "Form negative sentences with verb to be",
+        "Ask questions using verb to be",
+        "Give short answers with verb to be",
+        "Use contractions naturally in speech and writing",
+        "Introduce yourself and ask for personal information",
+        "Describe people and things using verb to be"
+      ],
+      "tags": [
+        "verb to be",
+        "am is are",
+        "present simple",
+        "basic grammar",
+        "introductions",
+        "personal information",
+        "greetings",
+        "a1 grammar",
+        "beginner english",
+        "foundation grammar"
+      ]
+    }
+  }
+}
+{
+  "grammar_rule": {
+    "metadata": {
+      "id": "a1_verb_to_be_001",
+      "title": "Verb To Be",
+      "cefr_level": "A1",
+      "topic": "Greetings & Personal Information",
+      "estimated_learning_time_minutes": 120,
+      "difficulty": 1,
+      "prerequisites": ["a1_basic_nouns_001"],
+      "next_grammar": "a1_articles_001",
+      "learning_objectives": [
+        "Use am, is, are correctly with subject pronouns",
+        "Form affirmative sentences with verb to be",
+        "Form negative sentences with verb to be",
+        "Ask questions using verb to be",
+        "Give short answers with verb to be",
+        "Use contractions naturally in speech and writing",
+        "Introduce yourself and ask for personal information",
+        "Describe people and things using verb to be"
+      ],
+      "tags": [
+        "verb to be",
+        "am is are",
+        "present simple",
+        "basic grammar",
+        "introductions",
+        "personal information",
+        "greetings",
+        "a1 grammar",
+        "beginner english",
+        "foundation grammar"
+      ]
+    },
+    "explanation": {
+      "simple_explanation": "The verb to be is the most important verb in English. It tells us who someone is, what something is, or how someone feels. In the present tense, it has three forms: am, is, and are. You choose the correct form based on the subject of the sentence.",
+      "when_to_use": [
+        "To introduce yourself and others: I am Ahmed.",
+        "To say your nationality: She is Egyptian.",
+        "To describe age: He is ten years old.",
+        "To describe feelings: They are happy.",
+        "To describe physical appearance: It is big.",
+        "To talk about jobs: I am a teacher.",
+        "To give personal information: My name is Sara.",
+        "To talk about location: The book is on the table.",
+        "To identify people and things: This is my friend.",
+        "To talk about the time: It is 3 o'clock.",
+        "To talk about the weather: It is cold today.",
+        "To describe relationships: He is my brother."
+      ],
+      "sentence_structure": {
+        "affirmative": "Subject + am/is/are + complement. Example: I am a student.",
+        "negative": "Subject + am/is/are + not + complement. Example: She is not a teacher.",
+        "question": "Am/Is/Are + subject + complement? Example: Are you happy?",
+        "short_answer_affirmative": "Yes, + subject pronoun + am/is/are. Example: Yes, I am.",
+        "short_answer_negative": "No, + subject pronoun + am/is/are + not. Example: No, she is not."
+      },
+      "common_patterns": [
+        "Subject + be + noun: I am a doctor.",
+        "Subject + be + adjective: They are tall.",
+        "Subject + be + location: The pen is on the desk.",
+        "Subject + be + age: He is twenty years old.",
+        "Subject + be + nationality: We are Jordanian.",
+        "Subject + be + feeling: She is tired.",
+        "This/That + be + noun: This is a book.",
+        "There + be + noun: There is a cat in the room."
+      ]
+    },
+    "forms": {
+      "affirmative": {
+        "I": "am",
+        "he": "is",
+        "she": "is",
+        "it": "is",
+        "you": "are",
+        "we": "are",
+        "they": "are"
+      },
+      "negative": {
+        "I": "am not",
+        "he": "is not",
+        "she": "is not",
+        "it": "is not",
+        "you": "are not",
+        "we": "are not",
+        "they": "are not"
+      },
+      "questions": {
+        "I": "Am I?",
+        "he": "Is he?",
+        "she": "Is she?",
+        "it": "Is it?",
+        "you": "Are you?",
+        "we": "Are we?",
+        "they": "Are they?"
+      },
+      "short_answers_affirmative": {
+        "I": "Yes, I am.",
+        "he": "Yes, he is.",
+        "she": "Yes, she is.",
+        "it": "Yes, it is.",
+        "you": "Yes, you are.",
+        "we": "Yes, we are.",
+        "they": "Yes, they are."
+      },
+      "short_answers_negative": {
+        "I": "No, I am not.",
+        "he": "No, he is not.",
+        "she": "No, she is not.",
+        "it": "No, it is not.",
+        "you": "No, you are not.",
+        "we": "No, we are not.",
+        "they": "No, they are not."
+      },
+      "contractions": {
+        "I am": "I'm",
+        "he is": "he's",
+        "she is": "she's",
+        "it is": "it's",
+        "you are": "you're",
+        "we are": "we're",
+        "they are": "they're",
+        "is not": "isn't",
+        "are not": "aren't",
+        "am not": "am not"
+      }
+    },
+    "tables": {
+      "affirmative_table": {
+        "title": "Affirmative Form",
+        "headers": ["Subject", "Verb", "Complement", "Full Sentence"],
+        "rows": [
+          ["I", "am", "a student", "I am a student."],
+          ["You", "are", "a teacher", "You are a teacher."],
+          ["He", "is", "a doctor", "He is a doctor."],
+          ["She", "is", "happy", "She is happy."],
+          ["It", "is", "a book", "It is a book."],
+          ["We", "are", "friends", "We are friends."],
+          ["They", "are", "Egyptian", "They are Egyptian."]
+        ]
+      },
+      "negative_table": {
+        "title": "Negative Form",
+        "headers": ["Subject", "Verb + not", "Complement", "Full Sentence"],
+        "rows": [
+          ["I", "am not", "a student", "I am not a student."],
+          ["You", "are not", "a teacher", "You are not a teacher."],
+          ["He", "is not", "a doctor", "He is not a doctor."],
+          ["She", "is not", "happy", "She is not happy."],
+          ["It", "is not", "a book", "It is not a book."],
+          ["We", "are not", "friends", "We are not friends."],
+          ["They", "are not", "Egyptian", "They are not Egyptian."]
+        ]
+      },
+      "question_table": {
+        "title": "Question Form",
+        "headers": ["Question Word", "Verb", "Subject", "Complement", "Full Question"],
+        "rows": [
+          ["", "Am", "I", "late?", "Am I late?"],
+          ["", "Are", "you", "a student?", "Are you a student?"],
+          ["", "Is", "he", "your brother?", "Is he your brother?"],
+          ["", "Is", "she", "a teacher?", "Is she a teacher?"],
+          ["", "Is", "it", "cold?", "Is it cold?"],
+          ["", "Are", "we", "ready?", "Are we ready?"],
+          ["", "Are", "they", "at home?", "Are they at home?"],
+          ["Where", "are", "you", "from?", "Where are you from?"],
+          ["What", "is", "your", "name?", "What is your name?"],
+          ["How", "is", "he", "today?", "How is he today?"]
+        ]
+      },
+      "contraction_table": {
+        "title": "Contractions",
+        "headers": ["Full Form", "Contraction"],
+        "rows": [
+          ["I am", "I'm"],
+          ["you are", "you're"],
+          ["he is", "he's"],
+          ["she is", "she's"],
+          ["it is", "it's"],
+          ["we are", "we're"],
+          ["they are", "they're"],
+          ["is not", "isn't"],
+          ["are not", "aren't"]
+        ]
+      }
+    }
+  }
+}
+    "examples": {
+      "affirmative": [
+        {
+          "english": "I am a student.",
+          "arabic": "أنا طالب.",
+          "grammar_note": "Use 'am' with subject 'I'.",
+          "difficulty": 1
+        },
+        {
+          "english": "You are a teacher.",
+          "arabic": "أنت معلم.",
+          "grammar_note": "Use 'are' with subject 'you'.",
+          "difficulty": 1
+        },
+        {
+          "english": "He is a doctor.",
+          "arabic": "هو طبيب.",
+          "grammar_note": "Use 'is' with subject 'he'.",
+          "difficulty": 1
+        },
+        {
+          "english": "She is happy.",
+          "arabic": "هي سعيدة.",
+          "grammar_note": "Use 'is' with subject 'she'.",
+          "difficulty": 1
+        },
+        {
+          "english": "It is a book.",
+          "arabic": "هو كتاب.",
+          "grammar_note": "Use 'is' with subject 'it' for objects.",
+          "difficulty": 1
+        },
+        {
+          "english": "We are friends.",
+          "arabic": "نحن أصدقاء.",
+          "grammar_note": "Use 'are' with subject 'we'.",
+          "difficulty": 1
+        },
+        {
+          "english": "They are Egyptian.",
+          "arabic": "هم مصريون.",
+          "grammar_note": "Use 'are' with subject 'they'.",
+          "difficulty": 1
+        },
+        {
+          "english": "My name is Ahmed.",
+          "arabic": "اسمي أحمد.",
+          "grammar_note": "Use 'is' after a singular name.",
+          "difficulty": 1
+        },
+        {
+          "english": "This is my friend.",
+          "arabic": "هذا صديقي.",
+          "grammar_note": "Use 'is' with 'this'.",
+          "difficulty": 1
+        },
+        {
+          "english": "I am ten years old.",
+          "arabic": "عمري عشر سنوات.",
+          "grammar_note": "Use 'am' to state age with 'I'.",
+          "difficulty": 1
+        },
+        {
+          "english": "She is a nurse.",
+          "arabic": "هي ممرضة.",
+          "grammar_note": "Use 'is' for occupations with she.",
+          "difficulty": 1
+        },
+        {
+          "english": "It is cold today.",
+          "arabic": "الجو بارد اليوم.",
+          "grammar_note": "Use 'is' to describe weather with 'it'.",
+          "difficulty": 1
+        },
+        {
+          "english": "You are very kind.",
+          "arabic": "أنت لطيف جدا.",
+          "grammar_note": "Use 'are' to describe someone's character.",
+          "difficulty": 1
+        },
+        {
+          "english": "He is my brother.",
+          "arabic": "هو أخي.",
+          "grammar_note": "Use 'is' to describe relationships.",
+          "difficulty": 1
+        },
+        {
+          "english": "We are in the classroom.",
+          "arabic": "نحن في الفصل.",
+          "grammar_note": "Use 'are' to describe location with 'we'.",
+          "difficulty": 1
+        },
+        {
+          "english": "The cat is on the chair.",
+          "arabic": "القطة على الكرسي.",
+          "grammar_note": "Use 'is' with a singular noun.",
+          "difficulty": 2
+        },
+        {
+          "english": "I am from Jordan.",
+          "arabic": "أنا من الأردن.",
+          "grammar_note": "Use 'am from' to state origin with 'I'.",
+          "difficulty": 1
+        },
+        {
+          "english": "They are at the park.",
+          "arabic": "هم في الحديقة.",
+          "grammar_note": "Use 'are' + 'at' for location.",
+          "difficulty": 2
+        },
+        {
+          "english": "She is a good student.",
+          "arabic": "هي طالبة جيدة.",
+          "grammar_note": "Use 'is' with adjective + noun.",
+          "difficulty": 2
+        },
+        {
+          "english": "It is time to go.",
+          "arabic": "حان وقت الذهاب.",
+          "grammar_note": "Use 'is' with 'it' for time expressions.",
+          "difficulty": 2
+        }
+      ],
+      "negative": [
+        {
+          "english": "I am not a teacher.",
+          "arabic": "أنا لست معلما.",
+          "grammar_note": "Add 'not' after 'am' to make it negative.",
+          "difficulty": 1
+        },
+        {
+          "english": "You are not late.",
+          "arabic": "أنت لست متأخرا.",
+          "grammar_note": "Add 'not' after 'are'.",
+          "difficulty": 1
+        },
+        {
+          "english": "He is not a doctor.",
+          "arabic": "هو ليس طبيبا.",
+          "grammar_note": "Add 'not' after 'is'.",
+          "difficulty": 1
+        },
+        {
+          "english": "She is not sad.",
+          "arabic": "هي ليست حزينة.",
+          "grammar_note": "Use 'is not' to express the opposite.",
+          "difficulty": 1
+        },
+        {
+          "english": "It is not a pen.",
+          "arabic": "هو ليس قلما.",
+          "grammar_note": "Use 'is not' to negate objects.",
+          "difficulty": 1
+        },
+        {
+          "english": "We are not tired.",
+          "arabic": "نحن لسنا متعبين.",
+          "grammar_note": "Use 'are not' with 'we'.",
+          "difficulty": 1
+        },
+        {
+          "english": "They are not from Egypt.",
+          "arabic": "هم ليسوا من مصر.",
+          "grammar_note": "Use 'are not' to negate origin.",
+          "difficulty": 1
+        },
+        {
+          "english": "My name is not Ali.",
+          "arabic": "اسمي ليس علي.",
+          "grammar_note": "Use 'is not' with a singular noun.",
+          "difficulty": 1
+        },
+        {
+          "english": "This is not my bag.",
+          "arabic": "هذه ليست حقيبتي.",
+          "grammar_note": "Use 'is not' with 'this'.",
+          "difficulty": 1
+        },
+        {
+          "english": "I am not hungry.",
+          "arabic": "أنا لست جائعا.",
+          "grammar_note": "Use 'am not' for feelings.",
+          "difficulty": 1
+        },
+        {
+          "english": "She is not a student.",
+          "arabic": "هي ليست طالبة.",
+          "grammar_note": "Use 'is not' before a noun.",
+          "difficulty": 1
+        },
+        {
+          "english": "It is not hot today.",
+          "arabic": "الجو ليس حارا اليوم.",
+          "grammar_note": "Use 'is not' for weather negation.",
+          "difficulty": 1
+        },
+        {
+          "english": "You are not my enemy.",
+          "arabic": "أنت لست عدوي.",
+          "grammar_note": "Use 'are not' with 'you'.",
+          "difficulty": 2
+        },
+        {
+          "english": "He is not a child.",
+          "arabic": "هو ليس طفلا.",
+          "grammar_note": "Use 'is not' to negate age status.",
+          "difficulty": 1
+        },
+        {
+          "english": "We are not at home.",
+          "arabic": "نحن لسنا في المنزل.",
+          "grammar_note": "Use 'are not' to negate location.",
+          "difficulty": 1
+        },
+        {
+          "english": "The books are not on the desk.",
+          "arabic": "الكتب ليست على المكتب.",
+          "grammar_note": "Use 'are not' with a plural noun.",
+          "difficulty": 2
+        },
+        {
+          "english": "I am not from Turkey.",
+          "arabic": "أنا لست من تركيا.",
+          "grammar_note": "Use 'am not' to negate origin.",
+          "difficulty": 1
+        },
+        {
+          "english": "They are not ready.",
+          "arabic": "هم ليسوا مستعدين.",
+          "grammar_note": "Use 'are not' with adjective states.",
+          "difficulty": 2
+        },
+        {
+          "english": "She is not tall.",
+          "arabic": "هي ليست طويلة.",
+          "grammar_note": "Use 'is not' to negate descriptions.",
+          "difficulty": 1
+        },
+        {
+          "english": "It is not my fault.",
+          "arabic": "هو ليس خطأي.",
+          "grammar_note": "Use 'is not' with possessive 'my'.",
+          "difficulty": 2
+        }
+      ],
+      "questions": [
+        {
+          "english": "Am I late?",
+          "arabic": "هل أنا متأخر؟",
+          "grammar_note": "Start with 'am' for questions with 'I'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Are you a student?",
+          "arabic": "هل أنت طالب؟",
+          "grammar_note": "Start with 'are' for questions with 'you'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Is he your brother?",
+          "arabic": "هل هو أخوك؟",
+          "grammar_note": "Start with 'is' for questions with 'he'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Is she a teacher?",
+          "arabic": "هل هي معلمة؟",
+          "grammar_note": "Start with 'is' for questions with 'she'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Is it cold?",
+          "arabic": "هل الجو بارد؟",
+          "grammar_note": "Start with 'is' for questions with 'it'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Are we ready?",
+          "arabic": "هل نحن مستعدون؟",
+          "grammar_note": "Start with 'are' for questions with 'we'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Are they from Egypt?",
+          "arabic": "هل هم من مصر؟",
+          "grammar_note": "Start with 'are' for questions with 'they'.",
+          "difficulty": 1
+        },
+        {
+          "english": "What is your name?",
+          "arabic": "ما اسمك؟",
+          "grammar_note": "Use question word + 'is' with 'what'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Where are you from?",
+          "arabic": "من أين أنت؟",
+          "grammar_note": "Use 'where are' to ask about origin.",
+          "difficulty": 1
+        },
+        {
+          "english": "How is he today?",
+          "arabic": "كيف حاله اليوم؟",
+          "grammar_note": "Use 'how is' to ask about condition.",
+          "difficulty": 1
+        },
+        {
+          "english": "Is this your book?",
+          "arabic": "هل هذا كتابك؟",
+          "grammar_note": "Use 'is' with 'this' in questions.",
+          "difficulty": 1
+        },
+        {
+          "english": "Are you happy?",
+          "arabic": "هل أنت سعيد؟",
+          "grammar_note": "Use 'are you' to ask about feelings.",
+          "difficulty": 1
+        },
+        {
+          "english": "Is she your sister?",
+          "arabic": "هل هي أختك؟",
+          "grammar_note": "Use 'is she' to ask about relationships.",
+          "difficulty": 1
+        },
+        {
+          "english": "What is this?",
+          "arabic": "ما هذا؟",
+          "grammar_note": "Use 'what is' to ask about objects.",
+          "difficulty": 1
+        },
+        {
+          "english": "Who is he?",
+          "arabic": "من هو؟",
+          "grammar_note": "Use 'who is' to ask about identity.",
+          "difficulty": 1
+        },
+        {
+          "english": "How old are you?",
+          "arabic": "كم عمرك؟",
+          "grammar_note": "Use 'how old are' to ask about age.",
+          "difficulty": 1
+        },
+        {
+          "english": "Are the books on the table?",
+          "arabic": "هل الكتب على الطاولة؟",
+          "grammar_note": "Use 'are' with plural nouns in questions.",
+          "difficulty": 2
+        },
+        {
+          "english": "Is it time to go?",
+          "arabic": "هل حان وقت الذهاب؟",
+          "grammar_note": "Use 'is it' to ask about time.",
+          "difficulty": 2
+        },
+        {
+          "english": "Are you and Ali friends?",
+          "arabic": "هل أنت وعلي أصدقاء؟",
+          "grammar_note": "Use 'are' with compound subjects.",
+          "difficulty": 2
+        },
+        {
+          "english": "What color is your bag?",
+          "arabic": "ما لون حقيبتك؟",
+          "grammar_note": "Use 'what color is' for specific questions.",
+          "difficulty": 2
+        }
+      ],
+      "short_answers": [
+        {
+          "english": "Yes, I am.",
+          "arabic": "نعم، أنا.",
+          "grammar_note": "Affirmative short answer with 'I'.",
+          "difficulty": 1
+        },
+        {
+          "english": "No, I am not.",
+          "arabic": "لا، لست كذلك.",
+          "grammar_note": "Negative short answer with 'I'. Cannot use contraction 'amn't'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Yes, you are.",
+          "arabic": "نعم، أنت كذلك.",
+          "grammar_note": "Affirmative short answer with 'you'.",
+          "difficulty": 1
+        },
+        {
+          "english": "No, you are not.",
+          "arabic": "لا، أنت لست كذلك.",
+          "grammar_note": "Negative short answer with 'you'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Yes, he is.",
+          "arabic": "نعم، هو كذلك.",
+          "grammar_note": "Affirmative short answer with 'he'.",
+          "difficulty": 1
+        },
+        {
+          "english": "No, he is not.",
+          "arabic": "لا، هو ليس كذلك.",
+          "grammar_note": "Negative short answer with 'he'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Yes, she is.",
+          "arabic": "نعم، هي كذلك.",
+          "grammar_note": "Affirmative short answer with 'she'.",
+          "difficulty": 1
+        },
+        {
+          "english": "No, she is not.",
+          "arabic": "لا، هي ليست كذلك.",
+          "grammar_note": "Negative short answer with 'she'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Yes, it is.",
+          "arabic": "نعم، هو كذلك.",
+          "grammar_note": "Affirmative short answer with 'it'.",
+          "difficulty": 1
+        },
+        {
+          "english": "No, it is not.",
+          "arabic": "لا، هو ليس كذلك.",
+          "grammar_note": "Negative short answer with 'it'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Yes, we are.",
+          "arabic": "نعم، نحن كذلك.",
+          "grammar_note": "Affirmative short answer with 'we'.",
+          "difficulty": 1
+        },
+        {
+          "english": "No, we are not.",
+          "arabic": "لا، نحن لسنا كذلك.",
+          "grammar_note": "Negative short answer with 'we'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Yes, they are.",
+          "arabic": "نعم، هم كذلك.",
+          "grammar_note": "Affirmative short answer with 'they'.",
+          "difficulty": 1
+        },
+        {
+          "english": "No, they are not.",
+          "arabic": "لا، هم ليسوا كذلك.",
+          "grammar_note": "Negative short answer with 'they'.",
+          "difficulty": 1
+        },
+        {
+          "english": "Yes, I am tired.",
+          "arabic": "نعم، أنا متعب.",
+          "grammar_note": "Short answer can include extra information.",
+          "difficulty": 2
+        },
+        {
+          "english": "No, he is not my father.",
+          "arabic": "لا، هو ليس والدي.",
+          "grammar_note": "Negative short answer with clarification.",
+          "difficulty": 2
+        },
+        {
+          "english": "Yes, it is a pen.",
+          "arabic": "نعم، هو قلم.",
+          "grammar_note": "Short answer with object identification.",
+          "difficulty": 2
+        },
+        {
+          "english": "No, we are not ready yet.",
+          "arabic": "لا، نحن لسنا مستعدين بعد.",
+          "grammar_note": "Short answer with 'yet' for emphasis.",
+          "difficulty": 2
+        },
+        {
+          "english": "Yes, they are from Canada.",
+          "arabic": "نعم، هم من كندا.",
+          "grammar_note": "Short answer with origin information.",
+          "difficulty": 2
+        },
+        {
+          "english": "No, you are not wrong.",
+          "arabic": "لا، أنت لست مخطئا.",
+          "grammar_note": "Negative short answer to reassure.",
+          "difficulty": 2
+        }
+      ]
+    },
+    "common_mistakes": [
+      {
+        "wrong": "He am a doctor.",
+        "correct": "He is a doctor.",
+        "reason": "Use 'is' with 'he', not 'am'. 'Am' is only used with the subject 'I'."
+      },
+      {
+        "wrong": "She are happy.",
+        "correct": "She is happy.",
+        "reason": "Use 'is' with 'she', not 'are'. 'Are' is used with you, we, they."
+      },
+      {
+        "wrong": "We is friends.",
+        "correct": "We are friends.",
+        "reason": "Use 'are' with 'we', not 'is'. 'Is' is only for he, she, it and singular nouns."
+      },
+      {
+        "wrong": "I no am a student.",
+        "correct": "I am not a student.",
+        "reason": "The word 'no' does not create negatives in English. Use 'not' after the verb."
+      },
+      {
+        "wrong": "You not are late.",
+        "correct": "You are not late.",
+        "reason": "Place 'not' after the verb 'are', not before it."
+      },
+      {
+        "wrong": "Is he is a teacher?",
+        "correct": "Is he a teacher?",
+        "reason": "Do not repeat the verb. Use one form of 'be' in the question."
+      },
+      {
+        "wrong": "Yes, I am is.",
+        "correct": "Yes, I am.",
+        "reason": "Do not add 'is' after 'am' in short answers. Use only the correct form once."
+      },
+      {
+        "wrong": "He not is my friend.",
+        "correct": "He is not my friend.",
+        "reason": "The negative form must follow the pattern: subject + verb + not. Do not place 'not' before the verb."
+      },
+      {
+        "wrong": "Are you from where?",
+        "correct": "Where are you from?",
+        "reason": "Question words (where, what, who) come at the beginning of the question in English."
+      },
+      {
+        "wrong": "I am student.",
+        "correct": "I am a student.",
+        "reason": "Use the article 'a' or 'an' before singular countable nouns when describing someone's occupation or identity."
+      },
+      {
+        "wrong": "She is nurse.",
+        "correct": "She is a nurse.",
+        "reason": "Singular countable nouns need an article (a/an) after the verb 'to be'."
+      },
+      {
+        "wrong": "They is from Egypt.",
+        "correct": "They are from Egypt.",
+        "reason": "Use 'are' with 'they' because 'they' is plural. 'Is' is only for singular subjects."
+      },
+      {
+        "wrong": "I amn't tired.",
+        "correct": "I am not tired.",
+        "reason": "There is no contraction for 'am not' in standard English. Use the full form 'am not'."
+      },
+      {
+        "wrong": "Yes, I are.",
+        "correct": "Yes, I am.",
+        "reason": "The short answer for 'I' must use 'am', not 'are'. Each pronoun has its own matching form."
+      },
+      {
+        "wrong": "No, he isn't a doctor.",
+        "correct": "No, he is not a doctor.",
+        "reason": "In short answers, use the full negative form. 'Isn't' is acceptable in speech but the full form is preferred in writing."
+      },
+      {
+        "wrong": "What is you name?",
+        "correct": "What is your name?",
+        "reason": "Use the possessive adjective 'your', not the subject pronoun 'you', before the noun 'name'."
+      },
+      {
+        "wrong": "It are a cat.",
+        "correct": "It is a cat.",
+        "reason": "Use 'is' with 'it'. 'It' is a singular subject pronoun."
+      }
+    ],
+    "mini_rules": [
+      {
+        "rule": "Use 'am' only with the subject 'I'.",
+        "example": "I am happy."
+      },
+      {
+        "rule": "Use 'is' with 'he', 'she', and 'it'.",
+        "example": "He is tall. She is kind. It is big."
+      },
+      {
+        "rule": "Use 'are' with 'you', 'we', and 'they'.",
+        "example": "You are smart. We are ready. They are here."
+      },
+      {
+        "rule": "Use 'are' with singular 'you' and plural 'you'.",
+        "example": "You are a friend. You are friends."
+      },
+      {
+        "rule": "Use 'a' or 'an' before singular nouns after 'be'.",
+        "example": "I am a teacher. She is an engineer."
+      },
+      {
+        "rule": "Place 'not' after am, is, or are to make negatives.",
+        "example": "It is not cold."
+      },
+      {
+        "rule": "Invert the subject and verb to form yes/no questions.",
+        "example": "Is she your sister?"
+      },
+      {
+        "rule": "Question words come first in information questions.",
+        "example": "Where are you from?"
+      },
+      {
+        "rule": "Short affirmative answers use 'Yes' + comma + subject + verb.",
+        "example": "Yes, I am."
+      },
+      {
+        "rule": "Short negative answers use 'No' + comma + subject + verb + not.",
+        "example": "No, they are not."
+      },
+      {
+        "rule": "Contractions combine subject and verb: I am = I'm.",
+        "example": "I'm a student."
+      },
+      {
+        "rule": "Contractions combine verb and not: is not = isn't.",
+        "example": "She isn't here."
+      },
+      {
+        "rule": "There is no contraction for 'am not' (amn't is not standard).",
+        "example": "I am not late. (Not: I amn't late)"
+      },
+      {
+        "rule": "Use 'it is' for time, weather, and distance.",
+        "example": "It is 5 o'clock. It is sunny. It is far."
+      },
+      {
+        "rule": "Use 'there is' with singular nouns and 'there are' with plural nouns.",
+        "example": "There is a book. There are books."
+      },
+      {
+        "rule": "Do not use double subjects like 'My brother he is tall'.",
+        "example": "My brother is tall. (Not: My brother he is tall)"
+      },
+      {
+        "rule": "Use 'this is' for something near and 'that is' for something far.",
+        "example": "This is my phone. That is your bag."
+      },
+      {
+        "rule": "Adjectives after 'be' have no plural form.",
+        "example": "They are happy. (Not: They are happies)"
+      },
+      {
+        "rule": "Use 'how old' to ask about age with 'be'.",
+        "example": "How old are you?"
+      },
+      {
+        "rule": "Use 'who is' to ask about identity and 'what is' to ask about things.",
+        "example": "Who is she? What is this?"
+      }
+    ],
+    "vocabulary_connections": {
+      "greetings": ["hello", "hi", "good morning", "good evening", "nice to meet you"],
+      "personal_information": ["name", "age", "country", "nationality", "phone number", "address", "email"],
+      "family_members": ["mother", "father", "brother", "sister", "son", "daughter", "husband", "wife"],
+      "occupations": ["doctor", "teacher", "engineer", "nurse", "student", "driver", "pilot", "cook"],
+      "feelings": ["happy", "sad", "tired", "hungry", "thirsty", "cold", "hot", "scared"],
+      "descriptions": ["tall", "short", "big", "small", "old", "young", "beautiful", "handsome"],
+      "nationalities": ["Egyptian", "Saudi", "Jordanian", "American", "British", "French", "Chinese", "Indian"],
+      "locations": ["here", "there", "home", "school", "work", "park", "hospital", "office"],
+      "colors": ["red", "blue", "green", "yellow", "black", "white", "brown", "orange"],
+      "classroom_objects": ["book", "pen", "desk", "chair", "door", "window", "board", "bag"]
+    },
+    "reading_connections": [
+      {
+        "situation": "A short biography: 'She is Maria. She is from Spain. She is 25 years old. She is a doctor.'",
+        "focus": "Using 'is' with she for personal information."
+      },
+      {
+        "situation": "A family introduction: 'This is my family. My father is tall. My mother is kind. We are happy.'",
+        "focus": "Using 'is' and 'are' to describe family members."
+      },
+      {
+        "situation": "A classroom poster: 'I am a student. This is my school. It is big.'",
+        "focus": "Using 'am' with I and 'is' with it."
+      },
+      {
+        "situation": "A simple email: 'Hi! I am Tom. I am from London. I am a teacher.'",
+        "focus": "Using 'am' in self-introductions."
+      },
+      {
+        "situation": "A lost item notice: 'This is a blue bag. It is on the desk.'",
+        "focus": "Using 'is' with this and it for objects."
+      },
+      {
+        "situation": "A weather report: 'Today is sunny. It is hot. The sky is blue.'",
+        "focus": "Using 'is' for weather descriptions."
+      },
+      {
+        "situation": "A social media profile: 'Hi! I am Sara. I am 20. I am from Egypt. My favorite color is green.'",
+        "focus": "Using 'am' in digital self-presentation."
+      },
+      {
+        "situation": "A simple dialogue in a textbook: 'A: Are you a student? B: Yes, I am.'",
+        "focus": "Reading question and short answer patterns."
+      },
+      {
+        "situation": "A description of friends: 'Ali and Omar are friends. They are in the park. They are happy.'",
+        "focus": "Using 'are' with plural subjects."
+      },
+      {
+        "situation": "A classroom rules poster: 'We are kind. We are ready. We are on time.'",
+        "focus": "Using 'are' with we for group identity."
+      }
+    ],
+    "listening_connections": [
+      {
+        "situation": "Hearing someone introduce themselves at a meeting: 'Hello, I am Mr. Smith. I am your teacher.'",
+        "focus": "Recognizing 'am' in self-introductions."
+      },
+      {
+        "situation": "Listening to a receptionist ask: 'What is your name? Where are you from?'",
+        "focus": "Recognizing question forms with is and are."
+      },
+      {
+        "situation": "Hearing a friend say: 'She is my sister. She is 15 years old.'",
+        "focus": "Recognizing 'is' in descriptions of people."
+      },
+      {
+        "situation": "Listening to a weather forecast: 'It is rainy today. The temperature is 20 degrees.'",
+        "focus": "Recognizing 'is' in weather contexts."
+      },
+      {
+        "situation": "Hearing a teacher ask the class: 'Are you ready? Is everyone here?'",
+        "focus": "Recognizing questions with are and is."
+      },
+      {
+        "situation": "Listening to a guided tour: 'This is the museum. It is very old.'",
+        "focus": "Recognizing 'is' with this and it."
+      },
+      {
+        "situation": "Hearing airport announcements: 'Flight 305 is delayed. The gate is number 12.'",
+        "focus": "Recognizing 'is' in announcements."
+      },
+      {
+        "situation": "Listening to a phone conversation: 'Hi, is Ali there? No, he is not.'",
+        "focus": "Recognizing negatives in short answers."
+      },
+      {
+        "situation": "Hearing a song for children: 'You are my sunshine, my only sunshine.'",
+        "focus": "Recognizing 'are' in songs and chants."
+      },
+      {
+        "situation": "Listening to a friend describe people in a photo: 'This is my mother. She is kind. They are my cousins. They are funny.'",
+        "focus": "Recognizing mixed forms of be in natural speech."
+      }
+    ],
+    "speaking_connections": [
+      {
+        "scenario": "Introduce yourself to a new classmate. Say your name, age, and country.",
+        "focus": "Using 'I am' for self-introduction."
+      },
+      {
+        "scenario": "Ask a partner for their name and where they are from.",
+        "focus": "Using 'What is' and 'Where are' questions."
+      },
+      {
+        "scenario": "Describe your family members using he/she and is.",
+        "focus": "Using 'he is' and 'she is' for describing people."
+      },
+      {
+        "scenario": "Answer yes/no questions about yourself: 'Are you a student? Are you 20?'",
+        "focus": "Practicing short answers: Yes, I am. No, I am not."
+      },
+      {
+        "scenario": "Describe objects in your bag using colors: 'It is blue. It is small.'",
+        "focus": "Using 'it is' with adjectives."
+      },
+      {
+        "scenario": "Talk about your classmates: 'He is tall. She is kind. They are friendly.'",
+        "focus": "Using he/she/they + is/are for descriptions."
+      },
+      {
+        "scenario": "Ask and answer about feelings: 'Are you happy? Yes, I am.'",
+        "focus": "Using 'to be' for emotional states."
+      },
+      {
+        "scenario": "Role-play a receptionist and guest: 'What is your name? Where are you from?'",
+        "focus": "Using question forms in a service context."
+      },
+      {
+        "scenario": "Describe where things are in the classroom: 'The book is on the desk. The pen is in the bag.'",
+        "focus": "Using 'is' and 'are' for location."
+      },
+      {
+        "scenario": "Introduce two friends to each other: 'This is Ali. He is from Jordan. This is Sara. She is from Egypt.'",
+        "focus": "Using 'this is' for introductions and 'is' for origin."
+      }
+    ],
+    "ai_conversation_instructions": {
+      "grammar_focus": "Verb to be in present tense: am, is, are",
+      "required_corrections": [
+        "Correct subject-verb agreement immediately",
+        "Ensure proper question formation (inversion of subject and verb)",
+        "Ensure 'not' placement is after the verb in negatives",
+        "Ensure short answers use the correct pronoun and verb",
+        "Correct any missing articles (a/an) before singular count nouns after be"
+      ],
+      "common_errors_to_watch": [
+        "Using 'am' with he/she/it instead of 'is'",
+        "Using 'is' with you/we/they instead of 'are'",
+        "Placing 'not' before the verb instead of after",
+        "Using 'no' instead of 'not' to form negatives",
+        "Forgetting to invert in questions (e.g., You are happy? instead of Are you happy?)",
+        "Adding extra verbs in short answers (e.g., Yes, I am is)",
+        "Missing articles before nouns (e.g., I am student instead of I am a student)",
+        "Using 'amn't' which is not standard English"
+      ],
+      "conversation_goals": [
+        "Student can introduce themselves naturally using I am",
+        "Student can ask for personal information using What is, Where are, How old are",
+        "Student can answer yes/no questions with correct short answers",
+        "Student can describe people and things using he/she/it/they + is/are",
+        "Student can use contractions in speech for natural fluency",
+        "Student can form negative statements about personal information"
+      ]
+    },
+    "exercises": {
+      "multiple_choice": [
+        {
+          "question": "I ___ a student.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "am",
+          "explanation": "Use 'am' with the subject 'I'."
+        },
+        {
+          "question": "She ___ a teacher.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is",
+          "explanation": "Use 'is' with the subject 'she'."
+        },
+        {
+          "question": "They ___ from Egypt.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "are",
+          "explanation": "Use 'are' with the subject 'they'."
+        },
+        {
+          "question": "___ you happy?",
+          "options": ["Am", "Is", "Are", "Be"],
+          "correct_answer": "Are",
+          "explanation": "Use 'Are' to form questions with 'you'."
+        },
+        {
+          "question": "He ___ not my brother.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is",
+          "explanation": "Use 'is' with 'he' in negative sentences."
+        },
+        {
+          "question": "What ___ your name?",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is",
+          "explanation": "Use 'is' with 'what' to ask for a name."
+        },
+        {
+          "question": "We ___ friends.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "are",
+          "explanation": "Use 'are' with the subject 'we'."
+        },
+        {
+          "question": "It ___ a book.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is",
+          "explanation": "Use 'is' with the subject 'it'."
+        },
+        {
+          "question": "Where ___ you from?",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "are",
+          "explanation": "Use 'are' with 'you' in questions about origin."
+        },
+        {
+          "question": "I ___ not tired.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "am",
+          "explanation": "Use 'am not' with 'I' in negative sentences."
+        },
+        {
+          "question": "___ she your sister?",
+          "options": ["Am", "Is", "Are", "Be"],
+          "correct_answer": "Is",
+          "explanation": "Use 'Is' to start questions with 'she'."
+        },
+        {
+          "question": "The cat ___ on the chair.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is",
+          "explanation": "Use 'is' with singular noun 'the cat'."
+        },
+        {
+          "question": "You ___ very kind.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "are",
+          "explanation": "Use 'are' with the subject 'you'."
+        },
+        {
+          "question": "How old ___ you?",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "are",
+          "explanation": "Use 'are' with 'you' to ask about age."
+        },
+        {
+          "question": "He ___ a doctor.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is",
+          "explanation": "Use 'is' with the subject 'he' for occupations."
+        },
+        {
+          "question": "They ___ not at home.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "are",
+          "explanation": "Use 'are not' with 'they' for negatives."
+        },
+        {
+          "question": "___ I late?",
+          "options": ["Am", "Is", "Are", "Be"],
+          "correct_answer": "Am",
+          "explanation": "Use 'Am' to start questions with 'I'."
+        },
+        {
+          "question": "This ___ my bag.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is",
+          "explanation": "Use 'is' with 'this'."
+          },
+        {
+          "question": "We ___ not ready.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "are",
+          "explanation": "Use 'are not' with 'we'."
+        },
+        {
+          "question": "Who ___ he?",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is",
+          "explanation": "Use 'is' with 'who' to ask about identity."
+        }
+      ],
+      "fill_in_the_blank": [
+        {
+          "sentence": "I ___ a teacher.",
+          "answer": "am",
+          "hint": "Subject is I."
+        },
+        {
+          "sentence": "She ___ from Jordan.",
+          "answer": "is",
+          "hint": "Subject is she."
+        },
+        {
+          "sentence": "They ___ happy.",
+          "answer": "are",
+          "hint": "Subject is they."
+        },
+        {
+          "sentence": "He ___ not a student.",
+          "answer": "is",
+          "hint": "Negative form with he."
+        },
+        {
+          "sentence": "___ you from Egypt?",
+          "answer": "Are",
+          "hint": "Question form with you."
+        },
+        {
+          "sentence": "My name ___ Ahmed.",
+          "answer": "is",
+          "hint": "Singular noun."
+        },
+        {
+          "sentence": "We ___ in the classroom.",
+          "answer": "are",
+          "hint": "Subject is we."
+        },
+        {
+          "sentence": "It ___ cold today.",
+          "answer": "is",
+          "hint": "Subject is it."
+        },
+        {
+          "sentence": "You ___ not late.",
+          "answer": "are",
+          "hint": "Negative with you."
+        },
+        {
+          "sentence": "I ___ not a doctor.",
+          "answer": "am",
+          "hint": "Negative with I."
+        },
+        {
+          "sentence": "___ he your friend?",
+          "answer": "Is",
+          "hint": "Question with he."
+        },
+        {
+          "sentence": "The books ___ on the desk.",
+          "answer": "are",
+          "hint": "Plural subject."
+        },
+        {
+          "sentence": "Where ___ you from?",
+          "answer": "are",
+          "hint": "Question about origin."
+        },
+        {
+          "sentence": "How old ___ she?",
+          "answer": "is",
+          "hint": "Question about age with she."
+        },
+        {
+          "sentence": "This ___ my friend Ali.",
+          "answer": "is",
+          "hint": "Subject is this."
+        },
+        {
+          "sentence": "They ___ not ready.",
+          "answer": "are",
+          "hint": "Negative with they."
+        },
+        {
+          "sentence": "What ___ your phone number?",
+          "answer": "is",
+          "hint": "Question about phone number."
+        },
+        {
+          "sentence": "We ___ from Saudi Arabia.",
+          "answer": "are",
+          "hint": "Origin with we."
+        },
+        {
+          "sentence": "It ___ time to go.",
+          "answer": "is",
+          "hint": "Time expression with it."
+        },
+        {
+          "sentence": "I ___ very happy.",
+          "answer": "am",
+          "hint": "Feeling with I."
+        }
+      ],
+      "sentence_ordering": [
+        {
+          "jumbled_words": ["am", "I", "student", "a"],
+          "correct_sentence": "I am a student.",
+          "hint": "Start with I."
+        },
+        {
+          "jumbled_words": ["is", "she", "teacher", "a"],
+          "correct_sentence": "She is a teacher.",
+          "hint": "Start with She."
+        },
+        {
+          "jumbled_words": ["are", "they", "Egypt", "from"],
+          "correct_sentence": "They are from Egypt.",
+          "hint": "Start with They."
+        },
+        {
+          "jumbled_words": ["you", "are", "happy", "?"],
+          "correct_sentence": "Are you happy?",
+          "hint": "Question starts with Are."
+        },
+        {
+          "jumbled_words": ["not", "he", "is", "brother", "my"],
+          "correct_sentence": "He is not my brother.",
+          "hint": "Subject + is + not."
+        },
+        {
+          "jumbled_words": ["your", "what", "is", "name", "?"],
+          "correct_sentence": "What is your name?",
+          "hint": "Question word first."
+        },
+        {
+          "jumbled_words": ["friends", "we", "are"],
+          "correct_sentence": "We are friends.",
+          "hint": "Start with We."
+        },
+        {
+          "jumbled_words": ["book", "is", "a", "it"],
+          "correct_sentence": "It is a book.",
+          "hint": "Start with It."
+        },
+        {
+          "jumbled_words": ["from", "where", "you", "are", "?"],
+          "correct_sentence": "Where are you from?",
+          "hint": "Question word + are + you + from."
+        },
+        {
+          "jumbled_words": ["tired", "not", "am", "I"],
+          "correct_sentence": "I am not tired.",
+          "hint": "Start with I."
+        },
+        {
+          "jumbled_words": ["sister", "your", "is", "she", "?"],
+          "correct_sentence": "Is she your sister?",
+          "hint": "Question starts with Is."
+        },
+        {
+          "jumbled_words": ["chair", "the", "on", "cat", "is", "the"],
+          "correct_sentence": "The cat is on the chair.",
+          "hint": "Subject + is + location."
+        },
+        {
+          "jumbled_words": ["kind", "very", "are", "you"],
+          "correct_sentence": "You are very kind.",
+          "hint": "Start with You."
+        },
+        {
+          "jumbled_words": ["old", "how", "you", "are", "?"],
+          "correct_sentence": "How old are you?",
+          "hint": "Question word + old + are + you."
+        },
+        {
+          "jumbled_words": ["doctor", "is", "he", "a"],
+          "correct_sentence": "He is a doctor.",
+          "hint": "Start with He."
+        },
+        {
+          "jumbled_words": ["at", "not", "home", "are", "they"],
+          "correct_sentence": "They are not at home.",
+          "hint": "Subject + are + not + location."
+        },
+        {
+          "jumbled_words": ["late", "I", "am", "?"],
+          "correct_sentence": "Am I late?",
+          "hint": "Question starts with Am."
+        },
+        {
+          "jumbled_words": ["my", "bag", "this", "is"],
+          "correct_sentence": "This is my bag.",
+          "hint": "Start with This."
+        },
+        {
+          "jumbled_words": ["ready", "not", "are", "we"],
+          "correct_sentence": "We are not ready.",
+          "hint": "Start with We."
+        },
+        {
+          "jumbled_words": ["he", "who", "is", "?"],
+          "correct_sentence": "Who is he?",
+          "hint": "Question word first."
+        }
+      ],
+      "error_correction": [
+        {
+          "wrong_sentence": "I is a student.",
+          "correct_sentence": "I am a student.",
+          "explanation": "Use 'am' with 'I', not 'is'."
+        },
+        {
+          "wrong_sentence": "She are happy.",
+          "correct_sentence": "She is happy.",
+          "explanation": "Use 'is' with 'she', not 'are'."
+        },
+        {
+          "wrong_sentence": "We is friends.",
+          "correct_sentence": "We are friends.",
+          "explanation": "Use 'are' with 'we', not 'is'."
+        },
+        {
+          "wrong_sentence": "I no am tired.",
+          "correct_sentence": "I am not tired.",
+          "explanation": "Use 'not' after the verb, not 'no' before it."
+        },
+        {
+          "wrong_sentence": "He not is a doctor.",
+          "correct_sentence": "He is not a doctor.",
+          "explanation": "Place 'not' after 'is', not before it."
+        },
+        {
+          "wrong_sentence": "You is from where?",
+          "correct_sentence": "Where are you from?",
+          "explanation": "Use 'where' at the start and 'are' with 'you'."
+        },
+        {
+          "wrong_sentence": "Is he is your brother?",
+          "correct_sentence": "Is he your brother?",
+          "explanation": "Do not repeat 'is' in the question."
+        },
+        {
+          "wrong_sentence": "Yes, I am is.",
+          "correct_sentence": "Yes, I am.",
+          "explanation": "Short answers use only one verb form."
+        },
+        {
+          "wrong_sentence": "I am student.",
+          "correct_sentence": "I am a student.",
+          "explanation": "Add 'a' before singular countable nouns."
+        },
+        {
+          "wrong_sentence": "They is from Egypt.",
+          "correct_sentence": "They are from Egypt.",
+          "explanation": "Use 'are' with 'they'."
+        },
+        {
+          "wrong_sentence": "What is you name?",
+          "correct_sentence": "What is your name?",
+          "explanation": "Use 'your' (possessive), not 'you'."
+        },
+        {
+          "wrong_sentence": "She not is a nurse.",
+          "correct_sentence": "She is not a nurse.",
+          "explanation": "Place 'not' after the verb 'is'."
+        },
+        {
+          "wrong_sentence": "The books is on the desk.",
+          "correct_sentence": "The books are on the desk.",
+          "explanation": "Use 'are' with plural noun 'books'."
+        },
+        {
+          "wrong_sentence": "We not are ready.",
+          "correct_sentence": "We are not ready.",
+          "explanation": "Place 'not' after 'are'."
+        },
+        {
+          "wrong_sentence": "He are a doctor.",
+          "correct_sentence": "He is a doctor.",
+          "explanation": "Use 'is' with 'he', not 'are'."
+        },
+        {
+          "wrong_sentence": "Amn't I late?",
+          "correct_sentence": "Am I not late?",
+          "explanation": "There is no contraction 'amn't' in standard English."
+        },
+        {
+          "wrong_sentence": "She is nurse.",
+          "correct_sentence": "She is a nurse.",
+          "explanation": "Add 'a' before singular nouns after 'is'."
+        },
+        {
+          "wrong_sentence": "Yes, you is.",
+          "correct_sentence": "Yes, you are.",
+          "explanation": "Use 'are' in short answers with 'you'."
+        },
+        {
+          "wrong_sentence": "My mother she is kind.",
+          "correct_sentence": "My mother is kind.",
+          "explanation": "Do not use a double subject (my mother + she)."
+        },
+        {
+          "wrong_sentence": "It are cold.",
+          "correct_sentence": "It is cold.",
+          "explanation": "Use 'is' with 'it', not 'are'."
+        }
+      ],
+      "transformation": [
+        {
+          "instruction": "Change to negative: 'I am a student.'",
+          "expected": "I am not a student.",
+          "hint": "Add 'not' after 'am'."
+        },
+        {
+          "instruction": "Change to question: 'You are happy.'",
+          "expected": "Are you happy?",
+          "hint": "Invert 'you are' to 'are you'."
+        },
+        {
+          "instruction": "Change to affirmative: 'She is not a teacher.'",
+          "expected": "She is a teacher.",
+          "hint": "Remove 'not'."
+        },
+        {
+          "instruction": "Change to use contraction: 'I am from Egypt.'",
+          "expected": "I'm from Egypt.",
+          "hint": "Combine 'I am' to 'I'm'."
+        },
+        {
+          "instruction": "Change to question: 'They are from Jordan.'",
+          "expected": "Are they from Jordan?",
+          "hint": "Invert 'they are' to 'are they'."
+        },
+        {
+          "instruction": "Change to negative: 'He is a doctor.'",
+          "expected": "He is not a doctor.",
+          "hint": "Add 'not' after 'is'."
+        },
+        {
+          "instruction": "Change to use contraction: 'She is not here.'",
+          "expected": "She isn't here.",
+          "hint": "Contract 'is not' to 'isn't'."
+        },
+        {
+          "instruction": "Change to affirmative: 'We are not friends.'",
+          "expected": "We are friends.",
+          "hint": "Remove 'not'."
+        },
+        {
+          "instruction": "Change to question: 'It is cold today.'",
+          "expected": "Is it cold today?",
+          "hint": "Invert 'it is' to 'is it'."
+        },
+        {
+          "instruction": "Change to negative: 'They are at home.'",
+          "expected": "They are not at home.",
+          "hint": "Add 'not' after 'are'."
+        },
+        {
+          "instruction": "Change to short answer affirmative: 'Are you a student?'",
+          "expected": "Yes, I am.",
+          "hint": "Start with 'Yes', add comma, then pronoun + verb."
+        },
+        {
+          "instruction": "Change to short answer negative: 'Is she your sister?'",
+          "expected": "No, she is not.",
+          "hint": "Start with 'No', add comma, then pronoun + verb + not."
+        },
+        {
+          "instruction": "Change to question with 'where': 'You are from Cairo.'",
+          "expected": "Where are you from?",
+          "hint": "Use 'where' at the start."
+        },
+        {
+          "instruction": "Change to use contraction: 'They are not ready.'",
+          "expected": "They aren't ready.",
+          "hint": "Contract 'are not' to 'aren't'."
+        },
+        {
+          "instruction": "Change to negative: 'I am a teacher.'",
+          "expected": "I am not a teacher.",
+          "hint": "Add 'not' after 'am'."
+        },
+        {
+          "instruction": "Change to question with 'what': 'This is a book.'",
+          "expected": "What is this?",
+          "hint": "Use 'what' at the start."
+        },
+        {
+          "instruction": "Change to affirmative: 'He is not my brother.'",
+          "expected": "He is my brother.",
+          "hint": "Remove 'not'."
+        },
+        {
+          "instruction": "Change to question: 'She is a nurse.'",
+          "expected": "Is she a nurse?",
+          "hint": "Invert 'she is' to 'is she'."
+        },
+        {
+          "instruction": "Change to use contraction: 'We are happy.'",
+          "expected": "We're happy.",
+          "hint": "Contract 'we are' to 'we're'."
+        },
+        {
+          "instruction": "Change to negative: 'You are tall.'",
+          "expected": "You are not tall.",
+          "hint": "Add 'not' after 'are'."
+        }
+      ],
+      "translation": [
+        {
+          "arabic": "أنا طالب.",
+          "expected_english": "I am a student.",
+          "hint": "Use 'am' with 'I'."
+        },
+        {
+          "arabic": "هي معلمة.",
+          "expected_english": "She is a teacher.",
+          "hint": "Use 'is' with 'she'."
+        },
+        {
+          "arabic": "هم من مصر.",
+          "expected_english": "They are from Egypt.",
+          "hint": "Use 'are' with 'they'."
+        },
+        {
+          "arabic": "هل أنت سعيد؟",
+          "expected_english": "Are you happy?",
+          "hint": "Question starts with 'are'."
+        },
+        {
+          "arabic": "هو ليس طبيبا.",
+          "expected_english": "He is not a doctor.",
+          "hint": "Negative with 'is not'."
+        },
+        {
+          "arabic": "ما اسمك؟",
+          "expected_english": "What is your name?",
+          "hint": "Question starts with 'what'."
+        },
+        {
+          "arabic": "نحن أصدقاء.",
+          "expected_english": "We are friends.",
+          "hint": "Use 'are' with 'we'."
+        },
+        {
+          "arabic": "الجو بارد اليوم.",
+          "expected_english": "It is cold today.",
+          "hint": "Use 'is' with 'it' for weather."
+        },
+        {
+          "arabic": "من أين أنت؟",
+          "expected_english": "Where are you from?",
+          "hint": "Question starts with 'where'."
+        },
+        {
+          "arabic": "أنا لست متعبا.",
+          "expected_english": "I am not tired.",
+          "hint": "Negative with 'am not'."
+        },
+        {
+          "arabic": "هل هي أختك؟",
+          "expected_english": "Is she your sister?",
+          "hint": "Question starts with 'is'."
+        },
+        {
+          "arabic": "القطة على الكرسي.",
+          "expected_english": "The cat is on the chair.",
+          "hint": "Use 'is' with singular noun."
+        },
+        {
+          "arabic": "كم عمرك؟",
+          "expected_english": "How old are you?",
+          "hint": "Use 'how old are'."
+        },
+        {
+          "arabic": "هذا صديقي.",
+          "expected_english": "This is my friend.",
+          "hint": "Use 'is' with 'this'."
+        },
+        {
+          "arabic": "الكتب ليست على المكتب.",
+          "expected_english": "The books are not on the desk.",
+          "hint": "Use 'are not' with plural noun."
+        },
+        {
+          "arabic": "نحن لسنا مستعدين.",
+          "expected_english": "We are not ready.",
+          "hint": "Negative with 'are not'."
+        },
+        {
+          "arabic": "هل أنا متأخر؟",
+          "expected_english": "Am I late?",
+          "hint": "Question starts with 'am'."
+        },
+        {
+          "arabic": "هي ليست حزينة.",
+          "expected_english": "She is not sad.",
+          "hint": "Negative with 'is not'."
+        },
+        {
+          "arabic": "نعم، أنا كذلك.",
+          "expected_english": "Yes, I am.",
+          "hint": "Short affirmative answer."
+        },
+        {
+          "arabic": "لا، هم ليسوا في المنزل.",
+          "expected_english": "No, they are not at home.",
+          "hint": "Short negative answer with location."
+        }
+      ],
+      "matching": [
+        {
+          "left": "I",
+          "right": "am",
+          "pair_id": 1
+        },
+        {
+          "left": "He",
+          "right": "is",
+          "pair_id": 2
+        },
+        {
+          "left": "She",
+          "right": "is",
+          "pair_id": 3
+        },
+        {
+          "left": "It",
+          "right": "is",
+          "pair_id": 4
+        },
+        {
+          "left": "You",
+          "right": "are",
+          "pair_id": 5
+        },
+        {
+          "left": "We",
+          "right": "are",
+          "pair_id": 6
+        },
+        {
+          "left": "They",
+          "right": "are",
+          "pair_id": 7
+        },
+        {
+          "left": "I'm",
+          "right": "I am",
+          "pair_id": 8
+        },
+        {
+          "left": "she's",
+          "right": "she is",
+          "pair_id": 9
+        },
+        {
+          "left": "they're",
+          "right": "they are",
+          "pair_id": 10
+        },
+        {
+          "left": "isn't",
+          "right": "is not",
+          "pair_id": 11
+        },
+        {
+          "left": "aren't",
+          "right": "are not",
+          "pair_id": 12
+        },
+        {
+          "left": "you're",
+          "right": "you are",
+          "pair_id": 13
+        },
+        {
+          "left": "we're",
+          "right": "we are",
+          "pair_id": 14
+        },
+        {
+          "left": "he's",
+          "right": "he is",
+          "pair_id": 15
+        },
+        {
+          "left": "it's",
+          "right": "it is",
+          "pair_id": 16
+        },
+        {
+          "left": "No, I am not",
+          "right": "negative short answer for I",
+          "pair_id": 17
+        },
+        {
+          "left": "Yes, she is",
+          "right": "affirmative short answer for she",
+          "pair_id": 18
+        },
+        {
+          "left": "Are you",
+          "right": "question for you",
+          "pair_id": 19
+        },
+        {
+          "left": "Is he",
+          "right": "question for he",
+          "pair_id": 20
+        }
+      ],
+      "true_or_false": [
+        {
+          "statement": "We use 'am' with the subject 'I'.",
+          "answer": true,
+          "explanation": "Correct. 'Am' is only used with 'I'."
+        },
+        {
+          "statement": "We use 'are' with the subject 'he'.",
+          "answer": false,
+          "explanation": "We use 'is' with 'he', not 'are'."
+        },
+        {
+          "statement": "'She is not' is a negative sentence.",
+          "answer": true,
+          "explanation": "Correct. 'Is not' makes the sentence negative."
+        },
+        {
+          "statement": "In questions, we put the verb before the subject.",
+          "answer": true,
+          "explanation": "Correct. For example: 'Are you ready?'"
+        },
+        {
+          "statement": "We use 'is' with 'they'.",
+          "answer": false,
+          "explanation": "We use 'are' with 'they'."
+        },
+        {
+          "statement": "'I amn't' is correct English.",
+          "answer": false,
+          "explanation": "There is no contraction for 'am not'."
+        },
+        {
+          "statement": "'Yes, I am' is a short answer.",
+          "answer": true,
+          "explanation": "Correct. It is an affirmative short answer."
+        },
+        {
+          "statement": "We say 'I am a student' without 'a'.",
+          "answer": false,
+          "explanation": "We need 'a' before 'student': 'I am a student.'"
+        },
+        {
+          "statement": "'What is your name?' is a correct question.",
+          "answer": true,
+          "explanation": "Correct. It uses 'is' with 'what'."
+        },
+        {
+          "statement": "'We is happy' is correct.",
+          "answer": false,
+          "explanation": "We should say 'We are happy'."
+        },
+        {
+          "statement": "We use 'are' with 'you' in questions and statements.",
+          "answer": true,
+          "explanation": "Correct. 'You are' and 'Are you?'"
+        },
+        {
+          "statement": "'I not am tired' is correct negative form.",
+          "answer": false,
+          "explanation": "Correct form is 'I am not tired'."
+        },
+        {
+          "statement": "'They are from Egypt' means the same as 'They from Egypt.'",
+          "answer": false,
+          "explanation": "The verb 'are' is necessary. 'They from Egypt' is not correct."
+        },
+        {
+          "statement": "We can say 'it's' instead of 'it is'.",
+          "answer": true,
+          "explanation": "Correct. 'It's' is the contraction of 'it is'."
+        },
+        {
+          "statement": "In short answers, we can say 'Yes, I am is.'",
+          "answer": false,
+          "explanation": "We must say only 'Yes, I am.' without extra verb."
+        },
+        {
+          "statement": "'She is a nurse' uses 'is' correctly.",
+          "answer": true,
+          "explanation": "Correct. 'Is' goes with 'she'."
+        },
+        {
+          "statement": "'How old are you?' asks about age.",
+          "answer": true,
+          "explanation": "Correct. 'How old' is used for age questions."
+        },
+        {
+          "statement": "'No, he isn't' is not a valid short answer.",
+          "answer": false,
+          "explanation": "It is valid. 'Isn't' is the contraction of 'is not'."
+        },
+        {
+          "statement": "We can use 'there is' with plural nouns.",
+          "answer": false,
+          "explanation": "We use 'there is' with singular and 'there are' with plural."
+        },
+        {
+          "statement": "The verb 'to be' is the most common verb in English.",
+          "answer": true,
+          "explanation": "Correct. It is the most fundamental and frequently used verb."
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Verb To Be - Final Assessment",
+      "total_questions": 15,
+      "passing_score": 80,
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "I ___ a student.",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "am"
+        },
+        {
+          "id": 2,
+          "type": "fill_in_the_blank",
+          "question": "She ___ from Jordan.",
+          "answer": "is"
+        },
+        {
+          "id": 3,
+          "type": "true_or_false",
+          "question": "'We are friends' is correct.",
+          "answer": true
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "question": "___ you happy?",
+          "options": ["Am", "Is", "Are", "Be"],
+          "correct_answer": "Are"
+        },
+        {
+          "id": 5,
+          "type": "error_correction",
+          "question": "Correct this: 'He are a doctor.'",
+          "answer": "He is a doctor."
+        },
+        {
+          "id": 6,
+          "type": "fill_in_the_blank",
+          "question": "They ___ not at home.",
+          "answer": "are"
+        },
+        {
+          "id": 7,
+          "type": "multiple_choice",
+          "question": "What ___ your name?",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "is"
+        },
+        {
+          "id": 8,
+          "type": "transformation",
+          "question": "Change to question: 'You are a teacher.'",
+          "answer": "Are you a teacher?"
+        },
+        {
+          "id": 9,
+          "type": "true_or_false",
+          "question": "We use 'is' with 'they'.",
+          "answer": false
+        },
+        {
+          "id": 10,
+          "type": "sentence_ordering",
+          "question": "Order: 'are / we / friends'",
+          "answer": "We are friends."
+        },
+        {
+          "id": 11,
+          "type": "multiple_choice",
+          "question": "Choose the correct short answer: 'Is she your sister?'",
+          "options": ["Yes, she is.", "Yes, she are.", "Yes, she am.", "Yes, she be."],
+          "correct_answer": "Yes, she is."
+        },
+        {
+          "id": 12,
+          "type": "fill_in_the_blank",
+          "question": "I ___ not tired.",
+          "answer": "am"
+        },
+        {
+          "id": 13,
+          "type": "error_correction",
+          "question": "Correct this: 'I no am a student.'",
+          "answer": "I am not a student."
+        },
+        {
+          "id": 14,
+          "type": "multiple_choice",
+          "question": "Where ___ you from?",
+          "options": ["am", "is", "are", "be"],
+          "correct_answer": "are"
+        },
+        {
+          "id": 15,
+          "type": "transformation",
+          "question": "Change to negative: 'She is a teacher.'",
+          "answer": "She is not a teacher."
+        }
+      ]
+    },
+    "review": {
+      "flashcards": [
+        {
+          "front": "What is the verb to be for 'I'?",
+          "back": "am"
+        },
+        {
+          "front": "What is the verb to be for 'he/she/it'?",
+          "back": "is"
+        },
+        {
+          "front": "What is the verb to be for 'you/we/they'?",
+          "back": "are"
+        },
+        {
+          "front": "How do you make a negative with 'to be'?",
+          "back": "Add 'not' after the verb: I am not, he is not, they are not"
+        },
+        {
+          "front": "How do you make a question with 'to be'?",
+          "back": "Invert the subject and verb: Am I? Is he? Are you?"
+        },
+        {
+          "front": "What is the contraction of 'I am'?",
+          "back": "I'm"
+        },
+        {
+          "front": "What is the contraction of 'she is'?",
+          "back": "she's"
+        },
+        {
+          "front": "What is the contraction of 'they are'?",
+          "back": "they're"
+        },
+        {
+          "front": "What is the contraction of 'is not'?",
+          "back": "isn't"
+        },
+        {
+          "front": "What is the contraction of 'are not'?",
+          "back": "aren't"
+        },
+        {
+          "front": "Is 'amn't' correct English?",
+          "back": "No. There is no contraction for 'am not'."
+        },
+        {
+          "front": "How do you give a short affirmative answer?",
+          "back": "Yes, + subject pronoun + verb (e.g., Yes, I am.)"
+        },
+        {
+          "front": "How do you give a short negative answer?",
+          "back": "No, + subject pronoun + verb + not (e.g., No, she is not.)"
+        },
+        {
+          "front": "What does 'it is' describe in weather?",
+          "back": "Weather: It is hot. It is cold. It is sunny."
+        },
+        {
+          "front": "How do you ask about age?",
+          "back": "How old + are/is + subject? (e.g., How old are you?)"
+        }
+      ],
+      "quick_review": {
+        "affirmative_pattern": "Subject + am/is/are + complement",
+        "negative_pattern": "Subject + am/is/are + not + complement",
+        "question_pattern": "Am/Is/Are + subject + complement?",
+        "wh_question_pattern": "Question word + am/is/are + subject + complement?",
+        "short_answer_pattern": "Yes/No, + subject pronoun + am/is/are (+ not)",
+        "key_rules": [
+          "I = am",
+          "he/she/it = is",
+          "you/we/they = are",
+          "Negative: add 'not' after the verb",
+          "Question: invert subject and verb",
+          "No contraction for 'am not'",
+          "Always use 'a/an' before singular nouns after be"
+        ]
+      },
+      "revision_questions": [
+        {
+          "question": "What are the three forms of the verb 'to be' in present tense?",
+          "answer": "am, is, are"
+        },
+        {
+          "question": "Which subject pronouns use 'is'?",
+          "answer": "he, she, it"
+        },
+        {
+          "question": "Which subject pronouns use 'are'?",
+          "answer": "you, we, they"
+        },
+        {
+          "question": "Which subject pronoun uses 'am'?",
+          "answer": "I"
+        },
+        {
+          "question": "How do you form a yes/no question with 'to be'?",
+          "answer": "Put the verb (am/is/are) before the subject."
+        },
+        {
+          "question": "What is the rule for forming negatives with 'to be'?",
+          "answer": "Add 'not' after the verb: am not, is not, are not."
+        },
+        {
+          "question": "What is different about 'am not' compared to 'is not' and 'are not'?",
+          "answer": "'Am not' has no standard contraction."
+        },
+        {
+          "question": "Why do we say 'I am a student' and not 'I am student'?",
+          "answer": "Singular countable nouns need the article 'a' or 'an' after the verb to be."
+        }
+      ],
+      "spaced_repetition_notes": [
+        {
+          "day": 1,
+          "review_focus": "Introduce the three forms: am, is, are. Practice with subject pronouns."
+        },
+        {
+          "day": 2,
+          "review_focus": "Practice affirmative sentences with all pronouns. Introduce contractions."
+        },
+        {
+          "day": 3,
+          "review_focus": "Practice negative sentences. Contrast with affirmative forms."
+        },
+        {
+          "day": 4,
+          "review_focus": "Practice yes/no questions and short answers."
+        },
+        {
+          "day": 7,
+          "review_focus": "Mix all forms: affirmative, negative, questions, short answers."
+        },
+        {
+          "day": 14,
+          "review_focus": "Extended practice with WH-questions (what, where, who, how)."
+        },
+        {
+          "day": 30,
+          "review_focus": "Comprehensive review with real-world speaking and writing tasks."
+        }
+      ]
+    },
+    "progress_tracking": {
+      "completion_criteria": [
+        "Correctly conjugate am/is/are with all subject pronouns in affirmative sentences",
+        "Form negatives by adding 'not' after the correct form of be",
+        "Form yes/no questions by inverting subject and verb correctly",
+        "Answer questions with appropriate short answers (affirmative and negative)",
+        "Use contractions (I'm, he's, she's, it's, you're, we're, they're, isn't, aren't)",
+        "Form WH-questions (what, where, who, how old, how) with correct word order",
+        "Score at least 80% on the final assessment quiz",
+        "Complete all 160 exercise items across 8 exercise types",
+        "Identify and correct common mistakes with verb to be",
+        "Use verb to be in at least 3 real-world speaking scenarios"
+      ],
+      "progress_sections": [
+        {
+          "section": "Forms Recognition",
+          "weight": 10,
+          "mastery_threshold": 90
+        },
+        {
+          "section": "Affirmative Sentences",
+          "weight": 10,
+          "mastery_threshold": 90
+        },
+        {
+          "section": "Negative Sentences",
+          "weight": 15,
+          "mastery_threshold": 85
+        },
+        {
+          "section": "Questions & Short Answers",
+          "weight": 20,
+          "mastery_threshold": 85
+        },
+        {
+          "section": "Contractions",
+          "weight": 10,
+          "mastery_threshold": 80
+        },
+        {
+          "section": "WH-Questions",
+          "weight": 15,
+          "mastery_threshold": 80
+        },
+        {
+          "section": "Real-world Application",
+          "weight": 20,
+          "mastery_threshold": 75
+        }
+      ]
+    },
+    "mastery_criteria": {
+      "definition": "The learner has mastered the verb 'to be' at A1 level when they can independently and accurately use am, is, and are in all forms (affirmative, negative, questions, short answers) without conscious effort in familiar contexts.",
+      "level_1_beginner": {
+        "description": "Can identify am, is, are but makes frequent errors with subject-verb agreement.",
+        "accuracy": "40-60%"
+      },
+      "level_2_developing": {
+        "description": "Can use am, is, are correctly in affirmative sentences but makes errors in negatives and questions.",
+        "accuracy": "60-75%"
+      },
+      "level_3_proficient": {
+        "description": "Can use all forms correctly in controlled exercises but still makes occasional errors in spontaneous speech.",
+        "accuracy": "75-85%"
+      },
+      "level_4_advanced": {
+        "description": "Can use all forms correctly in both controlled and spontaneous contexts with minimal errors.",
+        "accuracy": "85-95%"
+      },
+      "level_5_mastered": {
+        "description": "Uses verb to be correctly and naturally in all forms, with contractions, in speaking and writing without hesitation.",
+        "accuracy": "95-100%"
+      }
+    },
+    "related_grammar": {
+      "previous_grammar": {
+        "id": "a1_basic_nouns_001",
+        "title": "Basic Nouns and Pronouns",
+        "reason": "Learners need to know subject pronouns (I, you, he, she, it, we, they) before using verb to be."
+      },
+      "next_grammar": {
+        "id": "a1_articles_001",
+        "title": "Articles: A/An/The",
+        "reason": "Learners need articles to correctly form noun phrases after verb to be (e.g., I am a student)."
+      },
+      "grammar_often_confused": [
+        {
+          "grammar": "Present Simple with Other Verbs",
+          "reason": "Learners often confuse verb to be conjugation with present simple conjugation of regular verbs (e.g., 'He is go' instead of 'He goes')."
+        },
+        {
+          "grammar": "There is / There are",
+          "reason": "While related, 'there is/are' follows different word order and has a different function from subject + be."
+        },
+        {
+          "grammar": "Verb to be in Past Tense (was/were)",
+          "reason": "When learners progress to past tense, they confuse was/were with am/is/are."
+        }
+      ]
+    },
+    "ai_metadata": {
+      "grammar_tags": [
+        "verb_to_be",
+        "am_is_are",
+        "present_simple_be",
+        "be_verbs",
+        "auxiliary_be",
+        "stative_be",
+        "copula_be"
+      ],
+      "topic_tags": [
+        "greetings_and_introductions",
+        "personal_information",
+        "describing_people",
+        "describing_things",
+        "nationalities_and_origin",
+        "age_and_occupations",
+        "feelings_and_states",
+        "classroom_language"
+      ],
+      "conversation_tags": [
+        "self_introduction",
+        "asking_for_name",
+        "asking_about_origin",
+        "asking_about_age",
+        "yes_no_questions",
+        "short_answers",
+        "describing_family",
+        "describing_objects",
+        "talking_about_feelings"
+      ],
+      "difficulty_tags": [
+        "cefr_a1",
+        "beginner",
+        "foundation",
+        "starter",
+        "level_1"
+      ],
+      "exercise_type_tags": [
+        "multiple_choice",
+        "fill_in_the_blank",
+        "sentence_ordering",
+        "error_correction",
+        "transformation",
+        "translation",
+        "matching",
+        "true_or_false",
+        "quiz",
+        "flashcards"
+      ],
+      "retrieval_keywords": [
+        "verb to be",
+        "am",
+        "is",
+        "are",
+        "to be conjugation",
+        "present simple be",
+        "be verb",
+        "A1 grammar",
+        "beginner English",
+        "basic English verbs",
+        "English copula",
+        "subject verb agreement",
+        "am is are rules",
+        "verb to be exercises",
+        "English for beginners"
+      ],
+      "pedagogical_approaches": [
+        "presentation_practice_production",
+        "guided_discovery",
+        "contrastive_analysis",
+        "scaffolded_learning",
+        "spaced_repetition",
+        "task_based_language_teaching"
+      ],
+      "common_l1_interference_notes": [
+        "Arabic speakers may drop the verb to be in present tense because Arabic does not use a copula in present tense equational sentences",
+        "Arabic speakers may confuse 'is' and 'are' because Arabic verb conjugation follows different patterns",
+        "Speakers of languages without articles may forget 'a/an' after verb to be"
+      ]
+    }
+  }
+}

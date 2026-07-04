@@ -1,0 +1,28 @@
+{
+  "sectionTitle": "Listening",
+  "totalQuestions": 3,
+  "timeLimitSeconds": 501,
+  "questions": [
+    {
+      "id": "lst-001",
+      "question": "What did the woman order?",
+      "options": ["Salad", "Pizza", "Soup", "Sandwich"],
+      "correctAnswer": 1,
+      "audioUri": ""
+    },
+    {
+      "id": "lst-002",
+      "question": "Where is the nearest bus stop?",
+      "options": ["Next to the library", "Behind the mall", "Across the park", "Near the hospital"],
+      "correctAnswer": 2,
+      "audioUri": ""
+    },
+    {
+      "id": "lst-003",
+      "question": "What time does the meeting start?",
+      "options": ["9:00 AM", "10:30 AM", "2:00 PM", "4:45 PM"],
+      "correctAnswer": 0,
+      "audioUri": ""
+    }
+  ]
+}
