@@ -1,0 +1,16 @@
+{
+  "examId": "writing_001",
+  "section": "writing",
+  "level": "A1",
+  "title": "Introduce Yourself",
+  "instruction": "Write a short paragraph introducing yourself. Include your name, age, where you are from, and what you like to do.",
+  "wordLimit": 50,
+  "difficulty": 1,
+  "estimatedMinutes": 10,
+  "version": 1,
+  "tags": [
+    "basic vocabulary",
+    "simple sentences",
+    "personal introduction"
+  ]
+}

@@ -2,13 +2,15 @@ const {
   getRandomExam,
   loadExamById,
   calculateScore,
+  pickRandomQuestions,
+  flattenPassageQuestions,
+  calculateScoreById,
 } = require("../utils/fileHelpers");
 const { createSession, submitSectionResult } = require("./placementSessionService");
 const { SECTIONS, THRESHOLDS, hasHigherLevel, hasLowerLevel, getNextHigherLevel, getNextLowerLevel } = require("../utils/placementConfig");
 
 const VALID_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 const VALID_SECTIONS = ["reading", "listening", "writing", "speaking"];
-const OBJECTIVE_SECTIONS = ["reading", "listening"];
 
 function validateLevel(level) {
   if (!VALID_LEVELS.includes(level)) {
@@ -32,6 +34,29 @@ function getNextSection(currentSection) {
   return SECTIONS[idx + 1];
 }
 
+function prepareListeningExam(exam) {
+  const selected = pickRandomQuestions(exam.questions, 3);
+
+  const questions = selected.map((q) => {
+    const questionId = q.questionId || q.id;
+
+    return {
+      questionId,
+      id: questionId,
+      audioText: q.audioText || "",
+      audioUrl: q.audioUrl || "",
+      question: q.question,
+      options: q.options,
+    };
+  });
+
+  return {
+    examId: exam.examId,
+    sectionTitle: "Listening",
+    questions,
+  };
+}
+
 async function deliverExam(level, section) {
   validateLevel(level);
   validateSection(section);
@@ -42,6 +67,10 @@ async function deliverExam(level, section) {
     const err = new Error(`No exams found for ${level}/${section}`);
     err.statusCode = 404;
     throw err;
+  }
+
+  if (section === "listening") {
+    return prepareListeningExam(exam);
   }
 
   return exam;
@@ -61,7 +90,7 @@ async function submitSection(level, section, body) {
   validateLevel(level);
   validateSection(section);
 
-  const { sessionId, examId, answers, text, conversation, percentage } = body;
+  const { sessionId, examId, answers, text, conversation, percentage, questionIds } = body;
 
   if (!sessionId) {
     const err = new Error("sessionId is required");
@@ -84,27 +113,33 @@ async function submitSection(level, section, body) {
 
   let sectionPercentage;
 
-  if (OBJECTIVE_SECTIONS.includes(section)) {
+  if (section === "reading") {
     if (!Array.isArray(answers)) {
       const err = new Error("answers must be an array");
       err.statusCode = 400;
       throw err;
     }
-    const score = calculateScore(answers, exam.questions);
+    const allQuestions = flattenPassageQuestions(exam.passages);
+    const score = calculateScore(answers, allQuestions);
     sectionPercentage = score.percentage;
-  } else {
-    if (section === "writing") {
-      if (!text || typeof text !== "string") {
-        const err = new Error("text is required and must be a string");
-        err.statusCode = 400;
-        throw err;
-      }
-    } else {
-      if (!conversation || typeof conversation !== "string") {
-        const err = new Error("conversation is required and must be a string");
-        err.statusCode = 400;
-        throw err;
-      }
+  } else if (section === "listening") {
+    if (!Array.isArray(answers)) {
+      const err = new Error("answers must be an array");
+      err.statusCode = 400;
+      throw err;
+    }
+    if (!Array.isArray(questionIds) || questionIds.length === 0) {
+      const err = new Error("questionIds is required for listening");
+      err.statusCode = 400;
+      throw err;
+    }
+    const score = calculateScoreById(answers, questionIds, exam.questions);
+    sectionPercentage = score.percentage;
+  } else if (section === "writing") {
+    if (!text || typeof text !== "string") {
+      const err = new Error("text is required and must be a string");
+      err.statusCode = 400;
+      throw err;
     }
     if (percentage === undefined || percentage === null || typeof percentage !== "number") {
       const err = new Error("percentage is required and must be a number for writing/speaking");
@@ -117,6 +152,27 @@ async function submitSection(level, section, body) {
       throw err;
     }
     sectionPercentage = percentage;
+  } else if (section === "speaking") {
+    if (!conversation || typeof conversation !== "string") {
+      const err = new Error("conversation is required and must be a string");
+      err.statusCode = 400;
+      throw err;
+    }
+    if (percentage === undefined || percentage === null || typeof percentage !== "number") {
+      const err = new Error("percentage is required and must be a number for writing/speaking");
+      err.statusCode = 400;
+      throw err;
+    }
+    if (percentage < 0 || percentage > 100) {
+      const err = new Error("percentage must be between 0 and 100");
+      err.statusCode = 400;
+      throw err;
+    }
+    sectionPercentage = percentage;
+  } else {
+    const err = new Error(`Unknown section: "${section}"`);
+    err.statusCode = 400;
+    throw err;
   }
 
   const sessionResult = submitSectionResult(sessionId, section, sectionPercentage);

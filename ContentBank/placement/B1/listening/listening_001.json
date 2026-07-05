@@ -1,0 +1,148 @@
+{
+  "examId": "listening_001",
+  "level": "B1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: I've been thinking about moving to the countryside. The city is just too noisy and expensive. Man: But wouldn't you miss the convenience? I mean, everything is so accessible here. Woman: True, but I think fresh air and peace are worth more than having a shop on every corner.",
+      "audioUrl": "",
+      "question": "What is the woman's main reason for wanting to move?",
+      "options": [
+        "She wants to save money on rent",
+        "She prefers peace and fresh air",
+        "She dislikes her current neighbors",
+        "She found a better job in the countryside"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Reporter: Many young people today prefer working remotely rather than in an office. Some say they are more productive at home. Others say they miss social interaction. What is your opinion? Man: I think a mix is best. Two or three days in the office keeps the team connected, and the rest at home for focused work.",
+      "audioUrl": "",
+      "question": "What hybrid schedule does the man recommend?",
+      "options": [
+        "All days at the office",
+        "Mostly remote with occasional office visits",
+        "Two or three days in the office per week",
+        "Working from home every day"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Woman: I tried that new Italian restaurant downtown. The pasta was excellent, but the service was terribly slow. We waited almost forty minutes for our main course. Man: That's disappointing. I was thinking of going there this weekend.",
+      "audioUrl": "",
+      "question": "What complaint does the woman have about the restaurant?",
+      "options": [
+        "The food was too expensive",
+        "The pasta was undercooked",
+        "The service was very slow",
+        "The restaurant was too crowded"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Man: I remember when I first learned to ride a bike. I fell off at least five times. But my dad kept encouraging me, saying, 'Get back up, you'll get it.' And eventually I did. That lesson has stuck with me—persistence really pays off.",
+      "audioUrl": "",
+      "question": "What lesson did the man learn from learning to ride a bike?",
+      "options": [
+        "Cycling is dangerous",
+        "He should have worn protective gear",
+        "Persistence leads to success",
+        "His dad was a strict teacher"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Interviewer: So why do you think plastic pollution has become such a serious problem? Guest: I think it's because we've become used to convenience. Single-use plastics are everywhere—water bottles, packaging, bags. We need better recycling systems and also personal responsibility.",
+      "audioUrl": "",
+      "question": "What does the guest identify as the main cause of plastic pollution?",
+      "options": [
+        "Poor recycling technology",
+        "Lack of government laws",
+        "Society's reliance on convenience",
+        "Overpopulation in coastal areas"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Friend 1: You look stressed. What's going on? Friend 2: I have three exams next week and I haven't started studying for two of them. Friend 1: Maybe you should make a study schedule and focus on the hardest subject first.",
+      "audioUrl": "",
+      "question": "What advice does Friend 1 give?",
+      "options": [
+        "Skip the hardest exam",
+        "Ask the teacher for an extension",
+        "Create a study schedule and prioritize",
+        "Study all subjects equally each day"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Tour guide: This castle was built in the twelfth century and has survived several wars. It was originally a fortress, but later became a royal residence. The gardens you see today were added in the seventeenth century.",
+      "audioUrl": "",
+      "question": "What was the original purpose of the castle?",
+      "options": [
+        "A royal residence",
+        "A prison",
+        "A fortress",
+        "A museum"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Woman: I don't think social media is all bad. It helps me stay connected with family who live overseas. Man: That's true, but I worry about the amount of time people spend on it. It can be quite addictive.",
+      "audioUrl": "",
+      "question": "What is the man's main concern about social media?",
+      "options": [
+        "It is too expensive",
+        "It spreads false information",
+        "It can be addictive",
+        "It reduces face-to-face contact"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q9",
+      "audioText": "News anchor: A new study suggests that walking for just thirty minutes a day can significantly improve mental health. Participants reported feeling less anxious and more energetic after only two weeks of regular walks.",
+      "audioUrl": "",
+      "question": "What did the study find about walking thirty minutes daily?",
+      "options": [
+        "It helps with weight loss",
+        "It improves mental health",
+        "It strengthens leg muscles",
+        "It cures headaches"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Man: I had an interview yesterday for a job at a tech company. I think it went well, but they asked some difficult questions about my experience with project management. Woman: Well, you have a lot of experience. I'm sure you impressed them.",
+      "audioUrl": "",
+      "question": "How does the woman feel about the man's interview?",
+      "options": [
+        "She thinks he should have prepared more",
+        "She is confident he did well",
+        "She thinks the company was too demanding",
+        "She suggests he apply elsewhere"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 3,
+  "estimatedMinutes": 6,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "travel",
+    "shopping",
+    "education"
+  ]
+}

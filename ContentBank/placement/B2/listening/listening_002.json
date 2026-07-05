@@ -1,0 +1,148 @@
+{
+  "examId": "listening_002",
+  "level": "B2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: I've noticed that when I'm in a bad mood, I tend to make poorer decisions, especially financial ones. Man: That's interesting because studies show that emotional states significantly influence our cognitive biases. When we're feeling down, we're more likely to choose short-term gratification over long-term benefits.",
+      "audioUrl": "",
+      "question": "How does a bad mood affect decision-making, according to the man?",
+      "options": [
+        "It sharpens analytical thinking",
+        "It leads to more conservative choices",
+        "It increases preference for short-term rewards",
+        "It has no measurable effect"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Architect: This building was designed with passive cooling principles. The orientation maximizes cross-ventilation, the overhangs block high summer sun while allowing winter light, and the thermal mass of the concrete regulates indoor temperature fluctuations without mechanical systems.",
+      "audioUrl": "",
+      "question": "What is the primary purpose of the building's design features?",
+      "options": [
+        "To reduce construction costs",
+        "To regulate temperature without mechanical systems",
+        "To maximize natural light for plants",
+        "To create an aesthetically pleasing facade"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Woman: The healthcare debate often polarizes into two camps—those advocating for complete privatization and those demanding fully public systems. But perhaps the most effective models are hybrid ones that combine public funding with private delivery, as seen in several European countries.",
+      "audioUrl": "",
+      "question": "What healthcare model does the woman suggest is most effective?",
+      "options": [
+        "Fully private healthcare",
+        "Fully public healthcare",
+        "Hybrid models with public funding and private delivery",
+        "Community-based healthcare cooperatives"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Man: I'm considering whether to pursue an MBA or start my own business now. Both paths have merit, but I worry that delaying entrepreneurship might mean missing the optimal window. Woman: That assumes there is an optimal window. Many successful founders started businesses later in life, after gaining more experience.",
+      "audioUrl": "",
+      "question": "What assumption does the woman challenge?",
+      "options": [
+        "That an MBA guarantees business success",
+        "That there is a single best time to start a business",
+        "That entrepreneurship is riskier than an MBA",
+        "That experience is irrelevant to business success"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Podcast host: Let's talk about the phenomenon of doomscrolling—the tendency to continue consuming negative news despite it making us feel worse. Guest: It's a classic case of negativity bias. Our brains are wired to pay more attention to threats than positive information because, evolutionarily, missing a threat could be fatal.",
+      "audioUrl": "",
+      "question": "According to the guest, what causes doomscrolling behavior?",
+      "options": [
+        "Social media algorithm design",
+        "An evolutionary negativity bias",
+        "Lack of access to positive news",
+        "Poor digital literacy skills"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Woman: I traveled to Singapore last year and was struck by how they've integrated green spaces into urban planning. There are gardens on building rooftops, vertical forests on facades, and parks connected by elevated walkways. Man: It sounds like they've redefined what a modern city can look like.",
+      "audioUrl": "",
+      "question": "What impressed the woman about Singapore's urban planning?",
+      "options": [
+        "Its extensive public transport system",
+        "Its integration of green spaces into the city",
+        "Its affordable housing policies",
+        "Its preservation of historical buildings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Professor: The concept of 'fake news' is not new—sensationalist journalism has existed for centuries. What has changed is the velocity and scale at which misinformation spreads through social media. A false claim can reach millions before fact-checkers even see it.",
+      "audioUrl": "",
+      "question": "What is different about modern misinformation according to the professor?",
+      "options": [
+        "It is more believable than in the past",
+        "It spreads faster and to more people",
+        "It is always politically motivated",
+        "It is harder to identify"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Woman: I've been practicing mindfulness meditation for about six months now. The biggest change I've noticed isn't during meditation itself, but in how I react to stressful situations throughout the day. Man: That makes sense. The benefits of mindfulness are really about building resilience over time.",
+      "audioUrl": "",
+      "question": "What change has the woman noticed from practicing mindfulness?",
+      "options": [
+        "She can meditate for longer periods",
+        "She responds better to daily stress",
+        "She sleeps more hours at night",
+        "She has become more productive at work"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Critic: The restaurant industry has been disrupted by delivery apps, but the economics are troubling. Restaurants often operate on razor-thin margins, and apps take a significant cut—sometimes up to 30% per order. Many establishments are finding that convenience comes at a steep cost to their sustainability.",
+      "audioUrl": "",
+      "question": "What economic problem with delivery apps does the critic highlight?",
+      "options": [
+        "They reduce food quality",
+        "They take a large percentage of restaurant revenue",
+        "They create too much competition",
+        "They discourage dine-in customers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Man: I've been looking at the data on renewable energy adoption. Solar and wind are becoming cheaper than coal in many markets, but intermittency remains a challenge. Battery storage technology is improving, but we're not quite at the scale needed for grid-level reliability.",
+      "audioUrl": "",
+      "question": "What ongoing challenge with renewable energy does the man identify?",
+      "options": [
+        "Solar panels are too expensive",
+        "Wind turbines harm wildlife",
+        "Energy storage isn't yet sufficient for grid reliability",
+        "Coal remains cheaper than renewables"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 4,
+  "estimatedMinutes": 7,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel",
+    "shopping"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "examId": "listening_001",
+  "level": "B2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Manager: We need to discuss the Q3 projections. Our current strategy isn't yielding the expected ROI. Sarah, your team's proposal suggested a pivot toward digital marketing—can you elaborate on the projected cost-benefit analysis? Sarah: Certainly. Based on our market research, reallocating 30% of our traditional advertising budget to targeted social media campaigns could increase our conversion rate by approximately 15% within six months.",
+      "audioUrl": "",
+      "question": "What does Sarah propose the company should do?",
+      "options": [
+        "Increase the overall marketing budget",
+        "Shift funds from traditional ads to digital marketing",
+        "Reduce the conversion rate target",
+        "Focus on print advertising only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Lecturer: The gig economy has fundamentally altered the employer-employee relationship. While it offers flexibility that traditional employment rarely provides, it also shifts significant risk onto the individual worker—no pension contributions, no paid leave, and little job security. The question is whether regulation can catch up fast enough.",
+      "audioUrl": "",
+      "question": "What is the lecturer's main concern about the gig economy?",
+      "options": [
+        "It reduces overall productivity",
+        "It transfers financial risk to workers",
+        "It is difficult to find gig work",
+        "It benefits only large corporations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Woman: I find it fascinating how cultural norms influence negotiation styles. In some cultures, building a personal relationship is a prerequisite to any business discussion. Man: Absolutely. I've experienced that firsthand in Japan. We spent the first two meetings just getting to know each other before any contracts were mentioned.",
+      "audioUrl": "",
+      "question": "What does the man's experience in Japan illustrate?",
+      "options": [
+        "Japanese businesspeople avoid contracts",
+        "Relationship-building precedes business talks in some cultures",
+        "Japanese meetings are always unproductive",
+        "Cultural norms have no impact on negotiations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Panelist: Urban sprawl remains one of the most pressing challenges for city planners. The conventional approach of expanding outward is unsustainable. Instead, we should be looking at vertical density and mixed-use developments that reduce commute times and revitalize underutilized areas within existing city limits.",
+      "audioUrl": "",
+      "question": "What solution does the panelist propose for urban sprawl?",
+      "options": [
+        "Building new suburbs further out",
+        "Increasing density within the city through mixed-use development",
+        "Restricting population growth in cities",
+        "Improving highway infrastructure for commuters"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Woman: I read that companies using AI for hiring might inadvertently encode bias into their recruitment processes. If the training data reflects historical discrimination, the algorithm learns to replicate it. Man: That's why transparency and diverse data sets are crucial when implementing these systems.",
+      "audioUrl": "",
+      "question": "What concern about AI in hiring does the woman raise?",
+      "options": [
+        "AI is too expensive for most companies",
+        "AI might reduce the number of job openings",
+        "AI can perpetuate existing biases from training data",
+        "AI cannot evaluate soft skills accurately"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Critic: The film's narrative structure is intentionally disjointed, mirroring the protagonist's fragmented memory after the accident. Some viewers find this approach frustrating, but I'd argue it's a masterful representation of how trauma reshapes our perception of time and causality.",
+      "audioUrl": "",
+      "question": "Why does the critic defend the film's disjointed narrative?",
+      "options": [
+        "It was the director's only option",
+        "It accurately reflects the effects of trauma",
+        "It appeals to a wider audience",
+        "It was cheaper to produce that way"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: I've been following the developments in quantum computing. The potential seems limitless, but we're still decades away from practical applications. Man: True, but even the theoretical breakthroughs we've made have advanced our understanding of physics in unexpected ways.",
+      "audioUrl": "",
+      "question": "What benefit of quantum computing research does the man highlight?",
+      "options": [
+        "Immediate commercial applications",
+        "Advancements in theoretical physics",
+        "Reduced energy consumption",
+        "Cheaper computer hardware"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Interviewer: Your book argues that failure is essential to innovation. Could you expand on that? Author: Certainly. Organizations that penalize failure inadvertently discourage risk-taking. Yet virtually every significant technological breakthrough came after numerous failed attempts. The key is creating a culture where failure is analyzed, not punished.",
+      "audioUrl": "",
+      "question": "What does the author say organizations should do regarding failure?",
+      "options": [
+        "Completely eliminate risk-taking",
+        "Create a culture where failure is analyzed constructively",
+        "Punish failure to prevent it from recurring",
+        "Ignore failures and focus on successes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Woman: The carbon offset market has grown exponentially, but there's a catch. Some companies are buying cheap offsets that don't actually represent real emissions reductions. It's essentially greenwashing. Man: So regulation and verification standards need to catch up with the market's growth.",
+      "audioUrl": "",
+      "question": "What problem does the woman identify with carbon offsets?",
+      "options": [
+        "They are too expensive for most companies",
+        "Some offsets are ineffective and constitute greenwashing",
+        "The market is not growing fast enough",
+        "Governments refuse to participate"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Professor: When we examine the data on remote work productivity, the results are surprisingly nuanced. While many employees report higher focus during individual tasks, collaborative innovation has measurably declined. The challenge facing organizations now is how to preserve spontaneous creative exchange in a distributed environment.",
+      "audioUrl": "",
+      "question": "What downside of remote work does the professor identify?",
+      "options": [
+        "Employees work fewer hours",
+        "Collaborative innovation has decreased",
+        "Technology costs have increased",
+        "Employee satisfaction has dropped"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 4,
+  "estimatedMinutes": 7,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping",
+    "education"
+  ]
+}

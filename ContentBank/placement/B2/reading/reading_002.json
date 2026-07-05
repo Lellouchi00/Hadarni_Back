@@ -1,0 +1,138 @@
+{
+  "examId": "reading_002",
+  "level": "B2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "Urbanisation has accelerated dramatically over the past century. Today, more than half of the world's population lives in cities, and this figure is expected to rise to nearly seventy percent by 2050. While cities are often seen as engines of economic growth and innovation, they also face significant challenges. Housing shortages, traffic congestion and air pollution are common problems in many urban areas. It has been suggested that smart city technologies, such as intelligent traffic systems and energy-efficient buildings, could help address these issues. However, implementing such solutions requires substantial investment and political will. If urban growth is not managed carefully, the quality of life in cities could deteriorate significantly.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What percentage of the world population is expected to live in cities by 2050?",
+          "options": [
+            "Fifty percent",
+            "Sixty percent",
+            "Nearly seventy percent",
+            "Eighty percent"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q2",
+          "question": "What challenge of urbanisation is mentioned in the text?",
+          "options": [
+            "Lack of schools",
+            "Traffic congestion",
+            "Internet access",
+            "Cultural differences"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "What is required to implement smart city solutions?",
+          "options": [
+            "New laws only",
+            "More population",
+            "Investment and political will",
+            "International agreements"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Urbanisation has accelerated dramatically over the past c..."
+    },
+    {
+      "id": "p2",
+      "text": "The concept of a four-day working week has gained considerable attention in recent years. Several companies have experimented with reducing working hours while maintaining the same salary. The results have been promising: employees reported higher job satisfaction, lower stress levels and improved work-life balance. Furthermore, productivity did not decrease; in some cases, it actually increased. Critics argue that a four-day week is not feasible for all industries, particularly those that require round-the-clock coverage. Nevertheless, the evidence suggests that a shorter working week could be beneficial for both employees and employers. It remains to be seen whether this model will be adopted on a wider scale.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What has been an outcome of the four-day working week experiments?",
+          "options": [
+            "Lower salaries",
+            "Higher job satisfaction",
+            "Reduced productivity",
+            "More overtime"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "What criticism of the four-day week is mentioned?",
+          "options": [
+            "It is too expensive",
+            "It is not feasible for all industries",
+            "Employees do not want it",
+            "It reduces company profits"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What does the evidence suggest about the four-day week?",
+          "options": [
+            "It is not effective",
+            "It could be beneficial",
+            "It only works in Europe",
+            "It should be mandatory"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The concept of a four-day working week has gained conside..."
+    },
+    {
+      "id": "p3",
+      "text": "Plastic pollution has become one of the most visible environmental crises of our era. It is estimated that eight million tonnes of plastic enter the oceans every year, harming marine life and entering the food chain. Although recycling has been promoted as a solution, only nine percent of all plastic ever produced has been recycled. The rest ends up in landfills or the natural environment. Many countries have introduced bans on single-use plastics, but these measures alone are insufficient. A more comprehensive approach is required, one that focuses on reducing plastic production at the source. Consumers, too, must be encouraged to change their habits. If current trends continue, there could be more plastic than fish in the ocean by 2050.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "How much plastic enters the ocean each year according to the text?",
+          "options": [
+            "Two million tonnes",
+            "Five million tonnes",
+            "Eight million tonnes",
+            "Ten million tonnes"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q8",
+          "question": "What percentage of plastic has been recycled?",
+          "options": [
+            "Nine percent",
+            "Fifteen percent",
+            "Twenty percent",
+            "Thirty percent"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q9",
+          "question": "What does the writer suggest is needed beyond bans on single-use plastics?",
+          "options": [
+            "More recycling bins",
+            "Reducing plastic production at the source",
+            "Better waste collection",
+            "Encouraging consumer habit changes"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "Plastic pollution has become one of the most visible envi..."
+    }
+  ],
+  "difficulty": 4,
+  "estimatedMinutes": 12,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "education",
+    "technology",
+    "environment",
+    "health"
+  ]
+}

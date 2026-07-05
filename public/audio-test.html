@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TTS Test</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  .card { background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,.1); padding: 36px; width: 520px; max-width: 92vw; }
+  h1 { font-size: 22px; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
+  .subtitle { font-size: 13px; color: #888; margin-bottom: 24px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; margin-top: 16px; color: #333; }
+  textarea, select { width: 100%; padding: 10px 14px; border: 1.5px solid #d0d0d0; border-radius: 10px; font-size: 14px; font-family: inherit; transition: border-color .2s; }
+  textarea:focus, select:focus { outline: none; border-color: #0066ff; }
+  textarea { resize: vertical; min-height: 100px; }
+  select { background: #fff; cursor: pointer; }
+  button { margin-top: 20px; width: 100%; padding: 12px; background: #0066ff; color: #fff; border: none; border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; transition: background .2s; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  button:hover:not(:disabled) { background: #0052cc; }
+  .output { display: none; margin-top: 20px; padding: 16px; border-radius: 10px; background: #f8faff; border: 1.5px solid #e0e8f5; }
+  .output.show { display: block; }
+  .output .url-label { font-size: 12px; font-weight: 600; color: #555; margin-bottom: 4px; }
+  .output .url { font-size: 12px; color: #0066ff; word-break: break-all; background: #fff; padding: 8px 10px; border-radius: 6px; border: 1px solid #e0e8f5; }
+  .output .url a { color: #0066ff; text-decoration: none; }
+  .output .url a:hover { text-decoration: underline; }
+  audio { margin-top: 12px; width: 100%; border-radius: 8px; }
+  .spinner { display: none; width: 20px; height: 20px; border: 3px solid #e0e0e0; border-top-color: #0066ff; border-radius: 50%; animation: spin .7s linear infinite; margin: 0 auto 10px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading .spinner { display: block; }
+  .badge { display: inline-block; background: #e8f4e8; color: #1a7a1a; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 20px; margin-left: 8px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1> Audio Generator</h1>
+  <div class="subtitle">Enter text, choose a voice, get a Cloudinary audio link</div>
+
+  <label for="text">Text</label>
+  <textarea id="text" placeholder="Enter English text to convert to speech...">Welcome to the English placement test. Please listen carefully.</textarea>
+
+  <label for="voice">Voice</label>
+  <select id="voice"></select>
+
+  <div class="loading"><div class="spinner"></div></div>
+  <button id="generateBtn">Generate Audio</button>
+
+  <div class="output" id="output">
+    <div class="url-label"> Audio URL</div>
+    <div class="url"><a id="audioLink" href="#" target="_blank"></a></div>
+    <audio id="player" controls></audio>
+  </div>
+</div>
+
+<script>
+const textEl = document.getElementById("text");
+const voiceEl = document.getElementById("voice");
+const btn = document.getElementById("generateBtn");
+const output = document.getElementById("output");
+const audioLink = document.getElementById("audioLink");
+const player = document.getElementById("player");
+
+const VOICES = [
+  { key: "teacher", label: "Teacher (Aria)" },
+  { key: "male",    label: "Male (Guy)" },
+  { key: "female",  label: "Female (Jenny)" },
+  { key: "narrator",label: "Narrator (Ryan)" },
+  { key: "child",   label: "Child (Ana)" },
+  { key: "exam",    label: "Exam (Aria)" },
+];
+
+VOICES.forEach(v => {
+  const opt = document.createElement("option");
+  opt.value = v.key;
+  opt.textContent = v.label;
+  voiceEl.appendChild(opt);
+});
+
+btn.addEventListener("click", async () => {
+  const text = textEl.value.trim();
+  if (!text) { alert("Please enter some text."); return; }
+
+  btn.disabled = true;
+  btn.classList.add("loading");
+  output.classList.remove("show");
+
+  try {
+    const res = await fetch("/api/audio/generate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text, voice: voiceEl.value }),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      alert(data.error || "Request failed");
+      return;
+    }
+
+    audioLink.href = data.audioUrl;
+    audioLink.textContent = data.audioUrl;
+    player.src = data.audioUrl;
+    output.classList.add("show");
+  } catch (err) {
+    alert("Network error: " + err.message);
+  } finally {
+    btn.disabled = false;
+    btn.classList.remove("loading");
+  }
+});
+</script>
+</body>
+</html>

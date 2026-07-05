@@ -1,0 +1,148 @@
+{
+  "examId": "listening_003",
+  "level": "A1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Good morning, how are you today?",
+      "audioUrl": "",
+      "question": "What is the speaker doing?",
+      "options": [
+        "Saying goodbye",
+        "Greeting someone",
+        "Asking for food",
+        "Talking about weather"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "I have two cats and one dog.",
+      "audioUrl": "",
+      "question": "How many pets does the speaker have?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "The milk is in the fridge.",
+      "audioUrl": "",
+      "question": "Where is the milk?",
+      "options": [
+        "On the table",
+        "In the cupboard",
+        "In the fridge",
+        "Under the sink"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Turn left at the school, then go straight.",
+      "audioUrl": "",
+      "question": "What is the speaker giving?",
+      "options": [
+        "A weather report",
+        "An introduction",
+        "Directions",
+        "A food order"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q5",
+      "audioText": "I can count to ten: one, two, three, four, five.",
+      "audioUrl": "",
+      "question": "What can the speaker do?",
+      "options": [
+        "Read a book",
+        "Count to ten",
+        "Write a letter",
+        "Sing a song"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "My father works in a hospital.",
+      "audioUrl": "",
+      "question": "Where does the speaker's father work?",
+      "options": [
+        "At a school",
+        "In a hospital",
+        "At a store",
+        "In a bank"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "I like to eat rice and chicken for dinner.",
+      "audioUrl": "",
+      "question": "What does the speaker like for dinner?",
+      "options": [
+        "Pasta and fish",
+        "Rice and chicken",
+        "Bread and soup",
+        "Salad and meat"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "It is warm and sunny. Let's go to the beach.",
+      "audioUrl": "",
+      "question": "What is the weather like?",
+      "options": [
+        "Cold and rainy",
+        "Warm and sunny",
+        "Cool and cloudy",
+        "Hot and windy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "The boy is wearing a blue shirt and black shoes.",
+      "audioUrl": "",
+      "question": "What color is the boy's shirt?",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "White"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Please sit down and open your book to page two.",
+      "audioUrl": "",
+      "question": "What does the speaker want you to do?",
+      "options": [
+        "Stand up and close the book",
+        "Sit down and open the book",
+        "Read and write",
+        "Listen and repeat"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 1,
+  "estimatedMinutes": 4,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel"
+  ]
+}

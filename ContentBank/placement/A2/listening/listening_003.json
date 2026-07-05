@@ -1,0 +1,148 @@
+{
+  "examId": "listening_003",
+  "level": "A2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: How many brothers and sisters do you have? Man: I have one brother and two sisters. I am the oldest. Woman: That must be fun!",
+      "audioUrl": "",
+      "question": "How many siblings does the man have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Receptionist: The gym is open from six in the morning to ten at night. You need to show your membership card at the front desk.",
+      "audioUrl": "",
+      "question": "What do you need to enter the gym?",
+      "options": [
+        "A ticket",
+        "An ID card",
+        "A membership card",
+        "A reservation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Girl: Dad, can we go to the zoo this Saturday? Dad: Sure, but let's go in the morning before it gets too hot. Girl: Great! I want to see the lions and the elephants.",
+      "audioUrl": "",
+      "question": "Why does the dad want to go in the morning?",
+      "options": [
+        "It is cheaper",
+        "It is less crowded",
+        "It is not too hot",
+        "The zoo opens early"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Neighbor 1: Your dog barked all night. I couldn't sleep. Neighbor 2: I'm so sorry. He's not used to the new house yet. I'll get him some training.",
+      "audioUrl": "",
+      "question": "What is the problem?",
+      "options": [
+        "The house is too noisy",
+        "The dog barked all night",
+        "The neighbors are fighting",
+        "The dog ran away"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Tour guide: Welcome to the museum. This painting was made over two hundred years ago by a famous French artist. Please do not touch the paintings.",
+      "audioUrl": "",
+      "question": "What is the guide asking visitors not to do?",
+      "options": [
+        "Take photos",
+        "Talk loudly",
+        "Touch the paintings",
+        "Eat in the museum"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Man: I want to send this package to Japan. Post office clerk: That will be twenty-five dollars for standard shipping. It takes about two weeks.",
+      "audioUrl": "",
+      "question": "How long does standard shipping take?",
+      "options": [
+        "One week",
+        "Two weeks",
+        "Three weeks",
+        "One month"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Amy: I'm learning to cook Italian food. Last night I made pasta with tomato sauce. It was a little salty, but my family liked it.",
+      "audioUrl": "",
+      "question": "What did Amy cook last night?",
+      "options": [
+        "Pizza",
+        "Pasta",
+        "Soup",
+        "Salad"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Radio host: The weather this weekend will be rainy on Saturday, but Sunday will be sunny and warm. A perfect day for outdoor activities.",
+      "audioUrl": "",
+      "question": "What will the weather be like on Sunday?",
+      "options": [
+        "Rainy",
+        "Snowy",
+        "Windy",
+        "Sunny and warm"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Boss: The meeting is at three o'clock. Please bring the sales report. Employee: I haven't finished it yet. Boss: Then finish it before the meeting.",
+      "audioUrl": "",
+      "question": "What does the employee need to finish?",
+      "options": [
+        "A presentation",
+        "The sales report",
+        "A project plan",
+        "An email"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Woman: I'm looking for a birthday present for my mother. She loves reading. Sales assistant: We have some nice books over here. This one is very popular.",
+      "audioUrl": "",
+      "question": "What does the woman want to buy?",
+      "options": [
+        "A cake",
+        "A dress",
+        "A book",
+        "A watch"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel"
+  ]
+}

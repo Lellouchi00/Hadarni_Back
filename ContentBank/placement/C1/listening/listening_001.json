@@ -1,0 +1,148 @@
+{
+  "examId": "listening_001",
+  "level": "C1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Professor: The phenomenon of linguistic prescriptivism versus descriptivism has long divided language scholars. Prescriptivists argue for maintaining established rules and standards, warning that deviation leads to linguistic decay. Descriptivists counter that language is inherently fluid—that change is not corruption but evolution. The irony, of course, is that today's 'correct' English would have been considered a vulgar corruption by speakers from previous centuries.",
+      "audioUrl": "",
+      "question": "What point does the professor make about language standards?",
+      "options": [
+        "Prescriptivism has historically been proven correct",
+        "Today's standard English was once considered incorrect",
+        "Descriptivism leads to linguistic decay",
+        "Language rules should never change"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Panelist: The notion of 'meritocracy' deserves closer scrutiny. While appealing in principle—that success should be based on ability and effort rather than inherited privilege—in practice, meritocratic systems often merely legitimize existing inequalities. Those who succeed attribute it to their own merit, while those who fail are deemed to lack it, ignoring structural disadvantages that shaped the playing field from the outset.",
+      "audioUrl": "",
+      "question": "What criticism does the panelist make of meritocracy?",
+      "options": [
+        "It discourages hard work",
+        "It ignores structural disadvantages that affect opportunity",
+        "It benefits only the working class",
+        "It is impossible to measure ability fairly"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Interviewer: Your research on cognitive dissonance suggests that people rationalize decisions even when they're detrimental. Could you give an example? Researcher: Consider someone who smokes despite knowing the health risks. Rather than quit—which is difficult—they minimize the evidence, telling themselves things like 'my grandfather smoked and lived to ninety.' This allows them to hold contradictory beliefs without psychological discomfort.",
+      "audioUrl": "",
+      "question": "How does the researcher say smokers resolve cognitive dissonance?",
+      "options": [
+        "By quitting gradually",
+        "By minimizing contradictory evidence",
+        "By acknowledging the health risks openly",
+        "By seeking medical advice"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Literary critic: Morrison's prose operates on multiple registers simultaneously. On the surface, the narrative appears straightforward, but beneath that veneer lies a complex interweaving of mythological allusion, historical trauma, and vernacular tradition. It demands an active reader—one willing to sit with ambiguity rather than seek tidy resolutions.",
+      "audioUrl": "",
+      "question": "What does the critic suggest about reading Morrison's work?",
+      "options": [
+        "It is best suited for academic scholars",
+        "The meaning is easily accessible to all readers",
+        "It requires readers to embrace ambiguity",
+        "The narrative lacks depth beneath the surface"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Economist: Quantitative easing was the tool of choice following the 2008 financial crisis, but its long-term effects are still debated. On one hand, it undoubtedly prevented a deeper recession. On the other, it exacerbated wealth inequality by inflating asset prices that primarily benefit the already wealthy, while wage growth for ordinary workers remained stagnant.",
+      "audioUrl": "",
+      "question": "According to the economist, what was a negative consequence of quantitative easing?",
+      "options": [
+        "It caused hyperinflation",
+        "It widened wealth inequality",
+        "It led to a deeper recession",
+        "It discouraged foreign investment"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Philosopher: The ethical frameworks we inherited—deontology, utilitarianism, virtue ethics—are increasingly ill-equipped to handle the dilemmas posed by emerging technologies. When an autonomous vehicle must choose between harming a pedestrian or its passenger, whose rights take precedence? Utilitarianism offers a calculus, but reduces morality to arithmetic. Deontology provides rigid rules, but reality rarely fits neatly into categorical imperatives.",
+      "audioUrl": "",
+      "question": "Why does the philosopher believe traditional ethical frameworks are inadequate?",
+      "options": [
+        "They are too difficult to understand",
+        "They cannot properly address modern technological dilemmas",
+        "They have been superseded by religious morality",
+        "They apply only to individual, not societal, decisions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: I've been reading about the placebo effect, and what fascinates me is that it's not just about sugar pills. The effect occurs even when patients know they're receiving a placebo, as long as they believe in the therapeutic ritual. Man: So the context and meaning we attach to treatment may be as important as the biochemical properties of the medicine itself.",
+      "audioUrl": "",
+      "question": "What aspect of the placebo effect surprises the woman?",
+      "options": [
+        "It only works for pain relief",
+        "It can occur even when patients know it's a placebo",
+        "It is purely psychological with no physiological basis",
+        "It only works in clinical trials"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Historian of science: The Copernican revolution is often portrayed as a triumph of evidence over dogma, but this oversimplification obscures a more interesting story. Copernicus's heliocentric model was actually less accurate at predicting planetary positions than the Ptolemaic system it replaced. Its eventual acceptance owed as much to aesthetic considerations—its mathematical elegance—as to empirical superiority.",
+      "audioUrl": "",
+      "question": "What does the historian say contributed to the acceptance of Copernicus's model?",
+      "options": [
+        "Its superior predictive accuracy",
+        "Its mathematical elegance as much as evidence",
+        "Its simplicity compared to Ptolemy's model",
+        "The Catholic Church's endorsement"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Woman: I find it paradoxical that in an age of unprecedented global connectivity, loneliness is on the rise. Man: I think the quality of connection matters more than quantity. Having hundreds of online acquaintances doesn't compensate for the decline of deep, meaningful relationships. Social media may be widening our networks while thinning our bonds.",
+      "audioUrl": "",
+      "question": "What explanation does the man offer for rising loneliness?",
+      "options": [
+        "People are spending too much time at home",
+        "Deep relationships have declined despite more superficial connections",
+        "Urbanization has destroyed community structures",
+        "People no longer know how to socialize"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Art critic: The postmodern turn in architecture was a reaction against modernism's austere functionalism. Postmodern buildings embraced historical references, ornamentation, and sometimes irreverent juxtapositions. But after several decades, we're now seeing a shift toward what some call 'critical regionalism'—an approach that respects local context and materials while remaining contemporary, without falling into either nostalgia or sterile universalism.",
+      "audioUrl": "",
+      "question": "What characterizes the architectural movement of 'critical regionalism'?",
+      "options": [
+        "Complete rejection of historical references",
+        "Balancing contemporary design with local context",
+        "A return to modernist functionalism",
+        "Exclusive use of traditional building materials"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 5,
+  "estimatedMinutes": 8,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "shopping",
+    "education"
+  ]
+}

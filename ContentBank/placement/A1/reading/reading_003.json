@@ -1,0 +1,138 @@
+{
+  "examId": "reading_003",
+  "level": "A1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "I am Leo. I have a pet fish. His name is Bubbles. He is orange and white. He lives in a round glass bowl. I feed him every morning. I give him fish food. He opens his mouth and eats. Bubbles swims all day. I like to watch him.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the name of Leo's fish?",
+          "options": [
+            "Leo",
+            "Bubbles",
+            "Goldie",
+            "Swimmy"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What color is Bubbles?",
+          "options": [
+            "Orange and black",
+            "Orange and white",
+            "Red and white",
+            "Yellow and orange"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "Where does Bubbles live?",
+          "options": [
+            "In a big tank",
+            "In a round glass bowl",
+            "In the sea",
+            "In a small box"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "I am Leo"
+    },
+    {
+      "id": "p2",
+      "text": "My name is Emma. I am nine years old. I have a red bicycle. I ride my bicycle every day after school. I go to the shop to buy candy. The candy costs two coins. I have three coins in my pocket. The shop owner gives me one coin back.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "How old is Emma?",
+          "options": [
+            "Seven",
+            "Eight",
+            "Nine",
+            "Ten"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q5",
+          "question": "What color is Emma's bicycle?",
+          "options": [
+            "Blue",
+            "Green",
+            "Red",
+            "Black"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q6",
+          "question": "How much does the candy cost?",
+          "options": [
+            "One coin",
+            "Two coins",
+            "Three coins",
+            "Four coins"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "My name is Emma"
+    },
+    {
+      "id": "p3",
+      "text": "It is winter. The weather is cold. Snow falls from the sky. Everything is white. I wear a warm blue coat, a red hat, and black boots. I make a snowman with my sister. We put a carrot for the nose and stones for the eyes. The snowman is big and funny.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What season is it?",
+          "options": [
+            "Summer",
+            "Spring",
+            "Autumn",
+            "Winter"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": "q8",
+          "question": "What color is the coat?",
+          "options": [
+            "Red",
+            "Blue",
+            "Black",
+            "White"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What do they use for the snowman's nose?",
+          "options": [
+            "A stone",
+            "A stick",
+            "A carrot",
+            "A button"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "It is winter"
+    }
+  ],
+  "difficulty": 1,
+  "estimatedMinutes": 6,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel"
+  ]
+}

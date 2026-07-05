@@ -1,0 +1,138 @@
+{
+  "examId": "reading_001",
+  "level": "C1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "Few phenomena have reshaped the social fabric as profoundly as the proliferation of smartphones. While these devices have undoubtedly brought unprecedented convenience, their impact on interpersonal relationships warrants closer scrutiny. It is not uncommon to observe groups of people seated together, each engrossed in their own digital world rather than engaging with one another. This paradox of hyper-connectivity coexisting with social isolation has become a hallmark of modern life. Psychologists argue that the constant stimulation provided by smartphones undermines our capacity for deep, meaningful conversations. Furthermore, the curated nature of social media profiles often fosters unrealistic expectations and fuels social comparison. Unless individuals consciously cultivate digital mindfulness, the very tools designed to bring us closer may drive us further apart.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What paradox does the writer identify regarding smartphones?",
+          "options": [
+            "They are expensive but necessary",
+            "They connect us yet cause isolation",
+            "They save time but waste money",
+            "They are popular but unreliable"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "According to psychologists, what does constant smartphone stimulation undermine?",
+          "options": [
+            "Memory retention",
+            "Capacity for deep conversations",
+            "Physical health",
+            "Problem-solving skills"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "What does the writer recommend to address this issue?",
+          "options": [
+            "Banning smartphones",
+            "Cultivating digital mindfulness",
+            "Limiting internet access",
+            "Using older phone models"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "Few phenomena have reshaped the social fabric as profound..."
+    },
+    {
+      "id": "p2",
+      "text": "The efficacy of remote work has been the subject of vigorous debate since the pandemic forced a global experiment in working from home. Proponents cite increased productivity, reduced commuting time and greater autonomy as compelling advantages. Yet these benefits are not uniformly distributed. Employees in creative or collaborative roles often report that spontaneous brainstorming sessions are difficult to replicate virtually. Moreover, the blurring of boundaries between professional and personal life has led to an alarming rise in burnout. It is becoming increasingly apparent that a one-size-fits-all approach is ill-suited to the complexities of modern work. Forward-thinking organisations are now exploring hybrid models that combine the best of both worlds, though implementing them effectively remains a formidable challenge.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What issue does remote work cause according to the text?",
+          "options": [
+            "Lower salaries",
+            "Blurred boundaries and burnout",
+            "Increased office costs",
+            "Fewer job opportunities"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "What type of employees struggle most with remote work?",
+          "options": [
+            "Entry-level staff",
+            "Those in creative or collaborative roles",
+            "Senior executives",
+            "Part-time workers"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What approach does the writer suggest for modern work?",
+          "options": [
+            "Full-time office work",
+            "Hybrid models",
+            "Permanent remote work",
+            "Four-day work weeks"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The efficacy of remote work has been the subject of vigor..."
+    },
+    {
+      "id": "p3",
+      "text": "The ethical implications of genetic engineering have long been a source of contention among scientists, policymakers and the public. Advances in CRISPR technology have made gene editing more accessible and precise than ever before, raising the prospect of eliminating hereditary diseases. Yet this scientific breakthrough brings with it a host of moral dilemmas. The possibility of 'designer babies' — children whose genetic traits have been selected by parents — evokes concerns about eugenics and social inequality. If such technologies become available only to the wealthy, the gap between the privileged and the disadvantaged could widen irreversibly. It is imperative that robust regulatory frameworks are established to ensure that genetic engineering serves the common good rather than exacerbating existing disparities. The stakes could scarcely be higher.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What beneficial application of genetic engineering is mentioned?",
+          "options": [
+            "Increasing crop yields",
+            "Eliminating hereditary diseases",
+            "Creating new species",
+            "Extending human lifespan"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What concern does the writer raise about designer babies?",
+          "options": [
+            "They would be less healthy",
+            "They could increase social inequality",
+            "They are scientifically impossible",
+            "They would reduce genetic diversity"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What does the writer say is imperative?",
+          "options": [
+            "Banning all genetic engineering",
+            "Establishing robust regulatory frameworks",
+            "Making genetic engineering free",
+            "Limiting research to universities"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The ethical implications of genetic engineering have long..."
+    }
+  ],
+  "difficulty": 5,
+  "estimatedMinutes": 14,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping"
+  ]
+}

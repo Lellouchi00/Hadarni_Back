@@ -1,0 +1,148 @@
+{
+  "examId": "listening_003",
+  "level": "B1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: I think we should eat less meat for environmental reasons. The meat industry produces a lot of greenhouse gases. Man: I agree in principle, but I'm not sure I could become a vegetarian completely. Maybe we can start with meat-free Mondays.",
+      "audioUrl": "",
+      "question": "What compromise does the man suggest?",
+      "options": [
+        "Eating only organic meat",
+        "Having one meat-free day a week",
+        "Becoming vegetarian completely",
+        "Reducing meat portions by half"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Man: I went to a live concert last night for the first time in years. The sound quality was amazing, and the crowd's energy was incredible. Woman: Live music really is something special. Recordings just can't capture that feeling.",
+      "audioUrl": "",
+      "question": "What does the woman think about live music compared to recordings?",
+      "options": [
+        "Recordings are better quality",
+        "Live music creates a unique feeling",
+        "Live concerts are too expensive",
+        "Recordings are more convenient"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Coach: You've been training well all season, and I know you're nervous about the championship match. But remember, you've beaten this team before. Trust your skills and play as a team, not as individuals.",
+      "audioUrl": "",
+      "question": "What is the coach's main message to the team?",
+      "options": [
+        "Practice harder than ever",
+        "Focus on individual performance",
+        "Trust their abilities and work together",
+        "Be cautious during the match"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Woman: My phone battery dies so quickly now. I've had it for three years. Man: You might need a new battery, or it could be time for an upgrade. Technology moves fast, and older phones just can't keep up with new apps.",
+      "audioUrl": "",
+      "question": "What does the man imply about older phones?",
+      "options": [
+        "They are still reliable",
+        "They are not compatible with new apps",
+        "They are cheaper to repair",
+        "They last longer than new ones"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "News report: The local government has announced plans to build a new cycling path through the city center. Supporters say it will encourage more people to cycle instead of drive, reducing traffic and pollution.",
+      "audioUrl": "",
+      "question": "Why do supporters want the new cycling path?",
+      "options": [
+        "To host cycling competitions",
+        "To reduce traffic and pollution",
+        "To attract more tourists",
+        "To create construction jobs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Woman: I'm thinking of studying abroad next semester. Maybe in Spain or Germany. Man: That sounds exciting, but have you looked into the costs? Tuition and living expenses can be quite high. Woman: I've been saving up, and there are scholarships available.",
+      "audioUrl": "",
+      "question": "What concern does the man raise about studying abroad?",
+      "options": [
+        "The language barrier",
+        "The academic workload",
+        "The cost of tuition and living",
+        "Finding accommodation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: You know, I used to be afraid of public speaking. I would avoid it at all costs. But my job forced me to present at meetings, and over time I got used to it. Now I actually enjoy it.",
+      "audioUrl": "",
+      "question": "What helped the woman overcome her fear of public speaking?",
+      "options": [
+        "Taking a course",
+        "Watching TED talks",
+        "Being required to do it at work",
+        "Going to a therapist"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Man: I just finished reading a book about the history of the internet. It's fascinating how it started as a military project and became something that connects almost everyone on the planet. Woman: And now we can't imagine life without it.",
+      "audioUrl": "",
+      "question": "How did the internet originally begin?",
+      "options": [
+        "As a social media platform",
+        "As a university research tool",
+        "As a military project",
+        "As a commercial business"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Woman: You've been playing that video game for hours. Don't you think you should take a break? Man: Just one more level. I'm almost at the final boss. Woman: You said that an hour ago.",
+      "audioUrl": "",
+      "question": "What can be inferred from the woman's last statement?",
+      "options": [
+        "She believes he will stop soon",
+        "She thinks he has been playing too long",
+        "She wants to play the game too",
+        "She doesn't think the game is fun"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Radio talk show: Today we're asking our listeners: What skill should every young person learn before leaving school? We've had calls about cooking, managing finances, and basic first aid. What do you think is most important?",
+      "audioUrl": "",
+      "question": "What is the topic of the radio talk show?",
+      "options": [
+        "School curriculum changes",
+        "Essential life skills for young people",
+        "The importance of higher education",
+        "Part-time jobs for students"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 3,
+  "estimatedMinutes": 6,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping",
+    "education"
+  ]
+}

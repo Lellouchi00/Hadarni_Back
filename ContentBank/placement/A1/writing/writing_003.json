@@ -1,0 +1,82 @@
+{
+  "sectionTitle": "Writing",
+  "totalQuestions": 10,
+  "timeLimitSeconds": 600,
+  "wordBox": [
+    "after",
+    "at",
+    "because",
+    "brush",
+    "dinner",
+    "finish",
+    "go",
+    "have",
+    "my",
+    "on",
+    "usually"
+  ],
+  "passage": "My Daily Routine\n\nHi! I'm Peter. I live in London with my family. This is my daily routine.\n\nI wake up 0 at 7 o'clock. I 1 brush my teeth and wash my face. Then I 2 have breakfast. I 3 usually eat cereal with milk. I leave home at 8 o'clock and walk to school. I 4 finish school at 3 o'clock.\n\nAt home, I do 5 my homework. At 7 o'clock I have 6 with my family. 7 dinner, I watch TV or read a book.\n\nMy Hobby\n\nMy favourite hobby is playing the guitar. I 8 to guitar club twice a week. I love music 9 it makes me happy. Before I sleep, I listen to music 10 my phone.",
+  "questions": [
+    {
+      "id": "wr-a1-021",
+      "gap": 1,
+      "answer": "brush"
+    },
+    {
+      "id": "wr-a1-022",
+      "gap": 2,
+      "answer": "have"
+    },
+    {
+      "id": "wr-a1-023",
+      "gap": 3,
+      "answer": "usually"
+    },
+    {
+      "id": "wr-a1-024",
+      "gap": 4,
+      "answer": "finish"
+    },
+    {
+      "id": "wr-a1-025",
+      "gap": 5,
+      "answer": "my"
+    },
+    {
+      "id": "wr-a1-026",
+      "gap": 6,
+      "answer": "dinner"
+    },
+    {
+      "id": "wr-a1-027",
+      "gap": 7,
+      "answer": "after"
+    },
+    {
+      "id": "wr-a1-028",
+      "gap": 8,
+      "answer": "go"
+    },
+    {
+      "id": "wr-a1-029",
+      "gap": 9,
+      "answer": "because"
+    },
+    {
+      "id": "wr-a1-030",
+      "gap": 10,
+      "answer": "on"
+    }
+  ],
+  "examId": "writing_003",
+  "difficulty": 1,
+  "estimatedMinutes": 10,
+  "version": 1,
+  "tags": [
+    "basic vocabulary",
+    "simple sentences",
+    "personal introduction"
+  ],
+  "level": "A1",
+  "section": "writing"
+}

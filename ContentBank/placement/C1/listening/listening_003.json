@@ -1,0 +1,148 @@
+{
+  "examId": "listening_003",
+  "level": "C1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Sociologist: The concept of 'third places'—social spaces distinct from home and work—has become increasingly relevant as researchers document a decline in community engagement. Cafes, bookstores, parks, and community centers historically served as arenas for casual social interaction across demographic lines. Their erosion, exacerbated by digital replacement and commercial homogenization, may contribute to the polarization we observe in public discourse.",
+      "audioUrl": "",
+      "question": "Why does the sociologist consider third places important?",
+      "options": [
+        "They generate significant economic activity",
+        "They facilitate cross-demographic social interaction",
+        "They are essential for small business growth",
+        "They replace the need for family connections"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Woman: The term 'gaslighting' has entered mainstream vocabulary, but its popular usage often dilutes its meaning. Originally, it referred to a specific pattern of psychological manipulation designed to make someone doubt their own perception of reality. When every disagreement is labeled gaslighting, the term loses its power to describe genuine abuse. Man: That's a common fate for clinical concepts that enter everyday language—they broaden but also weaken.",
+      "audioUrl": "",
+      "question": "What concern does the woman raise about the popular use of 'gaslighting'?",
+      "options": [
+        "It is used too infrequently",
+        "Its meaning has been diluted by overuse",
+        "It should only be used in legal contexts",
+        "It has been replaced by more accurate terms"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Political theorist: Deliberative democracy operates on the premise that legitimate political decisions arise not merely from aggregating preferences through voting but from genuine public deliberation where participants exchange reasons and are open to changing their positions. The challenge, of course, is that real-world deliberation is rarely ideal—power imbalances, limited information, and deep value pluralism complicate the picture significantly.",
+      "audioUrl": "",
+      "question": "What challenge to deliberative democracy does the theorist acknowledge?",
+      "options": [
+        "Voting is more efficient than discussion",
+        "Real-world conditions deviate from ideal deliberation",
+        "Citizens prefer authoritarian decision-making",
+        "Deliberation always leads to consensus"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Woman: I read an article arguing that the gig economy represents a new form of feudalism, where platforms act as lords extracting rent from digital serfs who have no employment protections. Man: That's a deliberately provocative framing, but it captures something real about the power asymmetry. When you have no bargaining power and the algorithm can deactivate your account without explanation, traditional employment law offers little recourse.",
+      "audioUrl": "",
+      "question": "What aspect of the gig economy does the feudal analogy highlight?",
+      "options": [
+        "The efficiency of platform-based work",
+        "The power imbalance between platforms and workers",
+        "The tax advantages of gig work",
+        "The technological sophistication of modern platforms"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Art historian: The Impressionists were initially derided for their seemingly unfinished canvases and unconventional subject matter. Yet their radical break from academic conventions—painting en plein air, capturing transient light effects, depicting modern urban life—laid the groundwork for virtually every subsequent avant-garde movement. What was once scandalous is now canonized; what was dismissed as amateurish now commands millions at auction.",
+      "audioUrl": "",
+      "question": "What ironic development does the art historian point out about Impressionism?",
+      "options": [
+        "The Impressionists never achieved fame in their lifetime",
+        "Once-revolutionary art became institutionalized and highly valued",
+        "Impressionist techniques are now taught in beginner classes",
+        "The movement lasted only a few years"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Woman: I've noticed that in negotiations, the person who speaks less often ends up with a better outcome. Man: That aligns with research on strategic silence. Silence creates discomfort, and people tend to fill conversational gaps by offering concessions or revealing information they hadn't intended to share. It's a counterintuitive but powerful tool.",
+      "audioUrl": "",
+      "question": "What advantage does strategic silence provide in negotiations?",
+      "options": [
+        "It makes the speaker seem more confident",
+        "It pressures the other party to reveal more or concede",
+        "It reduces the total time of negotiation",
+        "It signals disinterest in reaching a deal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Biologist: The concept of 'holobiont' has fundamentally changed how we understand an individual organism. We now recognize that every multicellular creature is actually a complex ecosystem of host cells and microbial symbionts whose combined genetic material—the hologenome—shapes development, immunity, and even behavior. This challenges the very notion of what constitutes an individual.",
+      "audioUrl": "",
+      "question": "How does the holobiont concept challenge traditional biology?",
+      "options": [
+        "It proves that microbes cause all diseases",
+        "It redefines the individual organism as an ecosystem",
+        "It suggests that DNA is irrelevant to development",
+        "It claims that all cells are genetically identical"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Woman: The term 'Schadenfreude' describes pleasure derived from another's misfortune, but its moral valence is more complex than simple condemnation. Evolutionary psychologists suggest it may serve a social function—the misfortunes of others provide valuable information about risks to avoid. Man: So it's not necessarily malicious; it could be a byproduct of our learning mechanisms.",
+      "audioUrl": "",
+      "question": "How does the man reinterpret Schadenfreude?",
+      "options": [
+        "As always morally reprehensible",
+        "As a possible byproduct of learning mechanisms",
+        "As a uniquely German cultural phenomenon",
+        "As a sign of psychological disorder"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Urbanist: The twenty-minute city concept—where residents can access most daily needs within a twenty-minute walk or bike ride from home—is gaining traction among planners. Critics argue it's unrealistic for low-density suburbs, but proponents counter that it's not about forcing所有人 into dense urban cores; it's about designing complete neighborhoods regardless of overall city density. The question is political will, not feasibility.",
+      "audioUrl": "",
+      "question": "How do proponents of the twenty-minute city respond to critics?",
+      "options": [
+        "By admitting the concept only works in dense cities",
+        "By arguing it's about complete neighborhoods, not density alone",
+        "By suggesting it requires forced relocation",
+        "By claiming critics misunderstand the economics"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Psychiatrist: Intergenerational trauma—the transmission of trauma effects from one generation to the next—operates through multiple mechanisms. Epigenetic changes can alter stress responses in descendants of trauma survivors. Attachment patterns learned from affected parents can perpetuate maladaptive coping. And family narratives shaped by collective trauma create frameworks of meaning that influence how subsequent generations interpret their experiences.",
+      "audioUrl": "",
+      "question": "What is one biological mechanism of intergenerational trauma transmission?",
+      "options": [
+        "Genetic mutation caused by traumatic events",
+        "Epigenetic changes affecting stress responses",
+        "Birth defects from maternal stress",
+        "Inherited memories encoded in DNA"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 5,
+  "estimatedMinutes": 8,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping"
+  ]
+}

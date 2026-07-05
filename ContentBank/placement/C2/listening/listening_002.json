@@ -1,0 +1,150 @@
+{
+  "examId": "listening_002",
+  "level": "C2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: The Trolley Problem has dominated experimental moral philosophy for decades, but Floridi's 'information ethics' reframes the entire enterprise. Rather than adjudicating between competing intuitions about hypothetical dilemmas, he argues that any entity—human, animal, digital, or environmental—that exists as an informational entity has intrinsic moral worth. This radically expands the moral community beyond the sentient and the living to encompass the entire infosphere.",
+      "audioUrl": "",
+      "question": "How does Floridi's information ethics differ from traditional approaches?",
+      "options": [
+        "It rejects the concept of intrinsic moral worth",
+        "It extends moral consideration to all informational entities, not just sentient beings",
+        "It argues only humans possess moral standing",
+        "It dismisses hypothetical dilemmas as irrelevant to ethics"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Man: The historiography of the Scientific Revolution has undergone substantial revision in recent decades. The traditional narrative—a heroic triumph of reason over superstition culminating in Newton's synthesis—has given way to more nuanced accounts emphasizing continuity with medieval scholasticism, the role of artisan knowledge and craft traditions, and the circulation of knowledge across cultures, particularly the Islamic world's contributions that earlier Eurocentric accounts systematically marginalized.",
+      "audioUrl": "",
+      "question": "How has recent historiography revised understanding of the Scientific Revolution?",
+      "options": [
+        "It has confirmed the traditional heroic narrative",
+        "It emphasizes continuity with medieval and cross-cultural contributions",
+        "It denies that any scientific progress occurred before the twentieth century",
+        "It argues that Islamic science was derivative of European traditions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Woman: Arendt's analysis of the 'banality of evil' in Eichmann in Jerusalem was widely misunderstood as exonerating individual responsibility. On the contrary, her point was that the most terrifying evil is not perpetrated by monsters but by ordinary people who abdicate the capacity for reflective judgment. Eichmann's thoughtlessness—his inability to inhabit another's perspective, to imagine the consequences of his actions—constituted a moral failure more profound than overt malice.",
+      "audioUrl": "",
+      "question": "What does Arendt mean by 'the banality of evil' according to the speaker?",
+      "options": [
+        "Evil is ordinary and therefore should be forgiven",
+        "Extreme evil can result from a failure of reflective judgment, not just malice",
+        "Only monstrous individuals are capable of perpetrating evil",
+        "Eichmann was unfairly convicted for following orders"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Man: The onto-epistemological framework of Karen Barad's agential realism proposes that matter and meaning are mutually constituted through intra-action—a neologism distinguishing her account from interaction, which presupposes pre-existing independent entities. Measurement apparatuses are not neutral instruments that reveal pre-existing phenomena but are themselves material-discursive practices that enact specific cuts in the world, bringing particular phenomena into being.",
+      "audioUrl": "",
+      "question": "According to Barad's agential realism, what do measurement apparatuses do?",
+      "options": [
+        "Neutrally reveal objective reality",
+        "Enact specific cuts that bring phenomena into being",
+        "Merely record data without affecting outcomes",
+        "Distort an otherwise knowable external world"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Woman: The term 'late capitalism'—popularized by Mandel and elaborated by Jameson—does not refer to a chronological period but to a structural transformation. Under late capitalism, capital penetrates previously non-commodified spheres of life: affect, cognition, and social relations themselves become sites of value extraction. The commodification of attention through social media, the monetization of intimacy through platforms, and the financialization of everyday risk exemplify this logic.",
+      "audioUrl": "",
+      "question": "What characteristic defines 'late capitalism' according to the speaker?",
+      "options": [
+        "The decline of industrial manufacturing",
+        "The penetration of capital into previously non-commodified aspects of life",
+        "The return of pre-industrial economic structures",
+        "The complete elimination of state regulation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Man: The development of mRNA vaccine technology represents a paradigmatic shift in vaccinology, not merely an incremental improvement. Traditional vaccine development required cultivating pathogens and attenuating or inactivating them—a process that could take years or decades. mRNA platforms decouple vaccine design from biological production: once the genetic sequence of a pathogen is known, a vaccine can be designed within days. This platform-based, information-driven approach opens possibilities for rapid response to emerging pathogens that were previously unimaginable.",
+      "audioUrl": "",
+      "question": "Why does the speaker describe mRNA vaccines as a paradigmatic shift?",
+      "options": [
+        "They are cheaper to manufacture than traditional vaccines",
+        "They decouple vaccine design from biological pathogen cultivation",
+        "They provide lifelong immunity with a single dose",
+        "They eliminate the need for cold chain distribution"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: Foucault's concept of 'biopower' describes a transformation in the exercise of sovereignty. Classical sovereign power was the power to 'take life or let live.' Biopower inverted this to 'make live and let die'—power now operates through the administration and optimization of life at the population level. Public health campaigns, demographic management, and risk calculation are mechanisms of biopower that shape subjects not through overt coercion but through the normalization of specific forms of conduct.",
+      "audioUrl": "",
+      "question": "How does biopower differ from classical sovereign power?",
+      "options": [
+        "Biopower is weaker than sovereign power",
+        "Biopower operates through administering life rather than threatening death",
+        "Biopower relies on overt physical coercion",
+        "Biopower only applies in totalitarian states"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Man: The aesthetic philosophy of Theodor Adorno, particularly in Aesthetic Theory, is notoriously difficult but profoundly important. Adorno argued that authentic art in the age of the culture industry must maintain its autonomy from market forces while simultaneously registering the suffering and contradictions of the social totality. This double character—autonomous yet socially mediated—produces works that resist easy consumption, demanding interpretive effort that, for Adorno, constituted their critical potential.",
+      "audioUrl": "",
+      "question": "What does Adorno argue gives authentic art its critical potential?",
+      "options": [
+        "Its popularity with mass audiences",
+        "Its resistance to easy consumption and interpretive demand on the viewer",
+        "Its complete separation from social reality",
+        "Its use of traditional forms and techniques"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Woman: The 'Hard Problem of Consciousness,' as Chalmers formulated it, concerns why and how physical processes in the brain give rise to subjective experience. The 'easy problems'—explaining cognitive functions like attention, memory, and behavior—are tractable within standard scientific frameworks. But the hard problem persists because even a complete functional account of brain processes seems to leave unexplained why there is 'something it is like' to be that system. No current physicalist theory has adequately accounted for qualia.",
+      "audioUrl": "",
+      "question": "What distinguishes the Hard Problem from the easy problems of consciousness?",
+      "options": [
+        "The Hard Problem cannot be studied scientifically at all",
+        "Easy problems deal with cognitive functions; the Hard Problem deals with why there is subjective experience",
+        "The Hard Problem was solved by Chalmers",
+        "Easy problems are about the brain; the Hard Problem is about the mind-body dualism"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Man: The postcolonial concept of 'epistemic violence' describes the destruction or suppression of indigenous knowledge systems by colonial regimes. This violence is not merely historical—it continues through the hegemony of Western epistemological frameworks in global academia, where research methodologies, publication norms, and citation practices systematically marginalize non-Western knowledge production. Decolonizing knowledge requires not merely including diverse subjects but transforming the institutional structures that determine what counts as legitimate knowledge.",
+      "audioUrl": "",
+      "question": "What does 'epistemic violence' refer to in postcolonial thought?",
+      "options": [
+        "Physical violence against scholars",
+        "The suppression of indigenous knowledge systems by colonial frameworks",
+        [
+          "The rejection of all Western knowledge"
+        ],
+        "Violent conflicts between academic traditions"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 6,
+  "estimatedMinutes": 9,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "education",
+    "technology"
+  ]
+}

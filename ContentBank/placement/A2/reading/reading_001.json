@@ -1,0 +1,138 @@
+{
+  "examId": "reading_001",
+  "level": "A2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "Maria is a student. She lives in Madrid with her family. Every day, she gets up at seven o'clock and has breakfast. Then she goes to school by bus. She studies English and maths. She likes English because it is interesting. After school, she plays with her friends in the park. Yesterday, she played football and had a good time.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Where does Maria live?",
+          "options": [
+            "Madrid",
+            "Barcelona",
+            "London",
+            "Paris"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q2",
+          "question": "How does Maria go to school?",
+          "options": [
+            "By car",
+            "By bus",
+            "On foot",
+            "By bike"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "What did Maria do yesterday?",
+          "options": [
+            "She studied maths",
+            "She watched TV",
+            "She played football",
+            "She visited her grandmother"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Maria is a student"
+    },
+    {
+      "id": "p2",
+      "text": "Tom and his sister Anna are at the supermarket. They want to buy food for a party. Tom gets some chips and chocolate. Anna gets fruit and juice. The party is for their mother's birthday. They are very happy because their mother loves parties. Tom has twenty dollars and Anna has fifteen dollars. They have enough money for everything.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "Where are Tom and Anna?",
+          "options": [
+            "At school",
+            "At the supermarket",
+            "At the park",
+            "At home"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "Why is the party for?",
+          "options": [
+            "Christmas",
+            "Their father's birthday",
+            "Their mother's birthday",
+            "New Year"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q6",
+          "question": "How much money does Tom have?",
+          "options": [
+            "Ten dollars",
+            "Fifteen dollars",
+            "Twenty dollars",
+            "Twenty-five dollars"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Tom and his sister Anna are at the supermarket"
+    },
+    {
+      "id": "p3",
+      "text": "My city is small but very nice. There is a big park in the centre. Every weekend, families go there to walk and relax. There is also a museum and a library. I go to the library every Wednesday because I love reading. The library has many books for children and adults. My favourite place is the café near the park. It sells the best chocolate cake in the city.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What is in the centre of the city?",
+          "options": [
+            "A museum",
+            "A library",
+            "A big park",
+            "A café"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q8",
+          "question": "When does the writer go to the library?",
+          "options": [
+            "Every Monday",
+            "Every Tuesday",
+            "Every Wednesday",
+            "Every Friday"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q9",
+          "question": "What is the writer's favourite place?",
+          "options": [
+            "The museum",
+            "The park",
+            "The library",
+            "The café"
+          ],
+          "correctAnswer": 3
+        }
+      ],
+      "title": "My city is small but very nice"
+    }
+  ],
+  "difficulty": 2,
+  "estimatedMinutes": 8,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "travel",
+    "shopping",
+    "education"
+  ]
+}

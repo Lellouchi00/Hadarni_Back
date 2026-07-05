@@ -1,0 +1,138 @@
+{
+  "examId": "reading_001",
+  "level": "B1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "I have been learning to play the guitar for two years. I started when my grandfather gave me his old guitar. At first, it was difficult and I wanted to give up. But my teacher told me that if I practise every day, I will improve. Now I can play my favourite songs. I have already performed in three school concerts. My family always comes to watch me. I think music is the best way to express feelings. If you want to learn an instrument, you should be patient and practise regularly.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "How long has the writer been learning the guitar?",
+          "options": [
+            "One year",
+            "Two years",
+            "Three years",
+            "Four years"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "Who gave the writer the guitar?",
+          "options": [
+            "His teacher",
+            "His father",
+            "His grandfather",
+            "His friend"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "What advice does the writer give about learning an instrument?",
+          "options": [
+            "It is easy",
+            "You need talent",
+            "Be patient and practise",
+            "Take lessons online"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "I have been learning to play the guitar for two years"
+    },
+    {
+      "id": "p2",
+      "text": "Sarah has been working as a volunteer at an animal shelter since last summer. She takes care of dogs and cats that do not have homes. Every Saturday morning, she feeds the animals and cleans their cages. She has already helped find new homes for five dogs. However, she believes that people should think carefully before getting a pet. A pet can live for many years, and owners must have enough time and money to take care of it. If you adopt a pet, you must be responsible.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "How long has Sarah volunteered at the shelter?",
+          "options": [
+            "Since last winter",
+            "Since last summer",
+            "For a month",
+            "For a year"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "How many dogs has Sarah helped find homes for?",
+          "options": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q6",
+          "question": "What does Sarah think people should do before getting a pet?",
+          "options": [
+            "Buy expensive food",
+            "Think carefully",
+            "Ask a vet",
+            "Get two pets"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "Sarah has been working as a volunteer at an animal shelte..."
+    },
+    {
+      "id": "p3",
+      "text": "Last year, I travelled to Japan with my family. We visited Tokyo, Kyoto and Osaka. I had always wanted to see Mount Fuji, but the weather was cloudy, so we could not see it. However, we visited many temples and tried traditional Japanese food. I think sushi is delicious, but my brother did not like it. If we had more time, we would have visited the countryside too. I would recommend Japan to anyone who loves culture and history. I have already started saving money to go back next year.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "Which city did the writer NOT mention visiting?",
+          "options": [
+            "Tokyo",
+            "Kyoto",
+            "Osaka",
+            "Nagoya"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": "q8",
+          "question": "Why could the writer not see Mount Fuji?",
+          "options": [
+            "It was too far",
+            "The weather was cloudy",
+            "It was closed",
+            "They did not have time"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What would the writer have done with more time?",
+          "options": [
+            "Visited more temples",
+            "Stayed longer in Tokyo",
+            "Visited the countryside",
+            "Taken more photos"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Last year, I travelled to Japan with my family"
+    }
+  ],
+  "difficulty": 3,
+  "estimatedMinutes": 10,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel"
+  ]
+}

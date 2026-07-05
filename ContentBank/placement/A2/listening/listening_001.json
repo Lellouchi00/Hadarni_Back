@@ -1,0 +1,148 @@
+{
+  "examId": "listening_001",
+  "level": "A2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: Excuse me, how much is this T-shirt? Man: It's fifteen dollars. Woman: And the blue one? Man: That one is twelve dollars. Woman: Great, I'll take the blue one.",
+      "audioUrl": "",
+      "question": "How much does the woman pay?",
+      "options": [
+        "$10",
+        "$12",
+        "$15",
+        "$20"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Tom: What do you like to do on weekends? Sarah: I love going to the park with my dog. Sometimes I ride my bike or meet friends for coffee.",
+      "audioUrl": "",
+      "question": "What does Sarah enjoy doing on weekends?",
+      "options": [
+        "Watching TV at home",
+        "Going to the park with her dog",
+        "Shopping at the mall",
+        "Cooking with friends"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Announcer: The train to Boston will depart from platform three at four thirty. Please have your tickets ready.",
+      "audioUrl": "",
+      "question": "When does the train to Boston leave?",
+      "options": [
+        "3:30",
+        "4:00",
+        "4:30",
+        "5:00"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Girl: Mom, can I have some ice cream? Mom: You can have one scoop after you finish your dinner. Girl: Okay, I'll eat quickly!",
+      "audioUrl": "",
+      "question": "When can the girl have ice cream?",
+      "options": [
+        "Right now",
+        "After she cleans her room",
+        "After she finishes dinner",
+        "Tomorrow morning"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Librarian: The library opens at nine in the morning and closes at eight in the evening from Monday to Friday. On weekends, we close at five.",
+      "audioUrl": "",
+      "question": "What time does the library close on Saturdays?",
+      "options": [
+        "5:00",
+        "6:00",
+        "7:00",
+        "8:00"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Mike: I'm looking for a new apartment. I need something near the university. Agent: There's a small studio on Park Street for six hundred dollars a month. Mike: That sounds good. Can I see it tomorrow?",
+      "audioUrl": "",
+      "question": "Why does Mike want an apartment near the university?",
+      "options": [
+        "He works there",
+        "He studies there",
+        "His friends live there",
+        "It is cheaper there"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: I need to buy some eggs, milk, and bread. Man: The supermarket is just around the corner. It's open until ten tonight.",
+      "audioUrl": "",
+      "question": "Where is the woman going?",
+      "options": [
+        "To a bakery",
+        "To a supermarket",
+        "To a restaurant",
+        "To a school"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Doctor: You should take this medicine twice a day, once in the morning and once in the evening. Patient: For how long? Doctor: For one week. Then come back to see me.",
+      "audioUrl": "",
+      "question": "How many times a day should the patient take the medicine?",
+      "options": [
+        "Once a day",
+        "Twice a day",
+        "Three times a day",
+        "Four times a day"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Anna: I'm going to the beach this Saturday. Do you want to come? Ben: I'd love to, but I have to work. Anna: Oh, that's too bad. Maybe next time.",
+      "audioUrl": "",
+      "question": "Why can't Ben go to the beach?",
+      "options": [
+        "He is sick",
+        "He has to work",
+        "He doesn't like the beach",
+        "He is going on vacation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Weather report: Good morning. Today will be sunny and warm, with a high of twenty-five degrees. Tonight, the temperature will drop to twelve degrees, so bring a jacket if you go out.",
+      "audioUrl": "",
+      "question": "What is the temperature tonight expected to be?",
+      "options": [
+        "12 degrees",
+        "18 degrees",
+        "20 degrees",
+        "25 degrees"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel",
+    "shopping"
+  ]
+}

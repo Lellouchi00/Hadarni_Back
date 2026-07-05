@@ -1,0 +1,138 @@
+{
+  "examId": "reading_002",
+  "level": "A2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "David wants to be a chef. He loves cooking and often helps his mother in the kitchen. Last weekend, he made spaghetti for his family. First, he boiled water and put the pasta in. Then he made tomato sauce with onions and garlic. His father said the food was delicious. David was very happy. He wants to learn more recipes and open a restaurant one day.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does David want to be?",
+          "options": [
+            "A doctor",
+            "A teacher",
+            "A chef",
+            "A driver"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q2",
+          "question": "What did David make last weekend?",
+          "options": [
+            "Pizza",
+            "Spaghetti",
+            "Salad",
+            "Soup"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "How did David's father like the food?",
+          "options": [
+            "He did not like it",
+            "He said it was okay",
+            "He said it was delicious",
+            "He did not eat it"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "David wants to be a chef"
+    },
+    {
+      "id": "p2",
+      "text": "The weather is very hot today. Lucy and her brother Mark go to the beach. They take their swimsuits and a big umbrella. At the beach, Lucy swims in the sea while Mark builds a sandcastle. Their mother reads a book under the umbrella. They stay at the beach for three hours. Then they buy ice cream from a small shop near the beach. Lucy has strawberry flavour and Mark has chocolate. It is a wonderful day.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What does Mark do at the beach?",
+          "options": [
+            "He swims in the sea",
+            "He builds a sandcastle",
+            "He reads a book",
+            "He buys ice cream"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "How long do they stay at the beach?",
+          "options": [
+            "One hour",
+            "Two hours",
+            "Three hours",
+            "Four hours"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q6",
+          "question": "What flavour ice cream does Lucy have?",
+          "options": [
+            "Chocolate",
+            "Vanilla",
+            "Strawberry",
+            "Mango"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "The weather is very hot today"
+    },
+    {
+      "id": "p3",
+      "text": "Emma gets a new pet. It is a small rabbit with white fur and long ears. She calls it Snowy. Snowy likes to eat carrots and lettuce. Emma cleans Snowy's cage every morning. She also plays with Snowy in the garden after school. Snowy can jump very high and run fast. Emma loves her new pet very much. Her best friend Lily also has a rabbit. Sometimes they play with their rabbits together.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What colour is Snowy's fur?",
+          "options": [
+            "Brown",
+            "White",
+            "Black",
+            "Grey"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "When does Emma clean Snowy's cage?",
+          "options": [
+            "In the afternoon",
+            "At night",
+            "Every morning",
+            "Every weekend"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q9",
+          "question": "Who is Lily?",
+          "options": [
+            "Emma's sister",
+            "Emma's cousin",
+            "Emma's teacher",
+            "Emma's best friend"
+          ],
+          "correctAnswer": 3
+        }
+      ],
+      "title": "Emma gets a new pet"
+    }
+  ],
+  "difficulty": 2,
+  "estimatedMinutes": 8,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "examId": "speaking_002",
+  "section": "speaking",
+  "level": "A1",
+  "title": "Describe Your Daily Routine",
+  "instruction": "Describe what you do every day from morning to evening. Speak for at least 45 seconds.",
+  "prompts": [
+    "What time do you wake up?",
+    "What do you do in the morning?",
+    "What do you do during the day?",
+    "What do you do in the evening?"
+  ],
+  "difficulty": 1,
+  "estimatedMinutes": 10,
+  "version": 1,
+  "tags": [
+    "basic vocabulary",
+    "simple sentences",
+    "personal introduction"
+  ]
+}

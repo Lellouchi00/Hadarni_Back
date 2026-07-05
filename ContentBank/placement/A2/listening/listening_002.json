@@ -1,0 +1,148 @@
+{
+  "examId": "listening_002",
+  "level": "A2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Lisa: Where did you go on holiday last summer? Mark: I went to Italy with my family. We visited Rome and Florence. The food was amazing!",
+      "audioUrl": "",
+      "question": "Which countries did Mark visit?",
+      "options": [
+        "France",
+        "Spain",
+        "Italy",
+        "Greece"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Hotel clerk: Your room is on the fifth floor. Here is your key. Breakfast is served from seven to ten in the dining room on the ground floor.",
+      "audioUrl": "",
+      "question": "Where is breakfast served?",
+      "options": [
+        "In the room",
+        "On the fifth floor",
+        "In the dining room",
+        "In the lobby"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Teacher: For homework, please read chapter four and answer the questions at the end. This is due on Friday. Student: Can we work in pairs? Teacher: No, this is individual work.",
+      "audioUrl": "",
+      "question": "When is the homework due?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Man: I'd like to make a reservation for two people tonight at seven. Host: I'm sorry, we're fully booked at seven. We have a table at eight or eight thirty. Man: Eight is perfect.",
+      "audioUrl": "",
+      "question": "What time will the man have dinner?",
+      "options": [
+        "7:00",
+        "7:30",
+        "8:00",
+        "8:30"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Woman: Excuse me, is there a bank near here? Man: Yes, there's one on Main Street, next to the post office. It's about five minutes' walk.",
+      "audioUrl": "",
+      "question": "Where is the bank?",
+      "options": [
+        "Next to the post office",
+        "Across from the school",
+        "Behind the hospital",
+        "Near the train station"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Jack: I started a new job last week. I work in a hospital as a nurse. The hours are long but I love helping people.",
+      "audioUrl": "",
+      "question": "What is Jack's job?",
+      "options": [
+        "Doctor",
+        "Teacher",
+        "Nurse",
+        "Receptionist"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Mom: What do you want for your birthday? Daughter: I really want a new phone. Mom: Let me think about it. Daughter: Please, Mom! All my friends have one.",
+      "audioUrl": "",
+      "question": "What does the daughter want for her birthday?",
+      "options": [
+        "A new computer",
+        "A new phone",
+        "A new bike",
+        "A new dress"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Announcer: Flight 782 to London is now boarding at gate twelve. All passengers with children or who need assistance may board now.",
+      "audioUrl": "",
+      "question": "Which flight is boarding?",
+      "options": [
+        "Flight 718 to Paris",
+        "Flight 782 to London",
+        "Flight 820 to Berlin",
+        "Flight 782 to Dublin"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "John: I usually get up at six, go for a run, take a shower, and then have breakfast. I leave for work at eight and start at nine.",
+      "audioUrl": "",
+      "question": "What does John do first after getting up?",
+      "options": [
+        "Take a shower",
+        "Have breakfast",
+        "Go for a run",
+        "Leave for work"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Shop assistant: This jacket is on sale. It was eighty dollars, but now it's only fifty dollars. Customer: That's a good deal. I'll take it.",
+      "audioUrl": "",
+      "question": "How much does the jacket cost now?",
+      "options": [
+        "$30",
+        "$40",
+        "$50",
+        "$80"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 2,
+  "estimatedMinutes": 5,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "weather",
+    "travel",
+    "shopping"
+  ]
+}

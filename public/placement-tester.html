@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placement API Tester</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f0f2f5; color: #333; padding: 20px; }
+    h1 { font-size: 22px; margin-bottom: 16px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    h2 { font-size: 16px; margin-bottom: 10px; color: #1a1a2e; }
+    .row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; align-items: flex-end; }
+    .row label { font-size: 13px; font-weight: 600; display: flex; flex-direction: column; gap: 4px; }
+    .row select, .row input { padding: 8px 12px; border: 1px solid #d0d0d0; border-radius: 6px; font-size: 14px; min-width: 100px; }
+    .btn { padding: 8px 18px; border: none; border-radius: 6px; font-size: 14px; font-weight: 600; cursor: pointer; }
+    .btn-primary { background: #5b3df5; color: #fff; }
+    .btn-primary:hover { background: #4a2ed4; }
+    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-success { background: #2e7d32; color: #fff; }
+    .btn-success:hover { background: #1b5e20; }
+    .btn-danger { background: #c62828; color: #fff; }
+    .btn-danger:hover { background: #b71c1c; }
+    .layout { display: grid; grid-template-columns: 300px 1fr; gap: 20px; }
+    @media (max-width: 768px) { .layout { grid-template-columns: 1fr; } }
+    .panel { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .sidebar .panel { margin-bottom: 12px; }
+    .section-list { display: flex; flex-direction: column; gap: 6px; }
+    .section-item { padding: 10px 14px; border: 1px solid #e0e0e0; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.15s; }
+    .section-item:hover { border-color: #5b3df5; background: #f8f6ff; }
+    .section-item.active { border-color: #5b3df5; background: #ede7f6; }
+    .section-item.done { border-color: #2e7d32; background: #e8f5e9; }
+    .section-item .badge { float: right; font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #e0e0e0; }
+    .section-item.done .badge { background: #2e7d32; color: #fff; }
+    .question-card { background: #f8f9fa; padding: 14px; border-radius: 8px; margin-bottom: 12px; }
+    .question-card h3 { font-size: 14px; margin-bottom: 8px; }
+    .options { display: flex; flex-direction: column; gap: 5px; }
+    .options label { display: flex; align-items: center; gap: 8px; padding: 7px 10px; border: 1px solid #e0e0e0; border-radius: 6px; cursor: pointer; font-size: 13px; }
+    .options label:hover { border-color: #5b3df5; background: #f8f6ff; }
+    .options label input { accent-color: #5b3df5; }
+    textarea { width: 100%; min-height: 80px; padding: 10px; border: 1px solid #d0d0d0; border-radius: 8px; font-family: inherit; font-size: 14px; resize: vertical; }
+    pre { background: #263238; color: #eeffff; padding: 14px; border-radius: 8px; font-size: 12px; overflow-x: auto; max-height: 400px; white-space: pre-wrap; word-break: break-all; }
+    .tab-bar { display: flex; gap: 4px; margin-bottom: 12px; }
+    .tab { padding: 6px 14px; border: 1px solid #d0d0d0; border-radius: 6px 6px 0 0; cursor: pointer; font-size: 13px; font-weight: 500; background: #f5f5f5; }
+    .tab.active { background: #fff; border-bottom-color: #fff; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    .status-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .status-tag { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+    .status-tag.success { background: #e8f5e9; color: #2e7d32; }
+    .status-tag.warn { background: #fff3e0; color: #e65100; }
+    .status-tag.info { background: #e3f2fd; color: #1565c0; }
+    .status-tag.neutral { background: #f5f5f5; color: #666; }
+    .correct { color: #2e7d32; font-weight: 700; }
+    .wrong { color: #c62828; font-weight: 700; }
+    .unanswered { color: #999; font-style: italic; }
+    .inline-code { background: #f5f5f5; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 12px; }
+    .audio-player { width: 100%; margin-bottom: 8px; }
+    .result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+    .result-card { background: #f8f9fa; padding: 12px; border-radius: 8px; text-align: center; }
+    .result-card .value { font-size: 24px; font-weight: 800; color: #5b3df5; }
+    .result-card .label { font-size: 11px; color: #999; text-transform: uppercase; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <h1>
+    Placement API Tester
+    <span id="status-badge" class="status-tag neutral">Idle</span>
+  </h1>
+
+  <div class="layout">
+    <div class="sidebar">
+      <div class="panel">
+        <h2>Session</h2>
+        <div class="row">
+          <label>Level
+            <select id="level-select">
+              <option>A1</option><option>A2</option><option>B1</option>
+              <option>B2</option><option>C1</option><option selected>C2</option>
+            </select>
+          </label>
+          <button id="start-btn" class="btn btn-success">Start Session</button>
+        </div>
+        <div style="font-size:12px;color:#999;margin-top:4px;">
+          Session: <span id="session-id-display">—</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Sections</h2>
+        <div class="section-list" id="section-list">
+          <div class="section-item" data-section="reading">Reading <span class="badge">?</span></div>
+          <div class="section-item" data-section="listening">Listening <span class="badge">?</span></div>
+          <div class="section-item" data-section="writing">Writing <span class="badge">?</span></div>
+          <div class="section-item" data-section="speaking">Speaking <span class="badge">?</span></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Quick Actions</h2>
+        <div style="display:flex;flex-direction:column;gap:6px;">
+          <button id="fetch-reading-btn" class="btn btn-primary" style="font-size:13px;padding:7px 14px;">Fetch Reading</button>
+          <button id="fetch-listening-btn" class="btn btn-primary" style="font-size:13px;padding:7px 14px;">Fetch Listening</button>
+          <button id="fetch-writing-btn" class="btn btn-primary" style="font-size:13px;padding:7px 14px;">Fetch Writing</button>
+          <button id="fetch-speaking-btn" class="btn btn-primary" style="font-size:13px;padding:7px 14px;">Fetch Speaking</button>
+        </div>
+        <div class="row" style="margin-top:10px;">
+          <label>Level override
+            <select id="quick-level-override">
+              <option value="">(use session)</option>
+              <option>A1</option><option>A2</option><option>B1</option>
+              <option>B2</option><option>C1</option><option>C2</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="panel">
+        <div class="tab-bar">
+          <div class="tab active" data-tab="exam">Exam</div>
+          <div class="tab" data-tab="result">Result</div>
+          <div class="tab" data-tab="raw">Raw JSON</div>
+        </div>
+
+        <div id="tab-exam" class="tab-content active">
+          <div id="exam-header-info" style="margin-bottom:12px;font-size:13px;color:#666;"></div>
+          <div id="exam-body">Click a section or button to load an exam.</div>
+          <div id="exam-actions" style="margin-top:16px;display:none;">
+            <button id="submit-btn" class="btn btn-primary">Submit Answers</button>
+          </div>
+        </div>
+
+        <div id="tab-result" class="tab-content">
+          <div id="result-body">No results yet.</div>
+        </div>
+
+        <div id="tab-raw" class="tab-content">
+          <pre id="raw-json">// Click a section to load an exam, then view its raw JSON here.</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const API = "/api/placement";
+    const BASE = window.location.origin;
+
+    let sessionId = null;
+    let sessionLevel = null;
+    let currentSection = null;
+    let currentExam = null;
+    let sectionResults = {};
+
+    const $ = s => document.querySelector(s);
+    const $$ = s => document.querySelectorAll(s);
+
+    function setStatus(text, cls) {
+      const badge = $("#status-badge");
+      badge.textContent = text;
+      badge.className = "status-tag " + (cls || "neutral");
+    }
+
+    function log(...args) { console.log("[Tester]", ...args); }
+
+    // --- Session ---
+    async function startSession() {
+      const level = $("#level-select").value;
+      setStatus("Starting...", "info");
+      try {
+        const r = await fetch(`${API}/progression/start`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ estimatedLevel: level })
+        });
+        if (!r.ok) { const e = await r.json(); throw new Error(e.error); }
+        const data = await r.json();
+        sessionId = data.sessionId;
+        sessionLevel = data.level;
+        $("#session-id-display").textContent = data.sessionId.slice(0, 8) + "...";
+        sectionResults = {};
+        updateSectionList();
+        setStatus(`Session: ${sessionLevel}`, "success");
+        log("Session started:", data);
+        $("#exam-body").innerHTML = `<div style="color:#666;padding:20px;text-align:center;">Session started at ${sessionLevel}. Click a section to load an exam.</div>`;
+        return data;
+      } catch (err) {
+        setStatus("Error", "warn");
+        alert("Start failed: " + err.message);
+      }
+    }
+
+    function updateSectionList() {
+      $$(".section-item").forEach(el => {
+        const sec = el.dataset.section;
+        el.classList.toggle("done", !!sectionResults[sec]);
+        const badge = el.querySelector(".badge");
+        if (sectionResults[sec]) {
+          badge.textContent = sectionResults[sec] + "%";
+        } else {
+          badge.textContent = "?";
+        }
+      });
+    }
+
+    function getLevel() {
+      const override = $("#quick-level-override").value;
+      return override || sessionLevel || $("#level-select").value;
+    }
+
+    // --- Fetch Exam ---
+    async function fetchExam(section) {
+      const level = getLevel();
+      currentSection = section;
+      setStatus(`Loading ${section}...`, "info");
+      try {
+        const r = await fetch(`${API}/${level}/${section}`);
+        if (!r.ok) { const e = await r.json(); throw new Error(e.error); }
+        currentExam = await r.json();
+        renderExam();
+        $("#tab-exam").classList.add("active");
+        $("#tab-result").classList.remove("active");
+        $("#tab-raw").classList.remove("active");
+        $$(".tab").forEach(t => t.classList.toggle("active", t.dataset.tab === "exam"));
+        setStatus(`${section} loaded`, "success");
+        log("Exam loaded:", currentExam);
+      } catch (err) {
+        setStatus("Error", "warn");
+        $("#exam-body").innerHTML = `<div style="color:#c62828;padding:20px;text-align:center;">${err.message}</div>`;
+      }
+    }
+
+    // --- Render Exam ---
+    function renderExam() {
+      const exam = currentExam;
+      if (!exam) return;
+
+      const info = $("#exam-header-info");
+      info.innerHTML = `<strong>${exam.examId || "—"}</strong> &middot; ${exam.section || currentSection} &middot; ${exam.level || getLevel()}` +
+        (exam.difficulty ? ` &middot; Difficulty: ${exam.difficulty}` : "") +
+        (exam.estimatedMinutes ? ` &middot; ~${exam.estimatedMinutes}min` : "");
+
+      const actions = $("#exam-actions");
+      actions.style.display = "block";
+
+      const container = $("#exam-body");
+
+      if (currentSection === "reading") renderReading(container, exam);
+      else if (currentSection === "listening") renderListening(container, exam);
+      else if (currentSection === "writing") renderWriting(container, exam);
+      else if (currentSection === "speaking") renderSpeaking(container, exam);
+      else container.innerHTML = `<pre>${JSON.stringify(exam, null, 2)}</pre>`;
+
+      $("#raw-json").textContent = JSON.stringify(exam, null, 2);
+    }
+
+    function escapeHtml(s) {
+      const d = document.createElement("div");
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
+    function renderReading(container, exam) {
+      if (!exam.passages || !exam.passages.length) {
+        container.innerHTML = '<div style="color:#c62828;">No passages.</div>';
+        return;
+      }
+      let html = "";
+      let qNum = 0;
+      exam.passages.forEach(p => {
+        html += `<div class="question-card">`;
+        if (p.title) html += `<div style="font-weight:700;margin-bottom:6px;font-size:15px;">${escapeHtml(p.title)}</div>`;
+        html += `<div style="background:#fff;padding:12px;border-radius:6px;margin-bottom:12px;font-size:14px;line-height:1.6;white-space:pre-wrap;">${escapeHtml(p.text)}</div>`;
+        html += `<div class="options">`;
+        p.questions.forEach(q => {
+          qNum++;
+          html += `<div style="margin-bottom:10px;padding:8px;background:#fff;border-radius:6px;border:1px solid #eee;">`;
+          html += `<div style="font-weight:600;font-size:13px;margin-bottom:6px;">${qNum}. ${escapeHtml(q.question)}</div>`;
+          if (q.correctAnswer !== undefined) {
+            html += `<div style="font-size:11px;color:#999;">correct: ${q.options[q.correctAnswer]} (index ${q.correctAnswer})</div>`;
+          }
+          q.options.forEach((opt, oi) => {
+            html += `<label style="display:flex;align-items:center;gap:6px;padding:4px 0;font-size:13px;">
+              <input type="radio" name="read_q_${q.id}" value="${oi}" /> ${escapeHtml(opt)}</label>`;
+          });
+          html += `</div>`;
+        });
+        html += `</div></div>`;
+      });
+      container.innerHTML = html;
+    }
+
+    function renderListening(container, exam) {
+      if (!exam.questions || !exam.questions.length) {
+        container.innerHTML = '<div style="color:#c62828;">No questions.</div>';
+        return;
+      }
+      let html = "";
+      exam.questions.forEach((q, i) => {
+        const qid = q.questionId || q.id || i;
+        html += `<div class="question-card">`;
+        html += `<h3>${i+1}. ${escapeHtml(q.question)}</h3>`;
+        if (q.audioUrl) {
+          html += `<audio controls class="audio-player" src="${q.audioUrl}"></audio>`;
+        }
+        if (q.audioText) {
+          html += `<div style="font-size:12px;color:#999;margin-bottom:6px;font-style:italic;">${escapeHtml(q.audioText)}</div>`;
+        }
+        if (q.correctAnswer !== undefined) {
+          html += `<div style="font-size:11px;color:#999;margin-bottom:6px;">correct: ${q.options[q.correctAnswer]} (${q.correctAnswer})</div>`;
+        }
+        html += `<div class="options">`;
+        q.options.forEach((opt, oi) => {
+          html += `<label style="display:flex;align-items:center;gap:6px;padding:4px 0;font-size:13px;">
+            <input type="radio" name="list_q_${qid}" value="${oi}" /> ${escapeHtml(opt)}</label>`;
+        });
+        html += `</div></div>`;
+      });
+      container.innerHTML = html;
+    }
+
+    function renderWriting(container, exam) {
+      let html = "";
+      if (exam.instruction) {
+        html += `<div style="background:#fff8e1;padding:12px;border-radius:8px;margin-bottom:12px;font-size:14px;line-height:1.5;">${escapeHtml(exam.instruction)}</div>`;
+      }
+      if (exam.passage) {
+        html += `<div style="background:#f8f9fa;padding:12px;border-radius:8px;margin-bottom:12px;font-size:14px;line-height:1.6;white-space:pre-wrap;">${escapeHtml(exam.passage)}</div>`;
+      }
+      if (exam.wordBox) {
+        html += `<div style="margin-bottom:12px;"><strong>Word box:</strong> ${exam.wordBox.map(w => `<span style="display:inline-block;background:#e8eaf6;padding:2px 8px;border-radius:4px;margin:2px;font-size:13px;">${escapeHtml(w)}</span>`).join(" ")}</div>`;
+      }
+      if (exam.questions && exam.questions.length) {
+        html += `<div style="font-size:13px;margin-bottom:8px;"><strong>Gap-fill questions (${exam.questions.length}):</strong></div>`;
+        exam.questions.forEach(q => {
+          html += `<div style="font-size:12px;color:#666;padding:2px 0;">Gap ${q.gap}: answer = <span class="inline-code">${escapeHtml(q.answer)}</span></div>`;
+        });
+      } else {
+        html += `<textarea id="writing-input" placeholder="Write your answer here..." style="margin-bottom:8px;"></textarea>`;
+        html += `<div class="row"><label>Self-assessment <input type="number" id="writing-percentage" value="50" min="0" max="100" style="width:80px;" /> %</label></div>`;
+      }
+      container.innerHTML = html;
+    }
+
+    function renderSpeaking(container, exam) {
+      let html = "";
+      if (exam.instruction) {
+        html += `<div style="background:#fff8e1;padding:12px;border-radius:8px;margin-bottom:12px;font-size:14px;line-height:1.5;">${escapeHtml(exam.instruction)}</div>`;
+      }
+      if (exam.prompts && exam.prompts.length) {
+        html += `<div style="margin-bottom:12px;"><strong>Prompts:</strong><ul style="margin:6px 0 0 20px;">`;
+        exam.prompts.forEach(p => { html += `<li style="font-size:14px;">${escapeHtml(p)}</li>`; });
+        html += `</ul></div>`;
+      }
+      if (exam.questions && exam.questions.length) {
+        html += `<div style="font-size:13px;"><strong>Questions: ${exam.questions.length}</strong></div>`;
+      } else {
+        html += `<textarea id="speaking-input" placeholder="Write what you would say..." style="margin-bottom:8px;"></textarea>`;
+        html += `<div class="row"><label>Self-assessment <input type="number" id="speaking-percentage" value="50" min="0" max="100" style="width:80px;" /> %</label></div>`;
+      }
+      container.innerHTML = html;
+    }
+
+    // --- Submit ---
+    async function submitExam() {
+      if (!currentExam || !currentSection) return;
+      const level = getLevel();
+
+      const body = { sessionId, examId: currentExam.examId };
+
+      if (currentSection === "writing") {
+        const input = $("#writing-input");
+        if (input) {
+          const text = input.value.trim();
+          if (!text) { alert("Write something first."); return; }
+          body.text = text;
+          body.percentage = parseInt($("#writing-percentage")?.value || "50");
+        } else {
+          body.text = "(gap-fill, auto-scored later)";
+          body.percentage = 100;
+        }
+      } else if (currentSection === "speaking") {
+        const input = $("#speaking-input");
+        if (input) {
+          const conversation = input.value.trim();
+          if (!conversation) { alert("Write something first."); return; }
+          body.conversation = conversation;
+          body.percentage = parseInt($("#speaking-percentage")?.value || "50");
+        } else {
+          body.conversation = "(prompt-based, auto-scored later)";
+          body.percentage = 100;
+        }
+      } else {
+        const answers = [];
+        const questionIds = [];
+        let allAnswered = true;
+
+        if (currentSection === "reading") {
+          currentExam.passages.forEach(p => {
+            p.questions.forEach(q => {
+              questionIds.push(q.id);
+              const sel = document.querySelector(`input[name="read_q_${q.id}"]:checked`);
+              if (sel !== null) answers.push(parseInt(sel.value));
+              else { answers.push(null); allAnswered = false; }
+            });
+          });
+        } else {
+          currentExam.questions.forEach((q, i) => {
+            const qid = q.questionId || q.id || i;
+            questionIds.push(qid);
+            const sel = document.querySelector(`input[name="list_q_${qid}"]:checked`);
+            if (sel !== null) answers.push(parseInt(sel.value));
+            else { answers.push(null); allAnswered = false; }
+          });
+        }
+
+        if (!allAnswered && !confirm("Not all questions answered. Submit anyway?")) return;
+        body.answers = answers;
+        if (currentSection === "listening") body.questionIds = questionIds;
+      }
+
+      const submitBtn = $("#submit-btn");
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Submitting...";
+      setStatus("Submitting...", "info");
+
+      try {
+        const r = await fetch(`${API}/${level}/${currentSection}/submit`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body)
+        });
+        if (!r.ok) { const e = await r.json(); throw new Error(e.error); }
+        const result = await r.json();
+        renderResult(result);
+        $$(".tab").forEach(t => t.classList.toggle("active", t.dataset.tab === "result"));
+        $("#tab-exam").classList.remove("active");
+        $("#tab-raw").classList.remove("active");
+        $("#tab-result").classList.add("active");
+        setStatus("Submitted", "success");
+        log("Submit result:", result);
+      } catch (err) {
+        setStatus("Error", "warn");
+        $("#result-body").innerHTML = `<div style="color:#c62828;">${escapeHtml(err.message)}</div>`;
+        $$(".tab").forEach(t => t.classList.toggle("active", t.dataset.tab === "result"));
+        $("#tab-exam").classList.remove("active");
+        $("#tab-raw").classList.remove("active");
+        $("#tab-result").classList.add("active");
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Submit Answers";
+      }
+    }
+
+    function renderResult(result) {
+      const container = $("#result-body");
+
+      if (result.status === "continue") {
+        const next = result.nextSection;
+        sectionResults[currentSection] = "ok";
+        updateSectionList();
+        container.innerHTML = `
+          <div style="text-align:center;padding:20px;">
+            <div class="status-tag success" style="display:inline-block;font-size:16px;padding:8px 20px;margin-bottom:12px;">${currentSection} completed</div>
+            <p style="font-size:15px;color:#666;">Next: <strong>${next}</strong></p>
+            <button class="btn btn-primary" style="margin-top:12px;" onclick="fetchExam('${next}')">Load ${next}</button>
+          </div>`;
+      } else {
+        sectionResults[currentSection] = "done";
+        updateSectionList();
+        let statusText, statusClass;
+        if (result.status === "next_level") { statusText = "Move Up"; statusClass = "success"; }
+        else if (result.status === "lower_level") { statusText = "Move Down"; statusClass = "warn"; }
+        else { statusText = "Finished"; statusClass = "info"; }
+
+        const avg = result.percentage;
+        const place = result.placementLevel || getLevel();
+
+        container.innerHTML = `
+          <div style="text-align:center;padding:10px;">
+            <div class="status-tag ${statusClass}" style="display:inline-block;font-size:16px;padding:8px 20px;margin-bottom:12px;">${statusText}</div>
+            <div class="result-grid" style="max-width:300px;margin:0 auto 12px;">
+              <div class="result-card"><div class="value">${avg}%</div><div class="label">Average</div></div>
+              <div class="result-card"><div class="value">${place}</div><div class="label">Placement</div></div>
+              <div class="result-card"><div class="value">${result.status}</div><div class="label">Status</div></div>
+              <div class="result-card"><div class="value">${result.nextLevel || "—"}</div><div class="label">Next Level</div></div>
+            </div>
+            <div style="font-size:13px;color:#999;margin-bottom:12px;">
+              ${Object.entries(sectionResults).filter(([k,v]) => v).map(([k]) => `<span class="status-tag success" style="font-size:11px;">${k}</span>`).join(" ")}
+            </div>
+          </div>`;
+      }
+
+      $("#raw-json").textContent = JSON.stringify(result, null, 2);
+    }
+
+    // --- Event listeners ---
+    $("#start-btn").addEventListener("click", startSession);
+
+    $("#submit-btn").addEventListener("click", submitExam);
+
+    $$(".section-item").forEach(el => {
+      el.addEventListener("click", () => fetchExam(el.dataset.section));
+    });
+
+    $$(".tab").forEach(el => {
+      el.addEventListener("click", () => {
+        $$(".tab").forEach(t => t.classList.remove("active"));
+        $$(".tab-content").forEach(t => t.classList.remove("active"));
+        el.classList.add("active");
+        document.getElementById("tab-" + el.dataset.tab).classList.add("active");
+      });
+    });
+
+    // Quick action buttons
+    $("#fetch-reading-btn").addEventListener("click", () => fetchExam("reading"));
+    $("#fetch-listening-btn").addEventListener("click", () => fetchExam("listening"));
+    $("#fetch-writing-btn").addEventListener("click", () => fetchExam("writing"));
+    $("#fetch-speaking-btn").addEventListener("click", () => fetchExam("speaking"));
+
+    // Auto-start on page load
+    startSession();
+  </script>
+</body>
+</html>

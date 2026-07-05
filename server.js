@@ -20,10 +20,14 @@ app.use(express.json());
 const userRouter = require('./api/User');
 const placementRouter = require('./routes/placementRoutes');
 const progressionRouter = require('./routes/progressionRoutes');
+const audioRouter = require('./routes/audioRoutes');
+const testAudioRouter = require('./routes/testAudioRoutes');
 
 app.use('/user', userRouter);
 app.use('/api/placement', placementRouter);
 app.use('/api/placement/progression', progressionRouter);
+app.use('/api/audio', audioRouter);
+app.use('/test/audio', testAudioRouter);
 
 app.use(express.static("public"));
 
@@ -44,14 +48,14 @@ app.use((err, req, res, next) => {
 async function startServer() {
   try {
     await connectDB();
-
-    app.listen(port, () => {
-      console.log(`Server running on port ${port}`);
-    });
+    console.log('MongoDB connected');
   } catch (err) {
-    console.error('Failed to connect to MongoDB:', err.message);
-    process.exit(1);
+    console.warn('MongoDB not available — placement still works:', err.message);
   }
+
+  app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+  });
 }
 
 startServer();

@@ -1,0 +1,138 @@
+{
+  "examId": "reading_003",
+  "level": "B2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "The role of traditional media has been challenged by the rise of social media platforms. Newspapers and television networks, which once served as the primary gatekeepers of information, now compete with citizen journalists and content creators. It is often claimed that this democratisation of information is positive, as it allows diverse voices to be heard. However, the lack of editorial oversight on many platforms has led to the spread of misinformation. Studies have shown that false news spreads significantly faster than accurate information on social media. Media literacy, therefore, should be taught in schools so that individuals can critically evaluate the content they consume. Without such education, the public will remain vulnerable to manipulation.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What role did traditional media once serve according to the text?",
+          "options": [
+            "Entertainment providers",
+            "Gatekeepers of information",
+            "Government spokespeople",
+            "Advertising platforms"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What problem has resulted from the lack of editorial oversight?",
+          "options": [
+            "Less news coverage",
+            "Higher subscription costs",
+            "Spread of misinformation",
+            "Fewer journalists"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "What solution does the writer propose?",
+          "options": [
+            "Ban social media",
+            "Teach media literacy in schools",
+            "Increase government regulation",
+            "Return to traditional media"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The role of traditional media has been challenged by the ..."
+    },
+    {
+      "id": "p2",
+      "text": "Mental health has become a topic of increasing importance in workplace discussions. It has been recognised that employee well-being directly affects productivity and job satisfaction. Companies that have introduced mental health initiatives, such as counselling services and flexible working hours, have reported lower rates of absenteeism. Nevertheless, stigma surrounding mental health persists in many organisations. Employees are often reluctant to discuss their struggles for fear of being judged or overlooked for promotion. It could be argued that creating a supportive workplace culture is not only an ethical obligation but also a sound business strategy. Unless mental health is prioritised at the highest levels of management, meaningful change will not occur.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What effect have mental health initiatives had according to the text?",
+          "options": [
+            "Increased costs",
+            "Lower rates of absenteeism",
+            "Reduced productivity",
+            "More employee conflicts"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "Why are employees reluctant to discuss mental health struggles?",
+          "options": [
+            "They do not have time",
+            "They fear being judged",
+            "They do not know how",
+            "They think it is not important"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What does the writer say is needed for meaningful change?",
+          "options": [
+            "New laws",
+            "More funding",
+            "Prioritisation at management level",
+            "External consultants"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Mental health has become a topic of increasing importance..."
+    },
+    {
+      "id": "p3",
+      "text": "Globalisation has had a profound impact on cultural identity. On one hand, it has facilitated the exchange of ideas, traditions and goods across borders, enriching societies in the process. On the other hand, critics argue that globalisation has led to cultural homogenisation, where local traditions are eroded by dominant global cultures. This tension is particularly evident in the food industry, where international fast-food chains have spread to almost every corner of the world. While some view this as a symbol of progress, others see it as a threat to culinary heritage. It is widely believed that the challenge lies in finding a balance between embracing global influences and preserving local customs. The future of cultural identity will depend on how successfully this balance is achieved.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What positive aspect of globalisation is mentioned?",
+          "options": [
+            "Reduced travel costs",
+            "Exchange of ideas and traditions",
+            "Higher living standards",
+            "Global language uniformity"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What criticism of globalisation is raised in the text?",
+          "options": [
+            "It increases inequality",
+            "It causes cultural homogenisation",
+            "It damages the environment",
+            "It reduces trade"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What is identified as the key challenge regarding globalisation?",
+          "options": [
+            "Stopping all global trade",
+            "Finding a balance between global and local",
+            "Returning to traditional lifestyles",
+            "Creating a single world culture"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "Globalisation has had a profound impact on cultural identity"
+    }
+  ],
+  "difficulty": 4,
+  "estimatedMinutes": 12,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "travel",
+    "shopping",
+    "education"
+  ]
+}

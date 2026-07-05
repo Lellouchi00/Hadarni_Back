@@ -1,0 +1,148 @@
+{
+  "examId": "listening_003",
+  "level": "B2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: You know, I used to think multitasking was an essential skill, but recent research suggests otherwise. It turns out that what we call multitasking is really just rapid task-switching, and each switch comes with a cognitive cost. Man: That explains why I feel exhausted after trying to do three things at once.",
+      "audioUrl": "",
+      "question": "What does the research say about multitasking?",
+      "options": [
+        "It improves overall efficiency",
+        "It is actually rapid task-switching with cognitive costs",
+        "It is only effective for simple tasks",
+        "It becomes easier with practice"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Economist: The concept of universal basic income has gained traction in recent years, partly due to automation anxiety. The argument is that as AI displaces jobs, society needs a safety net. Critics, however, question whether it's economically sustainable and worry it might reduce the incentive to work.",
+      "audioUrl": "",
+      "question": "What is one argument critics make against universal basic income?",
+      "options": [
+        "It would increase automation",
+        "It might reduce motivation to work",
+        "It only benefits wealthy people",
+        "It is too complicated to implement"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Woman: I attended a workshop on non-violent communication last weekend. The core idea is to express your feelings and needs without blaming or criticizing the other person. It sounds simple in theory, but in practice it requires a lot of self-awareness. Man: I imagine it's particularly challenging during heated arguments.",
+      "audioUrl": "",
+      "question": "What is the main principle of non-violent communication?",
+      "options": [
+        "Avoid discussing difficult topics",
+        "Express feelings without blame or criticism",
+        "Always compromise to maintain peace",
+        "Use formal language in disagreements"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Historian: Colonialism's legacy is not just economic or political—it's deeply psychological. The imposition of foreign languages, education systems, and cultural values created a kind of identity crisis that persists in post-colonial societies. We're still grappling with questions of cultural authenticity and hybridity.",
+      "audioUrl": "",
+      "question": "What ongoing effect of colonialism does the historian describe?",
+      "options": [
+        "Economic underdevelopment",
+        "Political instability",
+        "Psychological and identity struggles",
+        "Religious conflicts"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Woman: The algorithm recommended this documentary to me, and I have to say, it was eye-opening. It traces how fashion trends from marginalized communities are appropriated by mainstream brands without credit or compensation. Man: That's cultural appropriation in a nutshell—taking without context or acknowledgment.",
+      "audioUrl": "",
+      "question": "How does the documentary portray mainstream fashion brands' behavior?",
+      "options": [
+        "As celebrating diversity",
+        "As appropriating marginalized cultures without credit",
+        "As creating original designs inspired by travel",
+        "As fairly compensating community artists"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Scientist: Our study tracked the migratory patterns of monarch butterflies over five years using miniature GPS tags. We discovered that climate change is shifting their breeding seasons, causing a mismatch with the flowering periods of the plants they depend on. This desynchronization threatens their survival.",
+      "audioUrl": "",
+      "question": "What threat to monarch butterflies did the study reveal?",
+      "options": [
+        "Predator population increase",
+        "Loss of forest habitat",
+        "Mismatch between breeding and plant flowering due to climate change",
+        "Pollution from agricultural chemicals"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: I'm reading a fascinating book about the psychology of habit formation. It argues that willpower is a finite resource—the more you use it during the day, the less you have left. The key to lasting change isn't relying on willpower but designing your environment to make good habits easy and bad habits difficult.",
+      "audioUrl": "",
+      "question": "According to the book, what is the most effective way to build good habits?",
+      "options": [
+        "Practicing willpower daily",
+        "Setting ambitious goals",
+        "Designing the environment to support habits",
+        "Rewarding yourself after each habit"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Man: I've been reading about the sharing economy and its unintended consequences. Airbnb was supposed to help ordinary people earn extra income, but in many cities, it's contributed to housing shortages by converting long-term rentals into short-term tourist accommodations. Woman: That's the classic tension between innovation and regulation.",
+      "audioUrl": "",
+      "question": "What unintended consequence of Airbnb does the man mention?",
+      "options": [
+        "It increased tourism too quickly",
+        "It contributed to housing shortages in some cities",
+        "It became too expensive for travelers",
+        "It reduced hotel industry profits"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Philosopher: The ethical debate around autonomous vehicles often centers on the trolley problem—should the car prioritize the safety of its passengers or pedestrians? But I think this framing is misleading. The real ethical questions are about liability, data privacy, and how these systems are tested before deployment.",
+      "audioUrl": "",
+      "question": "What does the philosopher think about the focus on the trolley problem?",
+      "options": [
+        "It is the most important ethical question",
+        "It distracts from more relevant ethical issues",
+        "It has been solved by engineers",
+        "It applies only to self-driving trucks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Woman: I've noticed that when I take a break from social media, I feel more present and less anxious. But I also miss out on events and updates from friends. Man: It's a trade-off. Digital minimalism is about being intentional with technology rather than eliminating it entirely.",
+      "audioUrl": "",
+      "question": "What approach to technology does the man advocate?",
+      "options": [
+        "Complete digital detox",
+        "Using technology intentionally rather than eliminating it",
+        "Increasing social media usage for connection",
+        "Using only work-related technology"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 4,
+  "estimatedMinutes": 7,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel",
+    "shopping"
+  ]
+}

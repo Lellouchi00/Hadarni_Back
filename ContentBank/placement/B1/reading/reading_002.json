@@ -1,0 +1,138 @@
+{
+  "examId": "reading_002",
+  "level": "B1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "You may have heard that breakfast is the most important meal of the day. Many experts say that eating a good breakfast helps you concentrate at school or work. However, some people skip breakfast because they are in a hurry. If you do not have time in the morning, you can prepare something the night before. For example, you could make oatmeal or a smoothie and keep it in the fridge. A healthy breakfast should include protein, fruit and grains. Since I started eating breakfast regularly, I have felt more energetic throughout the day.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Why do some people skip breakfast according to the text?",
+          "options": [
+            "They are not hungry",
+            "They are in a hurry",
+            "They do not like breakfast food",
+            "They want to lose weight"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What can you do if you do not have time for breakfast?",
+          "options": [
+            "Skip lunch instead",
+            "Eat a bigger dinner",
+            "Prepare it the night before",
+            "Buy breakfast at school"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "What has the writer experienced since eating breakfast regularly?",
+          "options": [
+            "Weight loss",
+            "More energy",
+            "Better sleep",
+            "Less hunger"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "You may have heard that breakfast is the most important m..."
+    },
+    {
+      "id": "p2",
+      "text": "Online learning has become very popular in recent years. Many students now take courses on the internet instead of going to a traditional classroom. There are several advantages to online learning. For instance, you can study at your own pace and from anywhere. On the other hand, you must be disciplined because nobody checks if you are doing your work. Some students miss the social aspect of being in a class with other people. In my opinion, online learning is a good option if you can manage your time well. However, it may not be suitable for everyone.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What is one advantage of online learning mentioned in the text?",
+          "options": [
+            "It is cheaper",
+            "You can study at your own pace",
+            "Teachers are better",
+            "You get more homework"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "What is a disadvantage of online learning?",
+          "options": [
+            "It is too expensive",
+            "The courses are too long",
+            "You need to be very disciplined",
+            "There are no exams"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q6",
+          "question": "What does the writer think about online learning?",
+          "options": [
+            "It is better than traditional classes",
+            "It is only for young people",
+            "It is good if you manage time well",
+            "It will replace schools soon"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Online learning has become very popular in recent years"
+    },
+    {
+      "id": "p3",
+      "text": "A strange thing happened to me last week. I was walking home when I found a wallet on the street. Inside, there was a lot of money and an ID card. I could have kept the money, but I knew that would be wrong. I took the wallet to the police station. The officer told me that the owner had already called to report the loss. They contacted the owner, and he came to pick it up. He was so grateful that he offered me a reward. I refused because I believe you should always do the right thing. If I lost my wallet, I would hope someone would return it too.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What did the writer find?",
+          "options": [
+            "A phone",
+            "A wallet",
+            "A watch",
+            "A key"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What did the writer do with the item?",
+          "options": [
+            "He kept it",
+            "He gave it to a friend",
+            "He took it to the police",
+            "He left it on the street"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q9",
+          "question": "Why did the writer refuse the reward?",
+          "options": [
+            "He was rich",
+            "He thought the reward was too small",
+            "He believes in doing the right thing",
+            "He did not like the owner"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "A strange thing happened to me last week"
+    }
+  ],
+  "difficulty": 3,
+  "estimatedMinutes": 10,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "weather",
+    "shopping",
+    "education",
+    "technology"
+  ]
+}

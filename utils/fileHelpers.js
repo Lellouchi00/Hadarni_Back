@@ -75,6 +75,42 @@ function calculateScore(answers, questions) {
   return { correct, wrong, total, percentage };
 }
 
+function pickRandomQuestions(questions, count) {
+  if (!Array.isArray(questions) || questions.length === 0) return [];
+  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(count, questions.length));
+}
+
+function flattenPassageQuestions(passages) {
+  if (!Array.isArray(passages)) return [];
+  const questions = [];
+  for (const passage of passages) {
+    if (Array.isArray(passage.questions)) {
+      for (const q of passage.questions) {
+        questions.push(q);
+      }
+    }
+  }
+  return questions;
+}
+
+function calculateScoreById(answers, questionIds, allQuestions) {
+  let correct = 0;
+  const total = questionIds.length;
+
+  for (let i = 0; i < total; i++) {
+    const q = allQuestions.find((x) => x.questionId === questionIds[i]);
+    if (q && answers[i] !== undefined && answers[i] !== null && answers[i] === q.correctAnswer) {
+      correct++;
+    }
+  }
+
+  const wrong = total - correct;
+  const percentage = total > 0 ? parseFloat(((correct / total) * 100).toFixed(2)) : 0;
+
+  return { correct, wrong, total, percentage };
+}
+
 module.exports = {
   getSectionDir,
   readDirectory,
@@ -83,4 +119,7 @@ module.exports = {
   getRandomExam,
   loadExamById,
   calculateScore,
+  pickRandomQuestions,
+  flattenPassageQuestions,
+  calculateScoreById,
 };

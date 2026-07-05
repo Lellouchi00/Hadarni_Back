@@ -1,0 +1,148 @@
+{
+  "examId": "listening_001",
+  "level": "C2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Philosopher: Heidegger's concept of 'Dasein'—being-there—fundamentally reoriented ontology by insisting that the question of Being must be approached through the entity for whom Being is an issue. This phenomenological reorientation dissolves the subject-object dichotomy that had structured Western metaphysics since Descartes. The world is not something we confront as detached observers; we are always already immersed in a meaningful context of concern and equipment.",
+      "audioUrl": "",
+      "question": "According to the philosopher, how does Heidegger's concept change philosophical inquiry?",
+      "options": [
+        "It reinforces the Cartesian subject-object distinction",
+        "It eliminates the need for ontology altogether",
+        "It dissolves the dichotomy between subject and object by emphasizing contextual immersion",
+        "It prioritizes objective scientific observation over subjective experience"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Woman: The anthropocene working group's proposal to formalize a new geological epoch has ignited considerable controversy. The question is whether human activity has left a stratigraphic signature comparable to major geological transitions. The plutonium isotopes from nuclear testing, microplastics sedimenting across ocean floors, and elevated atmospheric carbon dissolved in glacial ice together constitute compelling, if polemical, evidence.",
+      "audioUrl": "",
+      "question": "What evidence supports formalizing the Anthropocene as a geological epoch?",
+      "options": [
+        "Fossil records of recently extinct species",
+        "Plutonium isotopes, microplastics, and elevated carbon signatures",
+        "Changes in the Earth's magnetic field",
+        "Volcanic ash layers from twentieth-century eruptions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Literary theorist: Achebe's critique of Heart of Darkness as a racist text inaugurated a fundamental reassessment of the Western literary canon. The controversy centers on whether Conrad's novella critiques European imperialism or merely reproduces its logic through aesthetic means. The ambiguity is, I would argue, constitutive rather than incidental—the text's enduring power derives precisely from its refusal to resolve this tension.",
+      "audioUrl": "",
+      "question": "How does the theorist characterize the ambiguity in Heart of Darkness?",
+      "options": [
+        "As a flaw that diminishes the novel's literary merit",
+        "As constitutive of the text's enduring impact",
+        "As unintentional and resulting from poor writing",
+        "As resolved by the novel's conclusion"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Woman: The efficient market hypothesis, which asserts that asset prices fully reflect all available information, has been increasingly criticized since 2008. Behavioral economists have documented systematic anomalies—momentum effects, value premiums, and calendar effects—that contradict the hypothesis. Yet the hypothesis persists as a useful, if imperfect, baseline model because disciplined alternatives that reliably predict market movements remain elusive.",
+      "audioUrl": "",
+      "question": "Why does the efficient market hypothesis persist despite its flaws?",
+      "options": [
+        "Regulatory agencies mandate its use",
+        "No reliable alternative predictive model has emerged",
+        "All economists agree it is fundamentally correct",
+        "It has been updated to account for all anomalies"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Man: The concept of 'akrasia'—acting against one's better judgment—has occupied moral philosophers since Aristotle. The puzzle is essentially this: if we genuinely know what is good, how can we fail to act on that knowledge? Socrates famously denied the possibility, insisting that true knowledge cannot be overthrown by passion. Contemporary neuroscience suggests otherwise, revealing complex interactions between limbic and prefrontal systems that can indeed override reasoned judgment under certain conditions.",
+      "audioUrl": "",
+      "question": "What does contemporary neuroscience suggest about akrasia?",
+      "options": [
+        "True knowledge always prevails over passion",
+        "Reason and emotion systems interact in ways that can override good judgment",
+        "Akrasia is purely a failure of moral character",
+        "The phenomenon does not actually exist in humans"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Woman: Keller's distinction between 'world' and 'environment' in ecological philosophy is subtle but crucial. The world is the objective reality studied by natural sciences, while the environment is the meaningful surround as experienced by a particular organism. An oak tree's environment—what matters to it in terms of sunlight, nutrients, and competition—is radically different from a human's, though we inhabit the same world. This insight demands that we recognize the plurality of environmental experiences in our conservation ethics.",
+      "audioUrl": "",
+      "question": "What ethical implication does the world/environment distinction have?",
+      "options": [
+        "The objective world is all that matters ethically",
+        "Conservation must account for diverse experiential environments of different organisms",
+        "Human experience should be the primary consideration in environmental policy",
+        "There is no meaningful difference between world and environment"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "International law scholar: The principle of Responsibility to Protect (R2P), adopted by the UN in 2005, attempts to reconcile sovereignty with human rights by asserting that states have a responsibility to protect their populations from mass atrocities, and that the international community has a subsidiary responsibility when states manifestly fail. The doctrine remains deeply contested—critics argue it provides a veneer of legitimacy for neo-imperial intervention, while supporters maintain it represents hard-won normative progress.",
+      "audioUrl": "",
+      "question": "What criticism of R2P does the scholar mention?",
+      "options": [
+        "It has never been invoked successfully",
+        "It may legitimize neo-imperial interventions",
+        "It applies only to signatory nations",
+        "It conflicts with existing humanitarian law"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Woman: The phenomenon of 'enclothed cognition' describes the systematic effect that clothing has on the wearer's psychological processes. A lab coat described as a doctor's coat, compared to the same coat described as a painter's coat, produces measurably different performance on attention-related tasks. This suggests that clothing carries symbolic meanings that prime associated cognitive schemas, influencing behavior below conscious awareness.",
+      "audioUrl": "",
+      "question": "What does enclothed cognition research demonstrate about clothing?",
+      "options": [
+        "Clothing only affects how others perceive you",
+        "The symbolic meaning of clothing can subconsciously influence cognitive performance",
+        "Comfortable clothing always improves work performance",
+        "Clothing choices are entirely conscious and deliberate"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Man: I've been grappling with Wittgenstein's private language argument, and I think I finally see the point. The argument is not merely that private languages are impractical but that the very notion is incoherent. Meaning is inherently social—it requires criteria of correctness that only a community of language users can provide. A truly private ostensive definition would lack the distinction between seeming right and being right, which is constitutive of meaning itself.",
+      "audioUrl": "",
+      "question": "What is the central claim of Wittgenstein's private language argument?",
+      "options": [
+        "Private languages exist but cannot be translated",
+        "Language gains meaning through social criteria of correctness",
+        "Privacy is essential for authentic self-expression",
+        "Individuals can invent fully functional private languages"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Woman: The concept of 'liminality' in anthropology describes the intermediate phase of rites of passage where participants are 'betwixt and between' social categories. Victor Turner argued that liminal spaces generate communitas—an unstructured community of equals that temporarily suspends social hierarchy. In contemporary contexts, we might understand certain digital spaces, migration experiences, and even prolonged adolescence as liminal phenomena with transformative, if unsettling, potential.",
+      "audioUrl": "",
+      "question": "According to Turner, what emerges in liminal spaces?",
+      "options": [
+        "Reinforced social hierarchies",
+        "Communitas — an unstructured egalitarian community",
+        "Permanent identity transformation",
+        "Conflict between social groups"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 6,
+  "estimatedMinutes": 9,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "animals",
+    "weather",
+    "shopping",
+    "technology",
+    "environment"
+  ]
+}

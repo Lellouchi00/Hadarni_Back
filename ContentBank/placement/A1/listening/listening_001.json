@@ -1,0 +1,148 @@
+{
+  "examId": "listening_001",
+  "level": "A1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Hello, my name is Maria.",
+      "audioUrl": "",
+      "question": "What is the speaker doing?",
+      "options": [
+        "Introducing herself",
+        "Asking for help",
+        "Saying goodbye",
+        "Ordering food"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": "q2",
+      "audioText": "I have one brother and two sisters.",
+      "audioUrl": "",
+      "question": "How many siblings does the speaker have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q3",
+      "audioText": "This shirt costs fifteen dollars.",
+      "audioUrl": "",
+      "question": "How much is the shirt?",
+      "options": [
+        "Five dollars",
+        "Fifty dollars",
+        "Fifteen dollars",
+        "Twenty dollars"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q4",
+      "audioText": "The sky is blue and the sun is yellow.",
+      "audioUrl": "",
+      "question": "What colors are mentioned?",
+      "options": [
+        "Red and green",
+        "Blue and yellow",
+        "Black and white",
+        "Pink and orange"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "I am seven years old.",
+      "audioUrl": "",
+      "question": "How old is the speaker?",
+      "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "My mother is a teacher.",
+      "audioUrl": "",
+      "question": "What does the speaker's mother do?",
+      "options": [
+        "She is a doctor",
+        "She is a teacher",
+        "She is a farmer",
+        "She is a driver"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "I like apples and bananas.",
+      "audioUrl": "",
+      "question": "What food does the speaker like?",
+      "options": [
+        "Apples and oranges",
+        "Apples and bananas",
+        "Bananas and grapes",
+        "Oranges and grapes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "The cat is sleeping on the chair.",
+      "audioUrl": "",
+      "question": "Where is the cat?",
+      "options": [
+        "Under the table",
+        "On the chair",
+        "In the garden",
+        "Behind the door"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "I get up at seven o'clock every morning.",
+      "audioUrl": "",
+      "question": "What time does the speaker get up?",
+      "options": [
+        "Six o'clock",
+        "Seven o'clock",
+        "Eight o'clock",
+        "Nine o'clock"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "The pen is on the desk.",
+      "audioUrl": "",
+      "question": "Where is the pen?",
+      "options": [
+        "In the bag",
+        "On the desk",
+        "Under the book",
+        "Next to the chair"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 1,
+  "estimatedMinutes": 4,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping"
+  ]
+}

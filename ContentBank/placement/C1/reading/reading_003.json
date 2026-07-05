@@ -1,0 +1,138 @@
+{
+  "examId": "reading_003",
+  "level": "C1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "The phenomenon of 'cancel culture' has generated impassioned debate across the ideological spectrum. At its core, the term refers to the practice of withdrawing support for public figures or companies after they have expressed controversial opinions or engaged in objectionable behaviour. Advocates argue that it holds powerful individuals accountable and amplifies the voices of marginalised communities. Detractors, however, contend that it discourages open dialogue and fosters an environment of fear in which people are reluctant to express unconventional views for fear of professional or social repercussions. What is often overlooked in this polarised discourse is the nuance that lies between these positions. Accountability and forgiveness need not be mutually exclusive; context and intent should inform our judgments. A society that cannot distinguish between a genuine mistake and malicious intent risks losing its capacity for empathy and growth.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is 'cancel culture' according to the text?",
+          "options": [
+            "A legal punishment",
+            "Withdrawing support after controversial behaviour",
+            "A form of political protest",
+            "An online voting system"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What concern do detractors raise about cancel culture?",
+          "options": [
+            "It is ineffective",
+            "It discourages open dialogue",
+            "It is too slow",
+            "It only affects celebrities"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "What does the writer say is often overlooked in the debate?",
+          "options": [
+            "The role of social media",
+            "The nuance between accountability and forgiveness",
+            "The economic impact",
+            "The legal implications"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The phenomenon of 'cancel culture' has generated impassio..."
+    },
+    {
+      "id": "p2",
+      "text": "The art world has undergone a seismic shift with the advent of non-fungible tokens, or NFTs. These digital assets, verified through blockchain technology, have enabled artists to sell their work in ways that were previously unimaginable. For the first time, digital creations can be owned, traded and collected with verifiable scarcity. Proponents hail this as a democratising force that empowers independent artists and bypasses traditional gatekeepers such as galleries and auction houses. Yet sceptics warn that the NFT market is highly speculative, prone to fraud and environmentally unsustainable due to the energy consumption of blockchain networks. Furthermore, the question of intellectual property rights remains murky, with numerous cases of artists having their work tokenised without consent. While NFTs may represent a genuine innovation, their long-term impact on the art world is far from settled.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What technology underpins NFTs according to the text?",
+          "options": [
+            "Artificial intelligence",
+            "Blockchain",
+            "Cloud computing",
+            "Virtual reality"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "What positive aspect of NFTs is highlighted?",
+          "options": [
+            "They are cheap to create",
+            "They empower independent artists",
+            "They last forever",
+            "They are easy to understand"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What environmental concern is raised about NFTs?",
+          "options": [
+            "They produce physical waste",
+            "Blockchain energy consumption",
+            "They require rare minerals",
+            "They increase electronic waste"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The art world has undergone a seismic shift with the adve..."
+    },
+    {
+      "id": "p3",
+      "text": "The notion of universal basic income (UBI) has moved from the fringes of political discourse to the mainstream in recent years. The core idea is simple: every citizen receives a regular, unconditional sum of money from the government, regardless of their employment status. Pilot programmes conducted in Finland, Canada and Kenya have yielded intriguing results. Recipients reported improved well-being and mental health, while employment rates did not decline as critics had predicted. However, the scalability of UBI remains a formidable challenge. Funding such a programme on a national level would require substantial tax increases or reallocation of existing spending. Moreover, UBI addresses income but does not tackle the underlying issues of social isolation or lack of purpose that can accompany unemployment. Nevertheless, as automation threatens to displace millions of workers, the conversation around UBI is unlikely to fade. The question is no longer whether UBI is desirable, but whether it is feasible.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What did pilot programmes for UBI find?",
+          "options": [
+            "Employment rates declined",
+            "Recipients showed improved well-being",
+            "People stopped working",
+            "The programmes were too expensive"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What challenge to UBI is mentioned in the text?",
+          "options": [
+            "Public opposition",
+            "Scalability and funding",
+            "Lack of political support",
+            "Technological limitations"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What does UBI fail to address according to the text?",
+          "options": [
+            "Income inequality",
+            "Social isolation and lack of purpose",
+            "Housing costs",
+            "Healthcare access"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The notion of universal basic income (UBI) has moved from..."
+    }
+  ],
+  "difficulty": 5,
+  "estimatedMinutes": 14,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping",
+    "technology"
+  ]
+}

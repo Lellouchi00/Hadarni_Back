@@ -1,0 +1,148 @@
+{
+  "examId": "listening_002",
+  "level": "B1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: So what happened after you missed the bus? Man: I decided to walk to the station, but it started raining halfway. By the time I got there, I was completely soaked. The next train wasn't for another hour. Woman: What a terrible morning!",
+      "audioUrl": "",
+      "question": "Why did the man get wet?",
+      "options": [
+        "He fell into a puddle",
+        "He forgot his umbrella at home",
+        "It started raining while he walked",
+        "He took a shower with his clothes on"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Lecturer: One common mistake language learners make is translating directly from their native language. Instead, try to think in the new language. It might feel strange at first, but it will improve your fluency significantly over time.",
+      "audioUrl": "",
+      "question": "What advice does the lecturer give to language learners?",
+      "options": [
+        "Use a dictionary frequently",
+        "Practice with native speakers daily",
+        "Think in the target language",
+        "Focus on grammar rules first"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Woman: I read an article about how sleep affects our memory. Apparently, when you sleep, your brain organizes and stores what you learned during the day. Man: That explains why I remember things better after a good night's sleep.",
+      "audioUrl": "",
+      "question": "According to the article, what does the brain do during sleep?",
+      "options": [
+        "It rests and recovers energy",
+        "It creates new brain cells",
+        "It organizes and stores information",
+        "It stops processing information"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Man: I'm thinking about taking up photography as a hobby. Woman: That's a great idea! You've always had a good eye for detail. You should start with a basic camera, though, not something too expensive.",
+      "audioUrl": "",
+      "question": "What does the woman suggest about starting photography?",
+      "options": [
+        "Take a class first",
+        "Buy an expensive camera",
+        "Begin with a basic camera",
+        "Watch online tutorials"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Radio host: Welcome back. Today we're discussing the rise of electric vehicles. Our guest says that while they are better for the environment, the batteries are still difficult to recycle. There's also the question of charging infrastructure in rural areas.",
+      "audioUrl": "",
+      "question": "What problem with electric vehicles does the guest mention?",
+      "options": [
+        "They are too slow",
+        "They are very expensive",
+        "Batteries are hard to recycle",
+        "They break down frequently"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Woman: I can't believe Jake got promoted. He's only been with the company for six months. Man: True, but he works harder than anyone I know. He's always the first to arrive and the last to leave.",
+      "audioUrl": "",
+      "question": "Why does the man think Jake got promoted?",
+      "options": [
+        "He is lucky",
+        "He is the manager's friend",
+        "He works very hard",
+        "He has the most experience"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: We need to book our flights soon. Prices are going up every week. Man: I know, but I'm waiting to see if my vacation request gets approved first. Woman: You should ask your boss today then.",
+      "audioUrl": "",
+      "question": "Why hasn't the man booked his flight yet?",
+      "options": [
+        "He doesn't have enough money",
+        "He is waiting for vacation approval",
+        "He prefers to travel by train",
+        "He hasn't decided on a destination"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Professor: The Industrial Revolution transformed society in many ways. Cities grew rapidly as people moved from rural areas for factory work. Living conditions were often poor, but it marked the beginning of modern urban life as we know it.",
+      "audioUrl": "",
+      "question": "What caused cities to grow during the Industrial Revolution?",
+      "options": [
+        "Better farming methods",
+        "People moving for factory jobs",
+        "New transportation systems",
+        "Government housing programs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Woman: I've been feeling tired lately, even after a full night's sleep. Man: Maybe you should check your iron levels. My sister had the same problem, and it turned out she was anemic.",
+      "audioUrl": "",
+      "question": "What does the man suggest might be the cause of the woman's tiredness?",
+      "options": [
+        "She is sleeping too much",
+        "She has low iron levels",
+        "She is working too hard",
+        "She needs more exercise"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Man: I don't understand why people still send letters. Email is so much faster. Woman: There's something special about receiving a handwritten letter, though. It feels more personal, more meaningful.",
+      "audioUrl": "",
+      "question": "What is the woman's opinion about handwritten letters?",
+      "options": [
+        "They are old-fashioned",
+        "They are a waste of paper",
+        "They feel more personal",
+        "They are cheaper than email"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "difficulty": 3,
+  "estimatedMinutes": 6,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel"
+  ]
+}

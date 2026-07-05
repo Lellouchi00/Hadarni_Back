@@ -1,0 +1,138 @@
+{
+  "examId": "reading_001",
+  "level": "B2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "Climate change is one of the most pressing issues of our time, yet it remains a deeply polarising topic. Scientists have repeatedly warned that human activities, particularly the burning of fossil fuels, are causing global temperatures to rise. Despite overwhelming evidence, some political leaders continue to deny the severity of the crisis. It is often argued that economic growth should take priority over environmental protection. However, this view fails to acknowledge that the two are not mutually exclusive. Investments in renewable energy have been shown to create jobs and stimulate economies while reducing carbon emissions. If governments are serious about protecting the planet for future generations, they must implement policies that encourage sustainable development rather than short-term profit.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is stated about climate change in the text?",
+          "options": [
+            "It has been solved by new technology",
+            "It is a polarising topic",
+            "It only affects developing countries",
+            "It is caused by natural cycles"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What is the relationship between economic growth and environmental protection according to the text?",
+          "options": [
+            "They are mutually exclusive",
+            "Economic growth is more important",
+            "They are not mutually exclusive",
+            "Environmental protection harms the economy"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "What is recommended for governments to do?",
+          "components": [
+            "Ignore economic concerns",
+            "Prioritise short-term profit",
+            "Implement sustainable policies",
+            "Reduce investment in renewables"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Climate change is one of the most pressing issues of our ..."
+    },
+    {
+      "id": "p2",
+      "text": "The gig economy has transformed the labour market in ways that could not have been predicted a decade ago. Millions of workers now operate as freelancers, taking on short-term contracts rather than permanent positions. Proponents argue that this model offers flexibility and autonomy, allowing individuals to choose when and where they work. Critics, however, contend that gig workers are often denied basic rights such as paid leave, health insurance and job security. It could be argued that the traditional employer-employee relationship is becoming obsolete, but this raises serious questions about how societies will protect vulnerable workers. Unless regulations are updated to reflect these changes, a growing number of people may find themselves without adequate social protections.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What is mentioned as an advantage of the gig economy?",
+          "options": [
+            "Higher pay",
+            "Job security",
+            "Flexibility and autonomy",
+            "Paid leave"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q5",
+          "question": "What concern is raised about gig workers?",
+          "options": [
+            "They earn too much",
+            "They lack basic rights",
+            "They work too many hours",
+            "They are overqualified"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What is needed according to the writer?",
+          "options": [
+            "An end to the gig economy",
+            "More gig workers",
+            "Updated regulations",
+            "Fewer freelancers"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "The gig economy has transformed the labour market in ways..."
+    },
+    {
+      "id": "p3",
+      "text": "Artificial intelligence has made remarkable progress in recent years, particularly in the fields of healthcare and education. AI-powered diagnostic tools can now detect diseases earlier than human doctors, and personalised learning algorithms have helped students improve their performance significantly. Nevertheless, the rapid advancement of AI also raises ethical concerns. Questions about data privacy, algorithmic bias and the potential displacement of jobs have yet to be fully addressed. It is widely accepted that AI will continue to play an increasingly important role in our lives, but its development must be guided by ethical principles. If we fail to establish clear boundaries, we risk creating a future in which technology serves only the privileged few.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What has AI achieved in healthcare according to the text?",
+          "options": [
+            "Replaced all doctors",
+            "Reduced hospital costs",
+            "Detected diseases earlier",
+            "Cured all diseases"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q8",
+          "question": "What ethical concern about AI is mentioned?",
+          "options": [
+            "It is too expensive",
+            "It is not fast enough",
+            "Data privacy and algorithmic bias",
+            "It uses too much energy"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q9",
+          "question": "What risk does the writer highlight if boundaries are not established?",
+          "options": [
+            "AI will become too powerful",
+            "Technology will serve only the privileged few",
+            "All jobs will disappear",
+            "Humans will lose control"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "Artificial intelligence has made remarkable progress in r..."
+    }
+  ],
+  "difficulty": 4,
+  "estimatedMinutes": 12,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "shopping",
+    "education",
+    "technology"
+  ]
+}

@@ -161,48 +161,69 @@ function renderExam() {
 }
 
 function renderReading(exam) {
-  let html = `<div class="passage">${exam.passage}</div>`;
-  html += '<div class="questions">';
-  exam.questions.forEach((q, i) => {
-    html += `
-      <div class="question-card" data-q="${q.id}">
-        <h3>${i + 1}. ${q.question}</h3>
-        <div class="options">
-          ${q.options
-            .map(
-              (opt, oi) => `
-            <label class="option">
-              <input type="radio" name="q_${q.id}" value="${oi}" />
-              ${opt}
-            </label>`
-            )
-            .join("")}
-        </div>
-      </div>`;
+  if (!exam.passages || !exam.passages.length) {
+    examContent.innerHTML = '<div style="color:#c62828;text-align:center;">Reading exam has no passages.</div>';
+    return;
+  }
+
+  let html = "";
+  let questionIndex = 0;
+
+  exam.passages.forEach((passage, pi) => {
+    html += `<div class="passage-block" style="margin-bottom:20px;">`;
+    html += `<div class="passage" style="background:#f8f9fa;padding:16px;border-radius:10px;margin-bottom:16px;white-space:pre-wrap;">${passage.text}</div>`;
+    html += '<div class="questions">';
+
+    passage.questions.forEach((q) => {
+      const qNum = ++questionIndex;
+      html += `
+        <div class="question-card" data-q="${q.id}">
+          <h3>${qNum}. ${q.question}</h3>
+          <div class="options">
+            ${q.options
+              .map(
+                (opt, oi) => `
+              <label class="option">
+                <input type="radio" name="q_${q.id}" value="${oi}" />
+                ${opt}
+              </label>`
+              )
+              .join("")}
+          </div>
+        </div>`;
+    });
+
+    html += "</div></div>";
   });
-  html += "</div>";
+
   examContent.innerHTML = html;
 }
 
 function renderListening(exam) {
-  let html = "";
-  if (exam.transcript) {
-    html += `<div class="passage"><em>Transcript:</em><br/>${exam.transcript}</div>`;
-  } else {
-    html += `<div class="passage" style="color:#666;"><em>Listen to the audio and answer the questions below.</em></div>`;
+  if (!exam.questions || !exam.questions.length) {
+    examContent.innerHTML = '<div style="color:#c62828;text-align:center;">No listening questions available.</div>';
+    return;
   }
+
+  let html = '<div style="background:#fff8e1;padding:12px 16px;border-radius:10px;margin-bottom:20px;font-size:14px;color:#6d5200;">Listen to each audio clip and answer the question.</div>';
   html += '<div class="questions">';
+
   exam.questions.forEach((q, i) => {
+    const qid = q.questionId || q.id || i;
     html += `
-      <div class="question-card" data-q="${q.id}">
-        <h3>${i + 1}. ${q.question}</h3>
-        ${q.audioUri ? `<audio controls style="width:100%;margin-bottom:8px;" src="${q.audioUri}"></audio>` : ""}
-        <div class="options">
+      <div class="question-card" data-q="${qid}" style="margin-bottom:20px;">
+        <h3>${i + 1}. ${q.question}</h3>`;
+    if (q.audioUrl) {
+      html += `<audio controls style="width:100%;margin-bottom:10px;" src="${q.audioUrl}"></audio>`;
+    } else if (q.audioText) {
+      html += `<div style="background:#f0f0f0;padding:10px;border-radius:8px;margin-bottom:10px;font-style:italic;">${q.audioText}</div>`;
+    }
+    html += `<div class="options">
           ${q.options
             .map(
               (opt, oi) => `
             <label class="option">
-              <input type="radio" name="q_${q.id}" value="${oi}" />
+              <input type="radio" name="q_${qid}" value="${oi}" />
               ${opt}
             </label>`
             )
@@ -210,6 +231,7 @@ function renderListening(exam) {
         </div>
       </div>`;
   });
+
   html += "</div>";
   examContent.innerHTML = html;
 }
@@ -268,9 +290,17 @@ function buildSubmitBody() {
     return { ...base, conversation, percentage };
   }
 
-  const questions = currentExam.questions;
+  const questions = currentSection === "reading"
+    ? currentExam.passages.flatMap((p) => p.questions)
+    : currentExam.questions;
+
+  const questionIds = currentSection === "listening"
+    ? questions.map((q) => q.questionId || q.id)
+    : undefined;
+
   const answers = questions.map((q) => {
-    const selected = document.querySelector('input[name="q_' + q.id + '"]:checked');
+    const qid = q.questionId || q.id;
+    const selected = document.querySelector('input[name="q_' + qid + '"]:checked');
     return selected !== null ? parseInt(selected.value) : null;
   });
 
@@ -280,7 +310,9 @@ function buildSubmitBody() {
     return null;
   }
 
-  return { ...base, answers };
+  const body = { ...base, answers };
+  if (questionIds) body.questionIds = questionIds;
+  return body;
 }
 
 async function submitExam() {

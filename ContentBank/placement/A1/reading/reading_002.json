@@ -1,0 +1,138 @@
+{
+  "examId": "reading_002",
+  "level": "A1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "Sara gets up at seven o'clock. She washes her face and brushes her teeth. Then she eats breakfast. She has bread with butter and a glass of milk. She puts on her red dress and goes to school. She walks to school with her friend Lily.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What time does Sara get up?",
+          "options": [
+            "Six o'clock",
+            "Seven o'clock",
+            "Eight o'clock",
+            "Nine o'clock"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What does Sara have for breakfast?",
+          "options": [
+            "Bread with jam",
+            "Bread with butter and milk",
+            "Cereal and milk",
+            "Eggs and bread"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "How does Sara go to school?",
+          "options": [
+            "By bus",
+            "By car",
+            "She walks",
+            "By bike"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Sara gets up at seven o'clock"
+    },
+    {
+      "id": "p2",
+      "text": "The weather is sunny and hot today. Kim and her dad go to the park. Kim wears a yellow hat and sunglasses. She plays on the swing. Her dad sits on a green chair and reads a book. They drink cold water. Kim is very happy.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "How is the weather today?",
+          "options": [
+            "Cold and rainy",
+            "Sunny and hot",
+            "Windy and cold",
+            "Cloudy and cool"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "What color is Kim's hat?",
+          "options": [
+            "Red",
+            "Blue",
+            "Yellow",
+            "Green"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q6",
+          "question": "What does Kim's dad do at the park?",
+          "options": [
+            "Plays on the swing",
+            "Drinks water",
+            "Reads a book",
+            "Wears a hat"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "The weather is sunny and hot today"
+    },
+    {
+      "id": "p3",
+      "text": "In my classroom there are ten desks. The desks are blue. My teacher is Mrs. Green. She is nice. She writes on the board with white chalk. I sit next to Ben. We have a red clock on the wall. There are three windows. The room is big.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "How many desks are in the classroom?",
+          "options": [
+            "Eight",
+            "Nine",
+            "Ten",
+            "Eleven"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q8",
+          "question": "What color are the desks?",
+          "options": [
+            "Red",
+            "Green",
+            "White",
+            "Blue"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": "q9",
+          "question": "Who is Mrs. Green?",
+          "options": [
+            "A student",
+            "The teacher",
+            "Ben's mother",
+            "The clock maker"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "In my classroom there are ten desks"
+    }
+  ],
+  "difficulty": 1,
+  "estimatedMinutes": 6,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "weather",
+    "travel",
+    "education"
+  ]
+}

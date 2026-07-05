@@ -1,0 +1,154 @@
+{
+  "examId": "listening_002",
+  "level": "A1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "It is cold and snowy today.",
+      "audioUrl": "",
+      "question": "What is the weather like?",
+      "options": [
+        "Hot and sunny",
+        "Cold and snowy",
+        "Warm and rainy",
+        "Cool and windy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "I eat breakfast at eight o'clock.",
+      "audioUrl": "",
+      "question": "When does the speaker eat breakfast?",
+      "options": [
+        "At seven o'clock",
+        "At eight o'clock",
+        "At nine o'clock",
+        "At ten o'clock"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "I want a glass of water, please.",
+      "audioUrl": "",
+      "question": "What does the speaker want?",
+      "options": [
+        "A glass of milk",
+        "A glass of water",
+        "A cup of tea",
+        "A cup of coffee"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "The dog is running in the park.",
+      "audioUrl": "",
+      "question": "Where is the dog?",
+      "options": [
+        "In the house",
+        "In the park",
+        "On the street",
+        "At the school"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "I go to school by bus.",
+      "audioUrl": "",
+      "question": "How does the speaker go to school?",
+      "options": [
+        "By car",
+        "By bus",
+        "By bike",
+        "On foot"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "There are three birds in the tree.",
+      "audioUrl": "",
+      "question": "How many birds are in the tree?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q7",
+      "audioText": "My favorite color is green.",
+      "audioUrl": "",
+      "question": "What is the speaker's favorite color?",
+      "colors": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q8",
+      "audioText": "I live in a small house with my family.",
+      "audioUrl": "",
+      "question": "Where does the speaker live?",
+      "options": [
+        "In a big house",
+        "In a small house",
+        "In an apartment",
+        "On a farm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "The store opens at nine in the morning.",
+      "audioUrl": "",
+      "question": "When does the store open?",
+      "options": [
+        "At eight",
+        "At nine",
+        "At ten",
+        "At eleven"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "I have a red apple in my bag.",
+      "audioUrl": "",
+      "question": "What is in the bag?",
+      "options": [
+        "A red ball",
+        "A red apple",
+        "A red book",
+        "A red pen"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 1,
+  "estimatedMinutes": 4,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel"
+  ]
+}

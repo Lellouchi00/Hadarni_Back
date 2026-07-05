@@ -1,0 +1,148 @@
+{
+  "examId": "listening_002",
+  "level": "C1",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Neuroscientist: Neuroplasticity was once thought to be limited to childhood, but we now know the brain retains the capacity to rewire itself throughout life. This has profound implications for rehabilitation after injury, but it also means that our habits literally shape our neural architecture. The pathways we use most become reinforced; those we neglect, atrophy. It's a use-it-or-lose-it system at the microscopic level.",
+      "audioUrl": "",
+      "question": "What implication of neuroplasticity does the neuroscientist emphasize?",
+      "options": [
+        "Brain damage in adults is irreversible",
+        "Adult brains are fixed and cannot change",
+        "Habits physically reshape the brain's structure",
+        "Neuroplasticity only functions during sleep"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Woman: The documentary about deep-sea mining was alarming. Companies are preparing to extract minerals from the ocean floor, and the environmental impact assessments are nowhere near comprehensive enough. Man: It's reminiscent of the early days of oil drilling—proceeding with extraction before understanding the ecological consequences. We seem determined to repeat the same patterns.",
+      "audioUrl": "",
+      "question": "What parallel does the man draw between deep-sea mining and oil drilling?",
+      "options": [
+        "Both are equally profitable",
+        "Both proceeded without adequate environmental understanding",
+        "Both were regulated from the start",
+        "Both have been banned by international treaties"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Professor: The Sapir-Whorf hypothesis, in its strong form, suggests that language determines thought—that speakers of different languages literally perceive the world differently. While few linguists accept this strong version today, the weak version—that language influences cognition—has considerable empirical support. For instance, languages that encode cardinal directions rather than relative ones produce speakers with exceptional spatial orientation skills.",
+      "audioUrl": "",
+      "question": "What evidence supports the weak version of the Sapir-Whorf hypothesis?",
+      "options": [
+        "All languages share universal cognitive structures",
+        "Language influences spatial cognition in measurable ways",
+        "Thought is completely independent of language",
+        "Multilingual people have higher IQs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Diplomat: Soft power—the ability to shape preferences through attraction rather than coercion—is increasingly central to international relations. A country's cultural exports, political values, and foreign policies all contribute to its soft power reserves. The United States benefited enormously from this during the Cold War, but I'd argue that recent erosion of institutional credibility has diminished this intangible asset significantly.",
+      "audioUrl": "",
+      "question": "What does the diplomat suggest has happened to US soft power?",
+      "options": [
+        "It has remained constant",
+        "It has increased due to military strength",
+        "It has diminished due to declining institutional credibility",
+        "It is no longer relevant in modern diplomacy"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Woman: I've been thinking about the concept of 'attention economy' and how social media platforms are designed to maximize engagement. Man: They're essentially exploiting a vulnerability in our cognitive architecture. Intermittent variable rewards—the same mechanism that makes slot machines addictive—keep us checking notifications. We're not weak; we're up against systems engineered by hundreds of PhDs to capture our attention.",
+      "audioUrl": "",
+      "question": "How does the man describe social media's design strategy?",
+      "options": [
+        "As educational and informative",
+        "As exploiting psychological vulnerabilities like variable rewards",
+        "As primarily focused on user well-being",
+        "As based on traditional marketing methods"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Literary scholar: The epistolary novel of the eighteenth century was not merely a literary form but a reflection of changing social realities. The rise of literacy, the expansion of postal services, and the cult of sensibility all converged to make letter-writing a vehicle for exploring interiority. Reading someone else's letters—even fictional ones—offered an unprecedented window into private consciousness.",
+      "audioUrl": "",
+      "question": "According to the scholar, what made the epistolary novel popular?",
+      "options": [
+        "Its low printing costs",
+        "Its reflection of broader social and technological changes",
+        "Its focus on adventure rather than emotion",
+        "Its use of simple language accessible to all classes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: The paradox of tolerance, articulated by Karl Popper, states that in order to maintain a tolerant society, we must be intolerant of intolerance itself. Otherwise, tolerant systems will be exploited and destroyed by those who would impose their own illiberal views. Man: That's a compelling argument, but it also raises difficult questions about who gets to define what counts as intolerance.",
+      "audioUrl": "",
+      "question": "What concern does the man raise about the paradox of tolerance?",
+      "options": [
+        "It leads to authoritarianism",
+        "Defining intolerance is subjective and problematic",
+        "It has never been implemented successfully",
+        "It only applies to religious contexts"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Ecologist: Rewilding is often misunderstood as simply letting nature take its course, but it's a far more interventionist process than that label suggests. It involves reintroducing keystone species, removing dams and fences, and sometimes actively managing populations to restore trophic cascades. The goal is not to recreate a pristine past but to restore ecological processes that allow self-regulating ecosystems to emerge.",
+      "audioUrl": "",
+      "question": "How does the ecologist characterize the process of rewilding?",
+      "options": [
+        "As completely non-interventionist",
+        "As actively managed restoration of ecological processes",
+        "As returning landscapes to their prehistoric state",
+        "As primarily focused on planting trees"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Woman: I came across a fascinating article about the Pygmalion effect in education. When teachers expect students to perform well, those students actually do perform better—even if the selection was random. Man: It's a powerful illustration of how our beliefs about others can become self-fulfilling prophecies. The challenge is that the opposite also holds—low expectations can suppress potential.",
+      "audioUrl": "",
+      "question": "What does the Pygmalion effect demonstrate?",
+      "options": [
+        "Students perform better with strict discipline",
+        "Teacher expectations can influence student outcomes",
+        "Intelligence is fixed and cannot be changed",
+        "Random selection produces the best results"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Musicologist: What distinguishes Bach's late works, particularly The Art of Fugue, is their intellectual density combined with profound emotional resonance. Contrapuntal complexity alone can feel academic, and raw emotion alone can feel sentimental. Bach achieves a synthesis where mathematical rigor serves expressive depth—each voice pursuing its independent logic while contributing to an integrated emotional whole.",
+      "audioUrl": "",
+      "question": "What makes Bach's late works distinctive according to the musicologist?",
+      "options": [
+        "Their complete rejection of traditional forms",
+        "The fusion of intellectual complexity with emotional depth",
+        "Their exclusive focus on religious themes",
+        "Their use of simpler melodies than his early works"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 5,
+  "estimatedMinutes": 8,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping"
+  ]
+}

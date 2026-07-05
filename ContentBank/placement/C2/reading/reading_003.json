@@ -1,0 +1,138 @@
+{
+  "examId": "reading_003",
+  "level": "C2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "The philosophy of consciousness, or the 'hard problem' as David Chalmers famously termed it, continues to resist satisfactory resolution. While cognitive science has made prodigious strides in correlating neural activity with mental states, the qualitative character of subjective experience — what it feels like to see red, to taste coffee or to feel pain — remains stubbornly elusive. Materialist accounts, which posit that consciousness is nothing more than brain activity, struggle to explain how physical processes give rise to phenomenal experience. Dualist alternatives, which posit a non-physical mind, conflict with the scientific worldview that has progressively naturalised our understanding of the world. Panpsychism, the view that consciousness is a fundamental feature of all matter, has experienced a resurgence but raises its own set of metaphysical difficulties. The persistence of this explanatory gap suggests that we may lack the conceptual resources necessary to comprehend the nature of consciousness, a predicament that some philosophers have called 'cognitive closure'.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does the 'hard problem' of consciousness refer to?",
+          "options": [
+            "Finding consciousness in the brain",
+            "Explaining subjective experience",
+            "Proving consciousness exists",
+            "Measuring consciousness"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "Why does the writer say materialist accounts struggle?",
+          "options": [
+            "They are too complex",
+            "They cannot explain how physical processes create experience",
+            "They lack evidence",
+            "They are unpopular"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "What does 'cognitive closure' refer to in this context?",
+          "options": [
+            "The end of consciousness research",
+            "Lacking conceptual resources to understand consciousness",
+            "Brain damage",
+            "The final answer to the problem"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The philosophy of consciousness, or the 'hard problem' as..."
+    },
+    {
+      "id": "p2",
+      "text": "The political economy of algorithmic governance presents a paradox that late capitalism has yet to resolve. Digital platforms, through their capacity for granular surveillance and behavioural manipulation, have engendered unprecedented efficiencies in market coordination. Yet the same technologies have concentred economic power in a handful of corporations whose influence rivals that of nation-states. The extractive logic of surveillance capitalism, as Shoshana Zuboff has characterised it, treats human experience as raw material to be commodified and predicted. This has engendered a asymmetric relationship in which users are simultaneously the producers of value and the objects of control. Regulatory responses, from the EU's Digital Markets Act to proposed antitrust actions in the United States, represent tentative steps toward reasserting democratic oversight. However, the transnational nature of digital markets and the formidable lobbying power of tech conglomerates pose substantial obstacles to effective governance. The trajectory of this power struggle will fundamentally shape the distribution of freedom and autonomy in the twenty-first century.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What paradox of algorithmic governance does the text describe?",
+          "options": [
+            "It creates efficiency but concentrates power",
+            "It is cheap but unreliable",
+            "It is popular but dangerous",
+            "It helps consumers but hurts workers"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q5",
+          "question": "What does surveillance capitalism treat as raw material?",
+          "options": [
+            "Financial data",
+            "Human experience",
+            "Natural resources",
+            "Intellectual property"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What obstacles to effective governance are mentioned?",
+          "options": [
+            "Lack of public support",
+            "Transnational markets and tech lobbying power",
+            "Outdated laws",
+            "Technical limitations"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The political economy of algorithmic governance presents ..."
+    },
+    {
+      "id": "p3",
+      "text": "The aesthetics of imperfection have long occupied a contested space in Western artistic tradition, which has historically privileged formal harmony, proportion and mimesis. The Japanese concept of wabi-sabi, with its celebration of transience, impermanence and the beauty of the flawed, offers a compelling counterpoint to this classical ideal. In wabi-sabi, the crack in a ceramic bowl is not a defect to be concealed but a feature that discloses the object's history and imbues it with unique character. This philosophical orientation has profound implications beyond aesthetics. It suggests an alternative ethical stance toward human fallibility — one that embraces vulnerability and imperfection as constitutive elements of authentic existence rather than shortcomings to be overcome. In an age of curated digital identities and relentless optimisation, the wisdom of wabi-sabi serves as a salutary reminder that the pursuit of perfection is not only futile but fundamentally at odds with the textured richness of lived experience.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What does wabi-sabi celebrate according to the text?",
+          "options": [
+            "Perfect symmetry",
+            "Transience, impermanence and flaws",
+            "Luxury and opulence",
+            "Minimalism"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What broader implication of wabi-sabi does the writer identify?",
+          "options": [
+            "A new artistic movement",
+            "An ethical stance embracing imperfection",
+            "A design trend",
+            "A religious practice"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What does the writer contrast wabi-sabi with in contemporary society?",
+          "options": [
+            "Traditional art",
+            "Curated digital identities and optimisation",
+            "Modern architecture",
+            "Consumer culture"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The aesthetics of imperfection have long occupied a conte..."
+    }
+  ],
+  "difficulty": 6,
+  "estimatedMinutes": 16,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "education",
+    "technology"
+  ]
+}

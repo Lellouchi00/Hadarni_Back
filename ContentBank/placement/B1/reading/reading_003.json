@@ -1,0 +1,138 @@
+{
+  "examId": "reading_003",
+  "level": "B1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "Social media has changed the way we communicate. Fifteen years ago, people mainly used phones and emails to stay in touch. Today, billions of people use platforms like Instagram and TikTok every day. While social media helps us connect with friends far away, it also has disadvantages. Many young people feel pressure to look perfect online. If you spend too much time on social media, you might start comparing yourself to others. Experts recommend limiting screen time to two hours per day. I have reduced my own usage recently, and I feel much happier.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "How did people mainly communicate fifteen years ago?",
+          "options": [
+            "Using social media",
+            "Using phones and emails",
+            "Using video calls",
+            "Using text messages"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What problem does social media cause for young people?",
+          "options": [
+            "It is expensive",
+            "It takes too much time",
+            "They feel pressure to look perfect",
+            "They lose their phones"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "What do experts recommend for screen time?",
+          "options": [
+            "No screen time",
+            "One hour per day",
+            "Two hours per day",
+            "Three hours per day"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Social media has changed the way we communicate"
+    },
+    {
+      "id": "p2",
+      "text": "I have been studying English for five years, and I can now hold a conversation quite well. However, I still make mistakes when I speak. My teacher says that making mistakes is part of the learning process. If you are afraid of making mistakes, you will never improve. She also told me that I should watch films in English and read books to expand my vocabulary. I have already watched ten films this month. I think my listening has improved a lot. My next goal is to write a short story in English.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "How long has the writer been studying English?",
+          "options": [
+            "Three years",
+            "Four years",
+            "Five years",
+            "Six years"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q5",
+          "question": "What does the teacher say about mistakes?",
+          "options": [
+            "They are bad",
+            "They are part of learning",
+            "They show weakness",
+            "They should be avoided"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What is the writer's next goal?",
+          "options": [
+            "Pass an exam",
+            "Write a short story",
+            "Travel abroad",
+            "Learn new grammar"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "I have been studying English for five years, and I can no..."
+    },
+    {
+      "id": "p3",
+      "text": "Last weekend, my friends and I decided to go camping. We had planned the trip for months. We packed our tents, sleeping bags and food, and drove to a lake in the mountains. When we arrived, it started raining heavily. We could not start a fire, so we ate cold sandwiches for dinner. Despite the bad weather, we had a great time telling stories and playing cards. The next morning, the sun came out and we went swimming in the lake. If the weather had been better, we would have stayed an extra day. I think we will try again next month.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What did the writer and friends do when it started raining?",
+          "options": [
+            "They went home",
+            "They ate cold sandwiches",
+            "They slept in the car",
+            "They found a hotel"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What did they do the next morning?",
+          "options": [
+            "They went hiking",
+            "They went fishing",
+            "They went swimming",
+            "They went home early"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q9",
+          "question": "What would the group have done with better weather?",
+          "options": [
+            "Stayed an extra day",
+            "Gone to a different lake",
+            "Invited more people",
+            "Cooked a hot meal"
+          ],
+          "correctAnswer": 0
+        }
+      ],
+      "title": "Last weekend, my friends and I decided to go camping"
+    }
+  ],
+  "difficulty": 3,
+  "estimatedMinutes": 10,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel",
+    "education"
+  ]
+}

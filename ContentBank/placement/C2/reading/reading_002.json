@@ -1,0 +1,138 @@
+{
+  "examId": "reading_002",
+  "level": "C2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "The geopolitical ramifications of Arctic ice melt extend far beyond environmental concerns, implicating questions of sovereignty, resource extraction and military strategy. As the polar ice cap recedes at an unprecedented rate, new shipping lanes are opening and previously inaccessible fossil fuel deposits are becoming viable for exploitation. This has precipitated a intensifying contest among Arctic nations — Russia, Canada, Denmark, Norway and the United States — each asserting territorial claims over the burgeoning frontier. The region, long considered a zone of relative geopolitical stability, is increasingly viewed through a strategic lens. Russia has reopened Soviet-era military bases along its Arctic coastline, while China has declared itself a 'near-Arctic state' and invested heavily in polar research infrastructure. The delicate environmental balance of the Arctic hangs in the balance, caught between the inexorable forces of climate change and the rapacious logic of geopolitical competition.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does the text identify as a consequence of Arctic ice melt beyond environmental concerns?",
+          "options": [
+            "Tourism increase",
+            "Questions of sovereignty and military strategy",
+            "Improved fishing",
+            "Scientific discoveries"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "Which nations are mentioned as asserting territorial claims?",
+          "options": [
+            "Only Russia and the US",
+            "Arctic nations including Russia, Canada, Denmark, Norway and the US",
+            "European nations only",
+            "All UN member states"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "How has China positioned itself regarding the Arctic?",
+          "options": [
+            "As an observer only",
+            "As a 'near-Arctic state' with research investments",
+            "It has no interest",
+            "As a mediator"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The geopolitical ramifications of Arctic ice melt extend ..."
+    },
+    {
+      "id": "p2",
+      "text": "The intersection of neuroscience and jurisprudence raises profound questions about the nature of criminal responsibility. Advances in neuroimaging have enabled researchers to identify structural and functional abnormalities in the brains of individuals exhibiting antisocial behaviour. This has prompted legal scholars to reconsider the extent to which defendants can be held morally culpable for actions that may be attributable, at least in part, to neurological predispositions. The deterministic implications of such findings appear to challenge the foundational legal principle that individuals possess free will and can rationally choose between right and wrong. Yet a wholesale rejection of criminal responsibility would be socially untenable, potentially undermining the deterrent function of legal sanctions. A more nuanced approach would involve integrating neuroscientific evidence into sentencing decisions while preserving the moral framework that underpins criminal law. The law, after all, is not merely a system of rules but an expression of society's collective judgment about accountability.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What question does the intersection of neuroscience and jurisprudence raise?",
+          "options": [
+            "Whether prisons are effective",
+            "The nature of criminal responsibility and free will",
+            "How to rehabilitate offenders",
+            "The cost of legal proceedings"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "Why would a wholesale rejection of criminal responsibility be problematic?",
+          "options": [
+            "It would be unpopular",
+            "It would undermine the deterrent function of sanctions",
+            "It would require new laws",
+            "It would increase crime"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What approach does the writer suggest?",
+          "options": [
+            "Ignoring neuroscientific evidence",
+            "Integrating neuroscience into sentencing while preserving moral framework",
+            "Replacing criminal law with medical treatment",
+            "Abolishing prison sentences"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The intersection of neuroscience and jurisprudence raises..."
+    },
+    {
+      "id": "p3",
+      "text": "The discourse surrounding migration has become increasingly toxic, characterised by xenophobic rhetoric and policy positions that prioritise punitive measures over humane solutions. Yet the empirical evidence overwhelmingly demonstrates that migration, when properly managed, confers substantial economic and cultural benefits upon host societies. Immigrants contribute to fiscal revenues, fill labour shortages in critical sectors and bring entrepreneurial dynamism. The notion that migrants represent a drain on public resources is belied by longitudinal studies showing that their net fiscal contribution is positive over time. Nevertheless, the disjuncture between empirical reality and public perception persists, fuelled by populist narratives that scapegoat marginalised groups for broader societal anxieties. Addressing this dissonance requires not only more effective communication of evidence but also a reckoning with the underlying economic insecurities and cultural anxieties that make populations susceptible to nativist appeals. A mature democracy must be capable of holding these two truths simultaneously: that migration is beneficial and that the concerns of native populations must be taken seriously.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What does empirical evidence show about migration according to the text?",
+          "options": [
+            "It is a net drain on resources",
+            "It confers economic and cultural benefits",
+            "It has no measurable impact",
+            "It only benefits wealthy countries"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What fuels the gap between evidence and public perception?",
+          "options": [
+            "Lack of research",
+            "Populist narratives and scapegoating",
+            "Media bias",
+            "Poor education systems"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What does the writer say a mature democracy must be capable of?",
+          "options": [
+            "Restricting all migration",
+            "Holding two truths: migration is beneficial and native concerns matter",
+            "Choosing one side of the debate",
+            "Ignoring public opinion"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The discourse surrounding migration has become increasing..."
+    }
+  ],
+  "difficulty": 6,
+  "estimatedMinutes": 16,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping",
+    "environment"
+  ]
+}

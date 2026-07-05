@@ -1,0 +1,138 @@
+{
+  "examId": "reading_001",
+  "level": "A1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "My name is Anna. I am seven years old. I have a small family. My father is a doctor. My mother is a teacher. I have one brother. His name is Tom. He is five. We have a dog. The dog is white and brown.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "How many brothers does Anna have?",
+          "options": [
+            "Zero",
+            "One",
+            "Two",
+            "Three"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What is Anna's mother's job?",
+          "options": [
+            "Doctor",
+            "Nurse",
+            "Teacher",
+            "Farmer"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "What color is the dog?",
+          "options": [
+            "Black and white",
+            "White and brown",
+            "Brown and black",
+            "White and red"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "My name is Anna"
+    },
+    {
+      "id": "p2",
+      "text": "Today is Monday. Tom goes to school. He takes a blue bag. He has an apple and a sandwich for lunch. At school, he reads a book and draws a picture. He likes his school.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What day is it?",
+          "options": [
+            "Tuesday",
+            "Sunday",
+            "Monday",
+            "Friday"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q5",
+          "question": "What color is Tom's bag?",
+          "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "Black"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What does Tom have for lunch?",
+          "options": [
+            "A banana and a sandwich",
+            "An apple and a sandwich",
+            "An apple and a cake",
+            "A sandwich and a book"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "Today is Monday"
+    },
+    {
+      "id": "p3",
+      "text": "There are many animals on the farm. I see three cows. They are black and white. I see five yellow chickens. They eat corn. I see one big brown horse. The horse drinks water. The animals are happy.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "How many cows are on the farm?",
+          "options": [
+            "Two",
+            "Three",
+            "Five",
+            "One"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What color are the chickens?",
+          "options": [
+            "Brown",
+            "White",
+            "Black",
+            "Yellow"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": "q9",
+          "question": "What does the horse drink?",
+          "options": [
+            "Milk",
+            "Juice",
+            "Water",
+            "Corn"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "There are many animals on the farm"
+    }
+  ],
+  "difficulty": 1,
+  "estimatedMinutes": 6,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "education"
+  ]
+}

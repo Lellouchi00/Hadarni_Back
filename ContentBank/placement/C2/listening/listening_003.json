@@ -1,0 +1,150 @@
+{
+  "examId": "listening_003",
+  "level": "C2",
+  "section": "listening",
+  "questions": [
+    {
+      "questionId": "q1",
+      "audioText": "Woman: The 'precautionary principle' in environmental governance holds that where threats of serious or irreversible damage exist, lack of full scientific certainty should not be used as a reason for postponing cost-effective measures. Critics argue this stifles innovation and is epistemically vague—how much precaution, applied to which risks, at what cost? The debate ultimately reveals a deeper tension between two orientations toward uncertainty: one that treats absence of evidence as evidence of absence, and another that treats unquantified risk as sufficient grounds for intervention.",
+      "audioUrl": "",
+      "question": "What fundamental tension underlies debates about the precautionary principle?",
+      "options": [
+        "The conflict between economic growth and environmental protection",
+        "Two different orientations toward interpreting scientific uncertainty",
+        "Disagreement about whether environmental damage is ever irreversible",
+        "The impossibility of measuring environmental risks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q2",
+      "audioText": "Man: Vygotsky's zone of proximal development is frequently invoked in educational contexts but rarely understood in its full complexity. The ZPD is not merely the gap between what a learner can do independently and with assistance—it is a dynamic, socially constituted space where cognitive development occurs through scaffolded interaction. Crucially, the ZPD is not a fixed property of the learner but is coconstructed through the specific quality of the pedagogical relationship, which varies across cultural contexts and domains of knowledge.",
+      "audioUrl": "",
+      "question": "What nuance about the ZPD does the speaker emphasize?",
+      "options": [
+        "It is a fixed measure of individual cognitive ability",
+        "It is dynamically coconstructed through the quality of pedagogical interaction",
+        [
+          "It applies only to children in formal educational settings"
+        ],
+        "It was developed as a critique of standardized testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q3",
+      "audioText": "Woman: The 'Moscow trials' of the 1930s present a disturbing case study in the performative dimension of political show trials. Defendants publicly confessed to elaborate conspiracies that independent evidence suggests were largely fabricated. Scholars have debated whether these confessions were coerced through torture, the product of ideological commitment gone awry, or some more complex psychopolitical mechanism. The most compelling accounts emphasize the complete dissolution of any stable self that could resist the state's narrative—a destruction of personhood more profound than physical coercion.",
+      "audioUrl": "",
+      "question": "What do the most compelling accounts of the Moscow trials emphasize about confessions?",
+      "options": [
+        "Torture was the primary mechanism",
+        "A destruction of personhood that eliminated the capacity for resistance",
+        "Defendants freely confessed out of ideological conviction",
+        "The confessions were later found to be truthful"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q4",
+      "audioText": "Man: The concept of 'structural violence' developed by Galtung shifts analysis from direct, interpersonal violence to the systematic ways in which social structures harm individuals by preventing them from meeting their basic needs. When preventable deaths occur due to poverty, inadequate healthcare, or environmental degradation, the absence of a direct perpetrator does not make the outcome less violent—it merely makes the violence less visible. This perspective demands that we expand our moral vocabulary beyond intentional harm to include harms embedded in the normal operation of social institutions.",
+      "audioUrl": "",
+      "question": "What makes structural violence difficult to recognize according to Galtung?",
+      "options": [
+        "It occurs very rarely in modern societies",
+        "It is embedded in normal social operations without a direct perpetrator",
+        "It always involves physical force",
+        "It only affects marginalized communities that are difficult to study"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q5",
+      "audioText": "Woman: I've been reading about Boltzmann brains—a cosmological thought experiment that raises unsettling questions about scientific inference. If the universe is infinite or sufficiently long-lived, random thermal fluctuations could spontaneously produce a fully formed brain complete with false memories of an ordered universe. By the principles of statistical mechanics, such Boltzmann brains would vastly outnumber ordinary observers like ourselves. The fact that we appear to be ordinary observers in an orderly universe therefore constitutes evidence against certain cosmological models—or so the argument goes.",
+      "audioUrl": "",
+      "question": "What do Boltzmann brains pose a challenge to?",
+      "options": [
+        "The existence of consciousness",
+        "Certain cosmological models that predict they should be more common than ordinary observers",
+        "The validity of statistical mechanics",
+        "The possibility of knowing anything about the universe"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q6",
+      "audioText": "Man: Latour's actor-network theory proposes a symmetrical analysis of human and non-human actors—'actants' in the terminology—within networks of association. This methodological egalitarianism does not claim that a bacterium has intentions or consciousness but that it can be an actor in the sense of making a difference in a network. The bleaching of coral reefs, for instance, cannot be adequately explained by reference to human carbon emissions alone; it requires tracing a network that includes ocean currents, symbiotic algae, temperature thresholds, and economic incentives, each exerting agency within the assemblage.",
+      "audioUrl": "",
+      "question": "What does actor-network theory's symmetry between human and non-human actors mean?",
+      "options": [
+        "Non-human things have consciousness equal to humans",
+        "Both human and non-human entities can make a difference within networks and should be analyzed similarly",
+        "Only humans can be actors in social networks",
+        "The distinction between human and non-human is irrelevant to scientific analysis"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q7",
+      "audioText": "Woman: The 'Overton window' describes the range of policies politically acceptable to the mainstream population at any given time. The concept is often misunderstood as a descriptive account of how public opinion constrains policy, but its more interesting implication is strategic: shifting the Overton window requires normalizing previously unthinkable positions through relentless repetition, not persuading the center. This insight has been weaponized by movements across the political spectrum to radicalize the terms of public debate.",
+      "audioUrl": "",
+      "question": "What strategic implication of the Overton window does the woman highlight?",
+      "options": [
+        "Political change requires persuading moderate voters",
+        "The window can be shifted by normalizing extreme positions, not by convincing the center",
+        "The Overton window is fixed and cannot be changed",
+        "Only charismatic leaders can shift public opinion"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q8",
+      "audioText": "Man: The Monty Hall problem continues to confound people despite being mathematically well-understood. When a contestant chooses one of three doors, and the host—knowing what's behind each door—opens a losing door, switching doors doubles the probability of winning from one-third to two-thirds. The counterintuitive result arises because the host's action provides information that updates the conditional probabilities. Those who insist the odds remain fifty-fifty fail to account for the fact that the host's behavior is constrained by his knowledge.",
+      "audioUrl": "",
+      "question": "Why does the Monty Hall problem produce such counterintuitive results?",
+      "options": [
+        "Mathematics fails to describe real-world probabilities correctly",
+        "People fail to account for how the host's knowledge constrains his actions",
+        "The problem is intentionally misleading",
+        "It violates basic laws of probability theory"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q9",
+      "audioText": "Woman: Sen's capabilities approach offers a more nuanced framework for welfare economics than either utilitarian or resource-based models. Rather than measuring well-being through subjective satisfaction or the possession of commodities, Sen asks what people are actually able to do and be—their 'functionings' and 'capabilities.' This distinction matters because two people with identical resources may have vastly different capacities to convert those resources into valuable beings and doings due to personal, social, and environmental factors.",
+      "audioUrl": "",
+      "question": "How does Sen's capabilities approach differ from resource-based models of welfare?",
+      "options": [
+        "It focuses exclusively on economic growth",
+        "It considers people's actual ability to convert resources into valuable functionings, not just resource ownership",
+        "It rejects the importance of material well-being entirely",
+        "It measures welfare through subjective happiness surveys"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": "q10",
+      "audioText": "Man: The concept of 'intersectionality,' coined by Crenshaw, has migrated from critical legal theory into popular discourse with considerable semantic drift. In its original formulation, intersectionality named the specific way that antidiscrimination law failed Black women because it treated race and gender as mutually exclusive categories of analysis. The insight was structural and legal, not merely identitarian. Contemporary usage often reduces intersectionality to the recognition that people have multiple identities—a truism that misses Crenshaw's more radical point about how systems of power produce qualitatively distinct forms of marginalization at their intersections.",
+      "audioUrl": "",
+      "question": "What does the speaker say is often lost in contemporary uses of 'intersectionality'?",
+      "options": [
+        "The term's origins in feminist movements",
+        "Crenshaw's original focus on structural and legal mechanisms of power, not just multiple identities",
+        "The concept's applicability to gender analysis",
+        "The empirical evidence supporting the theory"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "difficulty": 6,
+  "estimatedMinutes": 9,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping"
+  ]
+}

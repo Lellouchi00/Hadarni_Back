@@ -1,0 +1,138 @@
+{
+  "examId": "reading_002",
+  "level": "C1",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "The notion that higher education is a prerequisite for professional success has been called into question in recent years. With the rising cost of tuition and the emergence of alternative career pathways, an increasing number of young people are reconsidering the value of a university degree. Vocational training, apprenticeships and online certifications now offer viable routes into many industries. Nonetheless, it would be premature to declare the demise of traditional academia. Universities continue to foster critical thinking, provide networking opportunities and confer credentials that many employers still regard as essential. The debate, therefore, is not whether education matters, but what form it should take in a rapidly evolving economy. Adaptability, it seems, is the currency of the future.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Why are young people reconsidering university degrees?",
+          "options": [
+            "Degrees are too difficult",
+            "Rising tuition costs and alternative pathways",
+            "Employers prefer experience",
+            "Universities are closing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What advantages of traditional universities are mentioned?",
+          "options": [
+            "Lower costs and shorter courses",
+            "Critical thinking and networking",
+            "Guaranteed jobs and high salaries",
+            "Online access and flexibility"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "What does the writer identify as the currency of the future?",
+          "options": [
+            "University degrees",
+            "Technical skills",
+            "Adaptability",
+            "Work experience"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "The notion that higher education is a prerequisite for pr..."
+    },
+    {
+      "id": "p2",
+      "text": "Architecture is far more than the mere construction of buildings; it is a reflection of a society's values, aspirations and identity. The brutalist concrete structures that emerged in the post-war era, for instance, embodied a commitment to social housing and functional design. In contrast, the glass and steel skyscrapers of today symbolise corporate power and economic ambition. Yet contemporary architecture faces a crisis of sustainability. The construction industry accounts for nearly forty percent of global carbon emissions, prompting urgent calls for greener building practices. Innovative solutions such as passive house design, green roofs and the use of recycled materials are gaining traction. However, the adoption of these practices remains uneven, hindered by cost concerns and regulatory inertia. The buildings we erect today will shape the cities of tomorrow, for better or worse.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What did brutalist architecture represent according to the text?",
+          "options": [
+            "Corporate power",
+            "Social housing and functional design",
+            "Artistic expression",
+            "Luxury and wealth"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "What crisis does contemporary architecture face?",
+          "options": [
+            "Lack of skilled architects",
+            "Unsustainable construction practices",
+            "Declining public interest",
+            "Rising material costs"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What hinders the adoption of greener building practices?",
+          "options": [
+            "Lack of technology",
+            "Cost concerns and regulatory inertia",
+            "Public opposition",
+            "Shortage of materials"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "Architecture is far more than the mere construction of bu..."
+    },
+    {
+      "id": "p3",
+      "text": "The decline of biodiversity is often described as the silent crisis of our age, overshadowed by the more visible threat of climate change. Yet the two phenomena are inextricably linked. Ecosystems that have been degraded by human activity are less resilient to the effects of global warming, creating a vicious cycle of environmental deterioration. Conservation efforts have traditionally focused on establishing protected areas, but this approach alone has proven insufficient. Species do not respect national borders, and many of the most biologically diverse regions are located in countries with limited resources for enforcement. International collaboration is therefore essential, but it is fraught with political and economic obstacles. The coming decade will be critical in determining whether humanity can reverse the trend or whether we will preside over an irreversible loss of the natural heritage upon which our own survival depends.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "How does the text describe the decline of biodiversity?",
+          "options": [
+            "An exaggerated concern",
+            "A silent crisis",
+            "A solved problem",
+            "A natural cycle"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "Why has the approach of establishing protected areas been insufficient?",
+          "options": [
+            "Animals do not stay inside them",
+            "Species cross borders and poor countries lack enforcement",
+            "They are too expensive to maintain",
+            "Climate change makes them useless"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What does the writer suggest about the coming decade?",
+          "options": [
+            "It will be too late to act",
+            "It will be critical for reversing biodiversity loss",
+            "It will see new conservation technologies",
+            "It will bring political solutions"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The decline of biodiversity is often described as the sil..."
+    }
+  ],
+  "difficulty": 5,
+  "estimatedMinutes": 14,
+  "version": 1,
+  "tags": [
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "shopping",
+    "education"
+  ]
+}

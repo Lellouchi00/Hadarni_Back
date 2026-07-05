@@ -1,0 +1,138 @@
+{
+  "examId": "reading_003",
+  "level": "A2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "Sofia is from Mexico. She is visiting London for the first time. She thinks the city is very big and busy. Yesterday, she saw Big Ben and the London Eye. She also visited the Tower of London. She took many photos. The weather was rainy but she did not mind. She bought some postcards for her family. She is having a great holiday. Next week, she will go to Paris.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Where does Sofia come from?",
+          "options": [
+            "Spain",
+            "Mexico",
+            "Italy",
+            "Brazil"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What did Sofia see yesterday?",
+          "options": [
+            "The Eiffel Tower",
+            "Big Ben and the London Eye",
+            "The Colosseum",
+            "The Statue of Liberty"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "Where will Sofia go next week?",
+          "options": [
+            "Berlin",
+            "Rome",
+            "Paris",
+            "Madrid"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Sofia is from Mexico"
+    },
+    {
+      "id": "p2",
+      "text": "Our school has a sports day every year. This year, the sports day is on Saturday. Students can do many activities like running, jumping and swimming. My friend Pedro is very fast. He wins the running race every year. I am good at swimming. Last year, I came second in the swimming competition. This year, I want to come first. My parents will come to watch. I feel a little nervous but also excited.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "When is the sports day this year?",
+          "options": [
+            "On Friday",
+            "On Saturday",
+            "On Sunday",
+            "On Monday"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "What is Pedro good at?",
+          "options": [
+            "Swimming",
+            "Jumping",
+            "Running",
+            "Throwing"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q6",
+          "question": "What place did the writer get last year in swimming?",
+          "options": [
+            "First",
+            "Second",
+            "Third",
+            "Fourth"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "Our school has a sports day every year"
+    },
+    {
+      "id": "p3",
+      "text": "Jack works at a bookshop. He starts work at nine in the morning and finishes at five. He helps customers find books and puts new books on the shelves. He likes his job because he can read during his break. His favourite books are adventure stories. On Saturday, a famous writer came to the bookshop to sign books. Jack was very excited. He asked the writer for a photo. It was the best day of his job.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "Where does Jack work?",
+          "options": [
+            "A library",
+            "A bookshop",
+            "A school",
+            "A café"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What happened on Saturday?",
+          "options": [
+            "Jack got a promotion",
+            "A famous writer came",
+            "Jack read a new book",
+            "The bookshop closed"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What did Jack ask the writer for?",
+          "options": [
+            "A book",
+            "A signature",
+            "A photo",
+            "A job"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "title": "Jack works at a bookshop"
+    }
+  ],
+  "difficulty": 2,
+  "estimatedMinutes": 8,
+  "version": 1,
+  "tags": [
+    "family",
+    "daily life",
+    "food",
+    "animals",
+    "weather",
+    "travel"
+  ]
+}

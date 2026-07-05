@@ -1,0 +1,138 @@
+{
+  "examId": "reading_001",
+  "level": "C2",
+  "section": "reading",
+  "passages": [
+    {
+      "id": "p1",
+      "text": "The epistemological foundations of modern democracy are predicated on the assumption that an informed citizenry is capable of making rational collective decisions. Yet the proliferation of disinformation, exacerbated by algorithmic echo chambers and the erosion of trust in traditional institutions, has fundamentally destabilised this premise. We find ourselves in a paradoxical situation where the unprecedented accessibility of information has coincided with a precipitous decline in the public's ability to distinguish veracity from falsehood. This phenomenon, which some scholars have termed 'epistemic crisis', poses an existential threat to democratic governance. Remedial measures, such as media literacy initiatives and platform regulation, have been proposed, but their efficacy remains contested. The crux of the matter lies not merely in the quantity of misinformation, but in the psychological and sociological mechanisms that render individuals susceptible to it. Until these underlying dynamics are adequately understood and addressed, democracy will remain in a precarious state.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What assumption about modern democracy does the text challenge?",
+          "options": [
+            "That democracy is the best system",
+            "That an informed citizenry makes rational decisions",
+            "That elections are fair",
+            "That institutions are trustworthy"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "What does the writer identify as the 'epistemic crisis'?",
+          "options": [
+            "Lack of access to information",
+            "Declining ability to distinguish truth from falsehood",
+            "Over-reliance on technology",
+            "Decline in literacy rates"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "question": "What does the writer say is the crux of the matter?",
+          "options": [
+            "The quantity of misinformation",
+            "Psychological and sociological mechanisms of susceptibility",
+            "The cost of platform regulation",
+            "Lack of political will"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The epistemological foundations of modern democracy are p..."
+    },
+    {
+      "id": "p2",
+      "text": "The hermeneutics of literary interpretation have long grappled with the tension between authorial intent and reader reception. Post-structuralist theorists, most notably Roland Barthes with his seminal essay 'The Death of the Author', contended that meaning is not fixed by the author's intentions but is continually reconstituted through the act of reading. This paradigm shift liberated texts from the tyranny of singular interpretation, opening up a plurality of meanings. However, this hermeneutic freedom is not without its perils. If any interpretation is deemed equally valid, the very notion of textual meaning becomes untenable. Contemporary literary scholarship has thus sought a via media, acknowledging the reader's role in meaning-making while retaining the text as a constraining structure. The debate endures because it touches upon fundamental questions about the nature of language, subjectivity and the limits of interpretation itself.",
+      "questions": [
+        {
+          "id": "q4",
+          "question": "What did Barthes argue according to the text?",
+          "options": [
+            "Authors control meaning",
+            "Meaning is created through reading",
+            "Texts have no meaning",
+            "Only critics can interpret texts"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "question": "What peril of hermeneutic freedom is mentioned?",
+          "options": [
+            "Readers get confused",
+            "Any interpretation becomes equally valid",
+            "Texts become too long",
+            "Authors stop writing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "question": "What approach does contemporary scholarship seek?",
+          "options": [
+            "Return to authorial intent",
+            "A middle path acknowledging reader and text",
+            "Abandoning interpretation",
+            "Digital analysis of texts"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The hermeneutics of literary interpretation have long gra..."
+    },
+    {
+      "id": "p3",
+      "text": "The ontology of quantum mechanics presents a formidable challenge to classical conceptions of reality. At the subatomic level, particles do not possess definite properties until they are measured, a phenomenon that has perplexed physicists and philosophers alike since the inception of the Copenhagen interpretation. The many-worlds interpretation offers an alternative, positing that all possible outcomes of quantum measurements are realised in branching, parallel universes. While this notion strains credulity, it has the virtue of preserving determinism and avoiding the need for a special role for observation. Yet both interpretations, and others besides, remain empirically indistinguishable under current experimental conditions. This has led some to adopt a instrumentalist stance, arguing that quantum mechanics should be judged solely by its predictive power rather than its ontological commitments. The debate underscores a profound truth: our most fundamental theories of the universe may describe mathematical structures that bear little resemblance to the world as we experience it.",
+      "questions": [
+        {
+          "id": "q7",
+          "question": "What does the Copenhagen interpretation claim about particles?",
+          "options": [
+            "They have fixed properties",
+            "They do not have definite properties until measured",
+            "They exist in multiple universes",
+            "They are mathematical illusions"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "question": "What is the instrumentalist stance mentioned in the text?",
+          "options": [
+            "Quantum mechanics is wrong",
+            "Theories should be judged by predictive power",
+            "Only experiments matter",
+            "Physics should focus on applications"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "question": "What profound truth does the quantum mechanics debate underscore?",
+          "options": [
+            "Science cannot explain everything",
+            "Fundamental theories may not resemble experienced reality",
+            "Quantum mechanics is incomplete",
+            "Reality is an illusion"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "title": "The ontology of quantum mechanics presents a formidable c..."
+    }
+  ],
+  "difficulty": 6,
+  "estimatedMinutes": 16,
+  "version": 1,
+  "tags": [
+    "food",
+    "animals",
+    "weather",
+    "shopping",
+    "education",
+    "technology"
+  ]
+}
