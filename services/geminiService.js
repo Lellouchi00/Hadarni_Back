@@ -9,16 +9,115 @@ const FALLBACK_MODELS = [
   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
 ].filter(Boolean);
 
-async function callOpenRouter(prompt, textOrConversation, evaluationType) {
-  const instructions = {
-    writing:
-      "Evaluate the answer, provide a score from 0-100, and give detailed feedback.",
-    speaking:
-      "Evaluate the speaking performance, provide a score from 0-100, and give detailed feedback on fluency, grammar, vocabulary, and pronunciation.",
-  };
+const EVALUATION_PROMPT = `You are an official CEFR English Writing Examiner.
 
-  const userContent = `${prompt}\n\nStudent ${evaluationType === "writing" ? "answer" : "conversation"}:\n${textOrConversation}\n\n${instructions[evaluationType]}`;
+Your job is to evaluate ONLY ONE writing answer from a Placement Test.
 
+=========================
+CONTEXT
+=========================
+
+This is a placement exam for an English learning application.
+
+The student's estimated level is:
+{{LEVEL}}
+
+Writing Question:
+{{QUESTION}}
+
+Student Answer:
+{{ANSWER}}
+
+=========================
+EVALUATION RULES
+=========================
+
+Evaluate ONLY according to the CEFR level provided.
+
+Do NOT compare the student to higher levels.
+
+For example:
+
+If the level is A1:
+- simple present
+- basic vocabulary
+- very short sentences
+- basic spelling mistakes are acceptable
+- do not expect complex grammar
+
+If the level is B2:
+- expect good grammar
+- richer vocabulary
+- good organization
+- better coherence
+
+Evaluate these criteria:
+
+1. Grammar (0-25)
+2. Vocabulary (0-25)
+3. Task Completion (0-25)
+4. Coherence & Organization (0-25)
+
+Total score = 100
+
+=========================
+FEEDBACK
+=========================
+
+Feedback must:
+
+- be short
+- maximum 3 sentences
+- encourage the learner
+- explain only the most important mistakes
+- give one improvement suggestion
+
+=========================
+IMPORTANT
+=========================
+
+Return ONLY valid JSON.
+
+Do NOT use markdown.
+
+Do NOT write explanations.
+
+Do NOT wrap inside \`\`\`.
+
+Do NOT write any text outside JSON.
+
+=========================
+JSON FORMAT
+=========================
+
+{
+  "grammar": 0,
+  "vocabulary": 0,
+  "taskCompletion": 0,
+  "coherence": 0,
+  "total": 0,
+  "feedback": "",
+  "strengths": [
+    ""
+  ],
+  "weaknesses": [
+    ""
+  ]
+}
+
+Rules:
+
+grammar + vocabulary + taskCompletion + coherence = total
+
+All values must be integers.
+
+strengths contains 1-3 short points.
+
+weaknesses contains 1-3 short points.
+
+feedback must contain at most 3 sentences.`;
+
+async function callOpenRouter(userContent) {
   let lastErr;
 
   for (const model of FALLBACK_MODELS) {
@@ -57,12 +156,24 @@ async function callOpenRouter(prompt, textOrConversation, evaluationType) {
   throw lastErr || new Error("All OpenRouter models failed");
 }
 
-async function evaluateWriting(prompt, text) {
-  return callOpenRouter(prompt, text, "writing");
+async function evaluateWriting(level, question, answer) {
+  const content = EVALUATION_PROMPT
+    .replace("{{LEVEL}}", level)
+    .replace("{{QUESTION}}", question)
+    .replace("{{ANSWER}}", answer);
+
+  const raw = await callOpenRouter(content);
+
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return { raw };
+  }
 }
 
 async function evaluateSpeaking(prompt, conversation) {
-  return callOpenRouter(prompt, conversation, "speaking");
+  const content = `${prompt}\n\nStudent conversation:\n${conversation}\n\nEvaluate the speaking performance, provide a score from 0-100, and give detailed feedback on fluency, grammar, vocabulary, and pronunciation.`;
+  return callOpenRouter(content);
 }
 
 module.exports = { evaluateWriting, evaluateSpeaking };

@@ -2,11 +2,11 @@ const geminiService = require("../services/geminiService");
 
 async function evaluateWriting(req, res, next) {
   try {
-    const { prompt, text } = req.body;
-    if (!prompt || !text) {
-      return res.status(400).json({ error: "prompt and text are required" });
+    const { level, question, answer } = req.body;
+    if (!level || !question || !answer) {
+      return res.status(400).json({ error: "level, question, and answer are required" });
     }
-    const result = await geminiService.evaluateWriting(prompt, text);
+    const result = await geminiService.evaluateWriting(level, question, answer);
     res.json({ success: true, result });
   } catch (err) {
     next(err);
