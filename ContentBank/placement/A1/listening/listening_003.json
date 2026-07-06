@@ -6,7 +6,7 @@
     {
       "questionId": "q1",
       "audioText": "Good morning, how are you today?",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295635/audio/placement/a1/listening/listening_003_q1.mp3",
       "question": "What is the speaker doing?",
       "options": [
         "Saying goodbye",
@@ -19,7 +19,7 @@
     {
       "questionId": "q2",
       "audioText": "I have two cats and one dog.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295638/audio/placement/a1/listening/listening_003_q2.mp3",
       "question": "How many pets does the speaker have?",
       "options": [
         "Two",
@@ -32,7 +32,7 @@
     {
       "questionId": "q3",
       "audioText": "The milk is in the fridge.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295640/audio/placement/a1/listening/listening_003_q3.mp3",
       "question": "Where is the milk?",
       "options": [
         "On the table",
@@ -45,7 +45,7 @@
     {
       "questionId": "q4",
       "audioText": "Turn left at the school, then go straight.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295642/audio/placement/a1/listening/listening_003_q4.mp3",
       "question": "What is the speaker giving?",
       "options": [
         "A weather report",
@@ -58,7 +58,7 @@
     {
       "questionId": "q5",
       "audioText": "I can count to ten: one, two, three, four, five.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295645/audio/placement/a1/listening/listening_003_q5.mp3",
       "question": "What can the speaker do?",
       "options": [
         "Read a book",
@@ -71,7 +71,7 @@
     {
       "questionId": "q6",
       "audioText": "My father works in a hospital.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295647/audio/placement/a1/listening/listening_003_q6.mp3",
       "question": "Where does the speaker's father work?",
       "options": [
         "At a school",
@@ -84,7 +84,7 @@
     {
       "questionId": "q7",
       "audioText": "I like to eat rice and chicken for dinner.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295649/audio/placement/a1/listening/listening_003_q7.mp3",
       "question": "What does the speaker like for dinner?",
       "options": [
         "Pasta and fish",
@@ -97,7 +97,7 @@
     {
       "questionId": "q8",
       "audioText": "It is warm and sunny. Let's go to the beach.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295651/audio/placement/a1/listening/listening_003_q8.mp3",
       "question": "What is the weather like?",
       "options": [
         "Cold and rainy",
@@ -110,7 +110,7 @@
     {
       "questionId": "q9",
       "audioText": "The boy is wearing a blue shirt and black shoes.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295653/audio/placement/a1/listening/listening_003_q9.mp3",
       "question": "What color is the boy's shirt?",
       "options": [
         "Red",
@@ -123,7 +123,7 @@
     {
       "questionId": "q10",
       "audioText": "Please sit down and open your book to page two.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783295655/audio/placement/a1/listening/listening_003_q10.mp3",
       "question": "What does the speaker want you to do?",
       "options": [
         "Stand up and close the book",

@@ -5,6 +5,7 @@
   "title": "Introduce Yourself",
   "instruction": "Write a short paragraph introducing yourself. Include your name, age, where you are from, and what you like to do.",
   "wordLimit": 50,
+  "wordLimitMin": 10,
   "difficulty": 1,
   "estimatedMinutes": 10,
   "version": 1,

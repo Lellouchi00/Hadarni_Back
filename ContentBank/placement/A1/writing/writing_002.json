@@ -5,6 +5,7 @@
   "title": "Describe Your Family",
   "instruction": "Write about your family. Describe each family member and what they do.",
   "wordLimit": 80,
+  "wordLimitMin": 10,
   "difficulty": 1,
   "estimatedMinutes": 10,
   "version": 1,

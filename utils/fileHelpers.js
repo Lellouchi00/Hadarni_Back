@@ -56,6 +56,12 @@ async function loadExamById(level, section, examId) {
   }
 }
 
+async function saveExamFile(level, section, examId, examData) {
+  const dir = getSectionDir(level, section);
+  const filePath = path.join(dir, `${examId}.json`);
+  await fs.writeFile(filePath, JSON.stringify(examData, null, 2), "utf-8");
+}
+
 function calculateScore(answers, questions) {
   let correct = 0;
   const total = questions.length;
@@ -118,6 +124,7 @@ module.exports = {
   getRandomItem,
   getRandomExam,
   loadExamById,
+  saveExamFile,
   calculateScore,
   pickRandomQuestions,
   flattenPassageQuestions,

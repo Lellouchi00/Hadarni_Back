@@ -1,16 +1,21 @@
 const {
   getRandomExam,
   loadExamById,
-  calculateScore,
+  saveExamFile,
+  getRandomItem,
   pickRandomQuestions,
-  flattenPassageQuestions,
+  calculateScore,
   calculateScoreById,
+  flattenPassageQuestions,
 } = require("../utils/fileHelpers");
 const { createSession, submitSectionResult } = require("./placementSessionService");
 const { SECTIONS, THRESHOLDS, hasHigherLevel, hasLowerLevel, getNextHigherLevel, getNextLowerLevel } = require("../utils/placementConfig");
+const audioService = require("./audioService");
+const filenameService = require("./filenameService");
 
 const VALID_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 const VALID_SECTIONS = ["reading", "listening", "writing", "speaking"];
+const LISTENING_VOICES = ["child", "male", "female"];
 
 function validateLevel(level) {
   if (!VALID_LEVELS.includes(level)) {
@@ -69,8 +74,59 @@ async function deliverExam(level, section) {
     throw err;
   }
 
-  if (section === "listening") {
+  if (section === "listening" && Array.isArray(exam.questions)) {
+    let changed = false;
+
+    for (const q of exam.questions) {
+      if (!q.audioUrl || !q.audioUrl.startsWith("http")) {
+        if (q.audioText && typeof q.audioText === "string" && q.audioText.trim()) {
+          try {
+            const voice = getRandomItem(LISTENING_VOICES);
+            const fname = filenameService.listeningQuestionAudio(level, exam.examId, q.questionId || q.id);
+            const result = await audioService.generateTextAudio(q.audioText, voice, fname);
+            if (result && result.audioUrl) {
+              q.audioUrl = result.audioUrl;
+              changed = true;
+            }
+          } catch (err) {
+            console.error(`[deliverExam] Audio generation failed for ${exam.examId}/${q.questionId || q.id}: ${err.message}`);
+          }
+        }
+      }
+    }
+
+    if (changed) {
+      await saveExamFile(level, section, exam.examId, exam).catch((err) =>
+        console.error(`[deliverExam] Failed to save exam file: ${err.message}`)
+      );
+    }
+
     return prepareListeningExam(exam);
+  }
+
+  if (section === "reading" && Array.isArray(exam.passages)) {
+    const allQuestions = [];
+
+    for (const p of exam.passages) {
+      for (const q of (p.questions || [])) {
+        allQuestions.push({
+          id: q.id || q.questionId,
+          questionId: q.id || q.questionId,
+          question: q.question,
+          options: q.options,
+          passageTitle: p.title,
+          passageText: p.text,
+        });
+      }
+    }
+
+    const selected = pickRandomQuestions(allQuestions, 3);
+
+    return {
+      examId: exam.examId,
+      sectionTitle: "Reading",
+      questions: selected,
+    };
   }
 
   return exam;

@@ -6,7 +6,7 @@
     {
       "questionId": "q1",
       "audioText": "It is cold and snowy today.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300635/audio/placement/a1/listening/listening_002_q1.mp3",
       "question": "What is the weather like?",
       "options": [
         "Hot and sunny",
@@ -19,7 +19,7 @@
     {
       "questionId": "q2",
       "audioText": "I eat breakfast at eight o'clock.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300637/audio/placement/a1/listening/listening_002_q2.mp3",
       "question": "When does the speaker eat breakfast?",
       "options": [
         "At seven o'clock",
@@ -32,7 +32,7 @@
     {
       "questionId": "q3",
       "audioText": "I want a glass of water, please.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300639/audio/placement/a1/listening/listening_002_q3.mp3",
       "question": "What does the speaker want?",
       "options": [
         "A glass of milk",
@@ -45,7 +45,7 @@
     {
       "questionId": "q4",
       "audioText": "The dog is running in the park.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300641/audio/placement/a1/listening/listening_002_q4.mp3",
       "question": "Where is the dog?",
       "options": [
         "In the house",
@@ -58,7 +58,7 @@
     {
       "questionId": "q5",
       "audioText": "I go to school by bus.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300645/audio/placement/a1/listening/listening_002_q5.mp3",
       "question": "How does the speaker go to school?",
       "options": [
         "By car",
@@ -71,7 +71,7 @@
     {
       "questionId": "q6",
       "audioText": "There are three birds in the tree.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300647/audio/placement/a1/listening/listening_002_q6.mp3",
       "question": "How many birds are in the tree?",
       "options": [
         "One",
@@ -84,7 +84,7 @@
     {
       "questionId": "q7",
       "audioText": "My favorite color is green.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300649/audio/placement/a1/listening/listening_002_q7.mp3",
       "question": "What is the speaker's favorite color?",
       "colors": [
         "Red",
@@ -103,7 +103,7 @@
     {
       "questionId": "q8",
       "audioText": "I live in a small house with my family.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300651/audio/placement/a1/listening/listening_002_q8.mp3",
       "question": "Where does the speaker live?",
       "options": [
         "In a big house",
@@ -116,7 +116,7 @@
     {
       "questionId": "q9",
       "audioText": "The store opens at nine in the morning.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300653/audio/placement/a1/listening/listening_002_q9.mp3",
       "question": "When does the store open?",
       "options": [
         "At eight",
@@ -129,7 +129,7 @@
     {
       "questionId": "q10",
       "audioText": "I have a red apple in my bag.",
-      "audioUrl": "",
+      "audioUrl": "https://res.cloudinary.com/olmjwunl/video/upload/v1783300655/audio/placement/a1/listening/listening_002_q10.mp3",
       "question": "What is in the bag?",
       "options": [
         "A red ball",
