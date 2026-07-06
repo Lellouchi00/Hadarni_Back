@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speaking Test - Hadarni</title>
+  <link rel="stylesheet" href="/speaking-test/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Speaking Test</h1>
+      <p class="subtitle">Placement Test — AI Evaluated</p>
+    </header>
+
+    <!-- Step 1: Level & Exam Selection -->
+    <section id="setup-screen">
+      <div class="card">
+        <h2>Select Level &amp; Load Exam</h2>
+        <div class="form-row">
+          <label>
+            CEFR Level
+            <select id="level-select">
+              <option value="A1">A1 - Beginner</option>
+              <option value="A2">A2 - Elementary</option>
+              <option value="B1" selected>B1 - Intermediate</option>
+              <option value="B2">B2 - Upper Intermediate</option>
+              <option value="C1">C1 - Advanced</option>
+              <option value="C2">C2 - Proficient</option>
+            </select>
+          </label>
+          <button id="load-btn" class="btn btn-primary">Load Exam</button>
+        </div>
+        <div id="exam-info" class="exam-info hidden"></div>
+      </div>
+    </section>
+
+    <!-- Step 2: Speaking Questions -->
+    <section id="speaking-screen" class="hidden">
+      <div class="card">
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="question-counter" id="question-counter"></div>
+
+        <div id="question-area">
+          <div class="question-prompt" id="question-prompt"></div>
+          <textarea id="answer-input" placeholder="Your answer will appear here after speaking..."></textarea>
+          <div class="button-row">
+            <button id="mic-btn" class="btn btn-mic">
+              <span class="mic-icon">&#127908;</span>
+              <span id="mic-label">Start Speaking</span>
+            </button>
+            <button id="next-btn" class="btn btn-primary" disabled>Next Question</button>
+          </div>
+          <div id="status-msg" class="status-msg"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Step 3: Review & Submit -->
+    <section id="review-screen" class="hidden">
+      <div class="card">
+        <h2>Review Your Answers</h2>
+        <div id="review-list"></div>
+        <button id="submit-btn" class="btn btn-primary btn-full">Submit for Evaluation</button>
+      </div>
+    </section>
+
+    <!-- Step 4: Results -->
+    <section id="result-screen" class="hidden">
+      <div class="card">
+        <h2>Evaluation Results</h2>
+        <div class="scores-grid" id="scores-grid"></div>
+        <div id="feedback-box" class="feedback-box"></div>
+        <div class="details-grid" id="details-grid"></div>
+        <button id="retry-btn" class="btn btn-secondary btn-full">Try Again</button>
+      </div>
+    </section>
+
+    <div id="loading-overlay" class="hidden">
+      <div class="spinner"></div>
+      <p>Evaluating...</p>
+    </div>
+  </div>
+
+  <script src="/speaking-test/app.js"></script>
+</body>
+</html>

@@ -23,6 +23,7 @@ const progressionRouter = require('./routes/progressionRoutes');
 const audioRouter = require('./routes/audioRoutes');
 const testAudioRouter = require('./routes/testAudioRoutes');
 const geminiRouter = require('./routes/geminiRoutes');
+const speakingRouter = require('./routes/speakingRoutes');
 
 app.use('/user', userRouter);
 app.use('/api/placement', placementRouter);
@@ -30,6 +31,7 @@ app.use('/api/placement/progression', progressionRouter);
 app.use('/api/audio', audioRouter);
 app.use('/test/audio', testAudioRouter);
 app.use('/api/gemini', geminiRouter);
+app.use('/api/speaking', speakingRouter);
 
 app.use(express.static("public"));
 
