@@ -40,6 +40,7 @@ const SECTIONS = [
 
 let completedSections = {};
 let nextSection = null;
+let speakingState = null;
 
 $$(".level-btn").forEach((btn) => {
   btn.addEventListener("click", () => startSession(btn.dataset.level));
@@ -113,6 +114,7 @@ function showDashboard() {
   sectionResult.classList.add("hidden");
   progressionResult.classList.add("hidden");
   dashboard.classList.remove("hidden");
+  submitBtn.style.display = "";
   renderDashboard();
 }
 
@@ -121,6 +123,7 @@ async function startExam(section) {
   dashboard.classList.add("hidden");
   sectionResult.classList.add("hidden");
   examSection.classList.remove("hidden");
+  submitBtn.style.display = section === "speaking" ? "none" : "";
   examSectionBadge.textContent = `${currentLevel.toUpperCase()} - ${section.charAt(0).toUpperCase() + section.slice(1)}`;
   showLoading();
 
@@ -250,21 +253,215 @@ function renderWriting(exam) {
 }
 
 function renderSpeaking(exam) {
-  let html = `<div class="instruction-box">${exam.instruction || "Record your answer below."}</div>`;
+  let prompts = [];
   if (exam.prompts && exam.prompts.length) {
-    html += '<div class="prompts"><h3>Prompts:</h3><ul>';
-    exam.prompts.forEach((p) => { html += "<li>" + p + "</li>"; });
-    html += "</ul></div>";
+    prompts = exam.prompts.map((p, i) => ({ id: "q" + i, question: p }));
+  } else if (exam.questions && exam.questions.length) {
+    prompts = exam.questions.map((q, i) => ({ id: q.id || "q" + i, question: q.question || q.prompt || "Question " + (i + 1) }));
   }
-  html += '<textarea id="speaking-text" placeholder="Write what you would say..."></textarea>';
-  html += `
-    <div class="percentage-input-group">
-      <label>Self-assessment:</label>
-      <input type="number" id="self-percentage" min="0" max="100" value="50" />
-      <span>%</span>
-      <span class="hint">How confident are you in your answer? (0-100)</span>
-    </div>`;
-  examContent.innerHTML = html;
+
+  if (!prompts.length) {
+    prompts = [
+      { id: "q0", question: "Hello! What is your name?" },
+      { id: "q1", question: "Where are you from?" },
+      { id: "q2", question: "What are your hobbies?" },
+      { id: "q3", question: "Tell me about your daily routine." },
+    ];
+  }
+
+  speakingState = {
+    prompts,
+    answers: new Array(prompts.length).fill(""),
+    currentIndex: 0,
+    reviewMode: false,
+  };
+
+  renderSpeakingQuestion();
+}
+
+function renderSpeakingQuestion() {
+  const state = speakingState;
+  if (state.currentIndex >= state.prompts.length) {
+    renderSpeakingReview();
+    return;
+  }
+
+  const q = state.prompts[state.currentIndex];
+  const total = state.prompts.length;
+  const isLast = state.currentIndex === total - 1;
+
+  examContent.innerHTML = `
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <span style="font-size:12px;color:#999;">Question ${state.currentIndex + 1} of ${total}</span>
+        <span style="font-size:12px;color:#999;">${Math.round(((state.currentIndex) / total) * 100)}%</span>
+      </div>
+      <div style="background:#e0e0e0;border-radius:10px;height:6px;overflow:hidden;">
+        <div style="height:100%;width:${((state.currentIndex) / total) * 100}%;background:#5b3df5;border-radius:10px;transition:width 0.3s;"></div>
+      </div>
+    </div>
+    <div class="instruction-box" style="margin-bottom:16px;">${examTitle.textContent.replace(" - Speaking", "").trim()} Speaking — Answer each question aloud or type below.</div>
+    <div style="background:#f8f9fa;padding:20px;border-radius:12px;margin-bottom:16px;font-size:18px;font-weight:600;line-height:1.5;">${q.question}</div>
+    <textarea id="speaking-answer" placeholder="Type your answer here... (or use the microphone)" style="width:100%;min-height:100px;padding:12px;border:2px solid #ddd;border-radius:10px;font-size:14px;resize:vertical;box-sizing:border-box;">${state.answers[state.currentIndex] || ""}</textarea>
+    <div style="display:flex;gap:10px;margin-top:10px;flex-wrap:wrap;">
+      <button id="speaking-mic-btn" type="button" style="flex:1;padding:10px 20px;border-radius:8px;border:2px solid #5b3df5;background:white;color:#5b3df5;cursor:pointer;font-weight:600;min-width:140px;">🎤 Start Speaking</button>
+      <button id="speaking-next-btn" type="button" style="flex:2;padding:10px 20px;border-radius:8px;border:none;background:#5b3df5;color:white;cursor:pointer;font-weight:600;${state.answers[state.currentIndex] ? "" : "opacity:0.5;"}" ${state.answers[state.currentIndex] ? "" : "disabled"}>${isLast ? "Review Answers" : "Next Question"}</button>
+    </div>
+    <div id="speaking-status" style="margin-top:8px;font-size:13px;color:#666;"></div>
+  `;
+
+  submitBtn.style.display = "none";
+
+  const ansInput = document.getElementById("speaking-answer");
+  const micBtn = document.getElementById("speaking-mic-btn");
+  const nextBtn = document.getElementById("speaking-next-btn");
+  const statusEl = document.getElementById("speaking-status");
+
+  ansInput.addEventListener("input", () => {
+    state.answers[state.currentIndex] = ansInput.value;
+    nextBtn.disabled = !ansInput.value.trim();
+    nextBtn.style.opacity = ansInput.value.trim() ? "1" : "0.5";
+  });
+
+  nextBtn.addEventListener("click", () => {
+    state.answers[state.currentIndex] = ansInput.value.trim();
+    if (isLast) {
+      renderSpeakingReview();
+    } else {
+      state.currentIndex++;
+      renderSpeakingQuestion();
+    }
+  });
+
+  micBtn.addEventListener("click", () => toggleSpeakingMic(ansInput, micBtn, statusEl, state));
+}
+
+function toggleSpeakingMic(input, btn, status, state) {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    status.textContent = "Speech recognition not supported. Use Chrome.";
+    return;
+  }
+
+  if (btn.dataset.recording === "true") {
+    if (window._speakingRecognition) {
+      try { window._speakingRecognition.stop(); } catch (e) {}
+      window._speakingRecognition = null;
+    }
+    btn.dataset.recording = "false";
+    btn.textContent = "🎤 Start Speaking";
+    btn.style.background = "white";
+    btn.style.color = "#5b3df5";
+    status.textContent = "";
+    return;
+  }
+
+  const recognition = new SpeechRecognition();
+  recognition.lang = "en-US";
+  recognition.continuous = false;
+  recognition.interimResults = true;
+  recognition.maxAlternatives = 1;
+  window._speakingRecognition = recognition;
+
+  let finalTranscript = "";
+
+  recognition.onresult = (event) => {
+    let interim = "";
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+      const t = event.results[i][0].transcript;
+      if (event.results[i].isFinal) {
+        finalTranscript += t;
+      } else {
+        interim += t;
+      }
+    }
+    input.value = finalTranscript + interim;
+    input.scrollTop = input.scrollHeight;
+  };
+
+  recognition.onerror = (event) => {
+    status.textContent = "Error: " + event.error;
+    btn.dataset.recording = "false";
+    btn.textContent = "🎤 Start Speaking";
+    btn.style.background = "white";
+    btn.style.color = "#5b3df5";
+  };
+
+  recognition.onend = () => {
+    if (btn.dataset.recording === "true") {
+      try { recognition.start(); } catch (e) {}
+    } else {
+      btn.textContent = "🎤 Start Speaking";
+      btn.style.background = "white";
+      btn.style.color = "#5b3df5";
+      if (input.value.trim()) {
+        state.answers[state.currentIndex] = input.value.trim();
+        status.textContent = "Captured! Click Next or edit above.";
+        status.style.color = "#2e7d32";
+        document.getElementById("speaking-next-btn").disabled = false;
+        document.getElementById("speaking-next-btn").style.opacity = "1";
+      }
+    }
+  };
+
+  btn.dataset.recording = "true";
+  btn.textContent = "🔴 Recording... (click to stop)";
+  btn.style.background = "#c62828";
+  btn.style.color = "white";
+  status.textContent = "Listening...";
+  input.value = "";
+  recognition.start();
+}
+
+function renderSpeakingReview() {
+  const state = speakingState;
+
+  let answersHtml = state.prompts.map((p, i) =>
+    `<div style="background:#f8f9fa;padding:12px 16px;border-radius:10px;margin-bottom:10px;">
+      <div style="font-weight:600;margin-bottom:4px;font-size:14px;">Q${i + 1}: ${p.question}</div>
+      <div style="color:#333;font-size:14px;white-space:pre-wrap;">${escapeHtml(state.answers[i] || "(not answered)")}</div>
+    </div>`
+  ).join("");
+
+  examContent.innerHTML = `
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <span style="font-size:12px;color:#999;">Review your answers</span>
+        <span style="font-size:12px;color:#999;">100%</span>
+      </div>
+      <div style="background:#e0e0e0;border-radius:10px;height:6px;overflow:hidden;">
+        <div style="height:100%;width:100%;background:#5b3df5;border-radius:10px;"></div>
+      </div>
+    </div>
+    <div class="instruction-box" style="margin-bottom:16px;">Review your answers before submitting. Set your confidence level below.</div>
+    <h3 style="margin-bottom:12px;">Your Answers</h3>
+    ${answersHtml}
+    <div class="percentage-input-group" style="margin-top:20px;padding-top:16px;border-top:2px solid #eee;">
+      <label style="font-weight:600;">Self-assessment:</label>
+      <input type="number" id="speaking-percentage" min="0" max="100" value="50" style="padding:8px 12px;border:2px solid #ddd;border-radius:8px;width:80px;font-size:16px;" />
+      <span style="font-size:16px;">%</span>
+      <span class="hint" style="display:block;color:#999;font-size:12px;margin-top:4px;">How confident are you in your answers? (0-100)</span>
+    </div>
+    <button id="speaking-submit-btn" type="button" style="width:100%;padding:14px;margin-top:16px;border-radius:10px;border:none;background:#5b3df5;color:white;cursor:pointer;font-weight:700;font-size:16px;">Submit for Placement</button>
+  `;
+
+  submitBtn.style.display = "none";
+
+  document.getElementById("speaking-submit-btn").addEventListener("click", () => {
+    const percentage = parseInt(document.getElementById("speaking-percentage")?.value || "50");
+    const conversation = state.prompts.map((p, i) =>
+      "Q: " + p.question + "\nA: " + (state.answers[i] || "")
+    ).join("\n\n");
+
+    speakingState._submitData = { conversation, percentage };
+    submitExam();
+  });
+}
+
+function escapeHtml(s) {
+  const d = document.createElement("div");
+  d.textContent = s;
+  return d.innerHTML;
 }
 
 function buildSubmitBody() {
@@ -281,12 +478,15 @@ function buildSubmitBody() {
   }
 
   if (currentSection === "speaking") {
-    const conversation = $("#speaking-text")?.value;
-    if (!conversation || !conversation.trim()) {
-      alert("Please write your conversation before submitting.");
+    if (!speakingState || !speakingState._submitData) {
+      alert("Please complete the speaking section before submitting.");
       return null;
     }
-    const percentage = parseInt($("#self-percentage")?.value || "50");
+    const { conversation, percentage } = speakingState._submitData;
+    if (!conversation || !conversation.trim()) {
+      alert("Please provide your answers before submitting.");
+      return null;
+    }
     return { ...base, conversation, percentage };
   }
 
@@ -380,22 +580,22 @@ function showFinalResult(result) {
   sectionResult.classList.add("hidden");
   progressionResult.classList.remove("hidden");
 
-  const avg = result.percentage;
-  const status = result.status;
+  const avg = result.average;
+  const decision = result.decision;
   let statusText, detailText, btnText, action;
 
-  if (status === "next_level") {
+  if (decision === "NEXT_LEVEL") {
     const next = result.nextLevel;
     statusText = "Move to next level!";
-    detailText = `Your average is above 75%. You're ready for ${next}.`;
+    detailText = `Your average is ${avg}%. You're ready for ${next}.`;
     btnText = `Start ${next}`;
     action = () => startSession(next);
-  } else if (status === "lower_level") {
-    const lower = result.nextLevel;
+  } else if (decision === "LOWER_LEVEL") {
+    const place = result.placementLevel;
     statusText = "Try a lower level";
-    detailText = `Your average is below 40%. Consider starting at ${lower}.`;
-    btnText = `Try ${lower}`;
-    action = () => startSession(lower);
+    detailText = `Your average is ${avg}%. Consider starting at ${place}.`;
+    btnText = `Try ${place}`;
+    action = () => startSession(place);
   } else {
     const place = result.placementLevel || currentLevel.toUpperCase();
     statusText = "Placement Complete!";
@@ -404,15 +604,17 @@ function showFinalResult(result) {
     action = () => location.reload();
   }
 
-  const sectionDetails = SECTIONS.map((s) =>
-    `<div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #f0f0f0;font-size:14px;">
+  const sectionDetails = SECTIONS.map((s) => {
+    const score = result[s.key];
+    const displayScore = score !== undefined ? `${score}%` : (completedSections[s.key] ? "✔" : "—");
+    return `<div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #f0f0f0;font-size:14px;">
       <span>${s.icon} ${s.label}</span>
-      <span style="font-weight:700;">${completedSections[s.key] ? "✔" : "—"}</span>
-    </div>`
-  ).join("");
+      <span style="font-weight:700;">${displayScore}</span>
+    </div>`;
+  }).join("");
 
   progressionContent.innerHTML = `
-    <div class="progression-status ${status}">${statusText}</div>
+    <div class="progression-status ${decision.toLowerCase()}">${statusText}</div>
     <div class="progression-detail" style="margin-bottom:16px;">${detailText}</div>
     <div style="background:#f8f9fa;border-radius:12px;padding:16px;margin-bottom:16px;text-align:left;">
       ${sectionDetails}

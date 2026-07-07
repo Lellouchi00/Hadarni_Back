@@ -353,8 +353,8 @@ textarea:focus {
 }
 
 .progression-status.next_level { color: #2e7d32; }
+.progression-status.stay { color: #5b3df5; }
 .progression-status.lower_level { color: #e65100; }
-.progression-status.finished { color: #5b3df5; }
 
 .progression-detail {
   font-size: 15px;

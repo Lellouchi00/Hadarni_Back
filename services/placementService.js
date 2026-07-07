@@ -8,8 +8,9 @@ const {
   calculateScoreById,
   flattenPassageQuestions,
 } = require("../utils/fileHelpers");
-const { createSession, submitSectionResult } = require("./placementSessionService");
-const { SECTIONS, THRESHOLDS, hasHigherLevel, hasLowerLevel, getNextHigherLevel, getNextLowerLevel } = require("../utils/placementConfig");
+const { createSession, submitSectionResult, getSessionStatus } = require("./placementSessionService");
+const { SECTIONS } = require("../utils/placementConfig");
+const { calculatePlacementResult } = require("./placementDecisionService");
 const audioService = require("./audioService");
 const filenameService = require("./filenameService");
 
@@ -105,27 +106,10 @@ async function deliverExam(level, section) {
   }
 
   if (section === "reading" && Array.isArray(exam.passages)) {
-    const allQuestions = [];
-
-    for (const p of exam.passages) {
-      for (const q of (p.questions || [])) {
-        allQuestions.push({
-          id: q.id || q.questionId,
-          questionId: q.id || q.questionId,
-          question: q.question,
-          options: q.options,
-          passageTitle: p.title,
-          passageText: p.text,
-        });
-      }
-    }
-
-    const selected = pickRandomQuestions(allQuestions, 3);
-
     return {
       examId: exam.examId,
-      sectionTitle: "Reading",
-      questions: selected,
+      sectionTitle: exam.sectionTitle || "Reading",
+      passages: exam.passages,
     };
   }
 
@@ -240,28 +224,8 @@ async function submitSection(level, section, body) {
     };
   }
 
-  return buildFinalResult(sessionResult.level, sessionResult.finalPercentage);
-}
-
-function buildFinalResult(level, average) {
-  const { PASS, LOWER } = THRESHOLDS;
-
-  if (average > PASS) {
-    if (hasHigherLevel(level)) {
-      return { status: "next_level", nextLevel: getNextHigherLevel(level) };
-    }
-    return { status: "finished", placementLevel: level, percentage: average };
-  }
-
-  if (average >= LOWER && average <= PASS) {
-    return { status: "finished", placementLevel: level, percentage: average };
-  }
-
-  if (hasLowerLevel(level)) {
-    return { status: "lower_level", nextLevel: getNextLowerLevel(level) };
-  }
-
-  return { status: "finished", placementLevel: level, percentage: average };
+  const sessionStatus = getSessionStatus(sessionId);
+  return calculatePlacementResult(sessionStatus.level, sessionStatus.results);
 }
 
 module.exports = {

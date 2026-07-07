@@ -1,8 +1,11 @@
 const LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"];
 
+const PASS_THRESHOLD = 75;
+const STAY_THRESHOLD = 45;
+
 const THRESHOLDS = {
-  PASS: 75,
-  LOWER: 40,
+  PASS: PASS_THRESHOLD,
+  LOWER: STAY_THRESHOLD,
 };
 
 const SECTIONS = ["reading", "listening", "writing", "speaking"];
@@ -44,6 +47,8 @@ function getNextLowerLevel(level) {
 
 module.exports = {
   LEVEL_ORDER,
+  PASS_THRESHOLD,
+  STAY_THRESHOLD,
   THRESHOLDS,
   SECTIONS,
   LEVEL_LABELS,
